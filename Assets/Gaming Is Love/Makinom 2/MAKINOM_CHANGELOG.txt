@@ -1,0 +1,279 @@
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Makinom 2.4.1
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Fixes:
+- Game States: Fixed an issue where the 'Game Running' state (or auto activating/deactivating a state via 'Start Game') wasn't set when loading a saved game.
+- Editor: Schematics: Debugging: Fixed an issue where not using 'Domain Reload' in Unity didn't clear debug information from previous runs. Debug information is now removed when playing in the editor.
+- Editor: Search: Fixed an issue where search highlights where no longer displayed after opening a popup selection (e.g. asset selection or dropdown menu).
+- UI Boxes: Fixed an issue where focus changes could cause errors in some cases.
+- Schematics: Fixing an issue where an eternal loop in a stopped schematic leads to errors.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Makinom 2.4.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+New:
+- Float Values: 'Angle (Position)' value type available. Uses the angle from a game object to a position as value.
+- Float Values: Float Variable, Int Variable: 'Multi Value Use' setting available when using 'Object', 'Object List', 'Selected Data' or 'Selected Data List' variable origin. Defines how values from multiple variable sources will be used, e.g. using the first found or adding them all together. Defaults to using the 'First' value (previous behavious).
+- Vector3 Values: Cursor Position (World): 'Use Raycast' setting available in 'Cursor Position (World)' value type. Using a raycast to find the world position of the cursor is now optional. By default enabled (previous behaviour).
+- Flying Texts: Flash: 'Set Property' settings available. Optionally set a property instead of the color when flashing a flying text's game object.
+- Editor: 'Editor Name' setting available in all data with language content definition. Optionally define a different name to be used in the editor (e.g. in popup lists). Can be used to use a different internal name without impacting the content the player will see.
+- Editor Settings: Node Editor: 'Initial Node Anchor' and 'Focus Node Anchor' settings available. Select where the selected nodes will be displayed when first displaying and focusing on selected nodes (via 'F' key). E.g. display them in 'Middle Center' (default) or 'Upper Left' of the grid.
+- UI Boxes: Controls: Input Settings: 'Inactive Input Handling' setting available. Define how inactive/disabled inputs are handled. Either use them like regular inputs ('None', displays them and allows selecting them), 'Skip Selection' (displays them but skips over them when selecting inputs) or 'Hide' the inactive inputs.
+- UI Boxes: Controls: Tab Settings: 'Inactive Tab Handling' setting available. Define how inactive/disabled tabs are handled. Either use them like regular tabs ('None', displays them and allows selecting them), 'Skip Selection' (displays them but skips over them when selecting tabs) or 'Hide' the inactive tabs.
+- Schematics: Change Animator Controller: 'Change Animator Controller' node available in 'Animation > Mecanim' nodes. Changes the animator controller used by a game object's 'Animator' component. Supports animator controllers and animator override controllers.
+- Schematics: Store Position Angle: 'Store Position Angle' node available in 'Movement > Rotation' nodes. Stores the angle from a game object to a position into a float variable.
+- Schematics: Rotate to: 'Is 2D' setting available. Optionally rotate in 2D space, only rotating on the Z-axis.
+- Schematics: Dialogue Nodes: 'In Pause' setting available. Defines if a UI box can be controlled when the game is paused. Defaults to 'Auto', allowing control if the game is paused when displaying the UI box.
+- Is Makinom Camera Component: 'Is Makinom Camera' component available. Sets the 'Camera' defined in the component as Makinom's camera. E.g. use this when spawning the camera with the player, while having another camera in the scene.
+- No Tooltip Component: 'No Tooltip' component available. Prevents game objects in a scene to cause tooltips when the cursor is over them. Not used for UI game objects, only for scene game objects.
+- Interaction Components, Machine Components: Object Turn Settings: 'Reset Rotation' setting available when using 'Turn Machine Object'. Optionally restore the rotation of the machine object after the interaction/machine finished executing.
+- ORK HUD Value Bar Content Component: Actions Per Turn: 'Max Action Bar' setting available. Optionally use the maximum actions per turn as the value bar's maximum value instead of the current action's per turn.
+- Unity UI: No Fade Component: 'No Fade' component available. Prevents the game object from being color faded. E.g. use it for the checkmark of a toggle to prevent it from being faded when fading child objects of the input.
+- Unity UI: Limit Content Size Fitter: 'Limit Content Size Fitter' component available. Works like a 'Content Size Fitter' component and adds min/max values for width and height (when using horizontal/vertical constraints).
+- Unity UI: Circle Layout Group: 'Circle Layout Group' component available. Arranges content in circles around the UI's pivot.
+
+Changes:
+- Editor: Search Highlights: Highlighted settings will now highlight the background when using Unity's 'Light' theme and the foreground when using Unity's 'Dark' theme.
+- Node Editor: Displaying the node/slot detail text will now catch any errors occuring due to broken node setups. A warning in the Unity console will hint at which node/slot is causing issues.
+- Unity UI: UI Box: Input Settings: Setting 'Horizontal Input Change' and 'Vertical Input Change' to 0 will now use a direction-based input selection.
+- Unity UI: Context Menu: Creating a 'Toggle' input adds 'No Fade' and 'No Flash' components to the toggle's checkmark to prevent issues with color fading.
+- Data Assets: Individual data assets no longer store the version and save time. The project asset and schematic assets still store them.
+- Movement Components: Default: 'Face Direction' now rotates on the Z-axis when using 2D movement (i.e. using a 'Rigidbody 2D' component for movement).
+- Schematics: A disabled node being skipped a 2nd time now only stops the schematic if it's a node with multiple next slots. This is a safeguard to prevent schematics from executing forever. Previously this was done with any disabled node.
+
+Fixes:
+- UI Boxes, HUDs: Fixed an issue where UI displaying at a game object's position (not using world space canvas) where displayed when they're positioned behind the camera.
+- Schematics: Call HUD: Fixed an issue where setting a HUD's user didn't work correctly.
+- Editor: Formulas: Fixed an issue where removing a formula didn't update the node editor to display the next selected formula.
+- Schematics: Change Sound Volume: Fixed an issue where fading a defined audio channel didn't change the volume.
+- Schematics: Change UI Color: Fixed an issue where using 'Stop' fade type caused UI issues in the editor.
+- Formulas: Loop: Fixed an issue where using the loop node caused freezing when using local variables for the counter.
+- Animation Machines: Fixed issues when using 'Animation Event (int)', 'Animation Event (float)' and 'Animation Event (string)' start types without checking the parameter.
+- Animation State Machines: Fixed issues with all start types when not using hash/layer index checks.
+- Asset Sources: Asset Bundles: Fixed an issue where assets from asset bundles wheren't loaded correctly when playing in the Unity editor without domain reload.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Makinom 2.3.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+New:
+- Unity: Domain Reload: Entering play mode without reloading the domain is now supported. You can find Unity's play mode settings in the Unity menu 'Edit > Project Settings... > Editor'.
+- Editor: Search: Improved searching in a tab's settings. Search now highlights matching settings. The search bar will show how many matching settings where found and allows navigating between them via buttons. Use 'F3' and 'Shift + F3' to navigate highlighted settings via keyboard shortcuts. Jump list will highlight which foldouts contain found settings.
+- Editor Settings: 'Search Settings' available. Define highlight colors and if entering search should automatically jump to the first found setting.
+- Float Values: 'Angle' value type available. Uses the angle between two game objects as value.
+- Flying Texts: Count To Value: 'No Zero' setting available. Counting doesn't start at 0, unless the final value is 0. The minimum start count is 1 (or -1 for negative values).
+- Game Controls: Interactions: 'Line Of Sight' settings available. Optionally check the line of sight between the player and the interaction to determine if the interaction is available.
+- UI System: Unity UI: 'Add Canvas Scaler' setting available. Adding a canvas scaler to automatically created canvases is now optional. However, it's recommended to use it and use prefabs in your UI layers for other canvas setups instead.
+- Unity UI: UI Box Component, HUD Component: Position Settings: 'At Game Object Canvas' setting available. Optionally transfer the UI to a 'Canvas' of a game object when displaying it at that game object's position (e.g. dialogue speaker or HUD user). Allows using world space UI. By default enabled.
+- Unity UI Setup: Context Menu: 'Text+Icon Content' and 'Icon Content' entries available in 'Makinom > HUD > Content'. Creates 'HUD Text Content' component game objects with text and icon or icon only configuration.
+- HUD Click: 'Click Count' setting available. Define the number of clicks that are needed to use a HUD click action. Available in the 'HUD Click' component for the 'Unity UI' module.
+
+Changes:
+- Editor: The section buttons switch to only showing icons when the editor window's width is too small.
+- Editor Settings: Hotkey Settings: 'Section' hotkeys removed due to clashing with some Unity hotkeys.
+- Data Assets: Settings that where previously part of the project asset have been moved to individual settings assets. The project asset now only holds references to other data assets. This allows easier working in teams via collaboration tools (e.g. GIT). Your previous settings will still load and automatically be updated when saving the project again.
+
+Fixes:
+- Editor: Fixed an issue where keeping the editor docked when entering play mode could lead to inconsistencies between play and editor data lists.
+- Animation Machine, Animation State Machine: Fixed errors that where caused by unused start types.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Makinom 2.2.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+New:
+- Editor Settings: 'Copy Name Type' setting available. Select how the name of copied data will be changed. Either keep the original name ('None') or add 'COPY' to the front or back of the name.
+- Interaction Controllers: 'Priority' setting available. Multiple interaction controllers on the player will be sorted by priority - the highest priority value will be used/checked first.
+- Interaction Controllers: 'Limit Machine Types' settings available. Optionally limit the machine types an interaction controller can interact with.
+- Float Values: Math Function: 'Minus 90', 'Plus 90', 'Minus 180' and 'Plus 180' math functions available. Adds/subtracts 90 or 180 from the value.
+- Flying Texts: 'Create Object' settings available in 'UI > UI Settings > Flying Text Settings' and individual flying texts (overriding default). Define if a game object is created to position the flying text on screen based on a world position. 'None' doesn't create one and only allows changing the UI via the 'Change UI' nodes, 'Empty' creates an empty game object and 'Prefab' creates an instance of a prefab (e.g. to add physics or world space canvas).
+- UI Boxes: 'Use Accept Timeout' settings available. Optionally use a (global) timeout for allowing accepting of UI content. This is used for all types of accepting, i.e. 'Accept Key' and 'Accept Click' on inputs.
+- Movement Components: Nav Mesh Agent: 'Stop Immediately' setting available. Optionally stop the agent immediately by setting the velocity to 0 when stop is called. E.g. used by the 'Move To Interaction' settings.
+- Movement Components: Default: 'Add Component' now lets you define the settings for the component. Will only be used when adding the component, otherwise keeps the settings of an already attached component.
+- Movement Components: Default: Now supports 2D movement when a 'Rigidbody 2D' component is attached.
+- Schematics: Change Last Move Direction: 'Change Last Move Direction' node available in 'Movement > Movement' nodes. Changes the last move direction value of 'Object Changes' components. This value can e.g. be used to determine the direction in 2D environments. Please note that the last move direction will automatically be updated by the component the next time the game object moves.
+- Schematics: Store Angle: 'Store Angle' node available in 'Movement > Rotation' nodes. Stores the angle between two objects into a float variable.
+- Face Camera Component: 'Face Camera' component available. Lets the game object face the Makinom camera or main camera in the scene. E.g. use it to let a world space canvas or sprite always face the camera.
+- Scripting: Asset Sources, Asset Selections: 'SetAsset' function available in 'AssetSource' and 'AssetSelection' classes. Sets the source to 'Reference' and uses the provided asset.
+
+Changes:
+- Node Editor: 'Place on Grid' entry in the context menu has been renamed to 'Snap nodes to grid'.
+- Editor: Remembering sections now also remembers the view limit state.
+
+Fixes:
+- Priority Machines: Fixed an issue where priority sorting was wrong.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Makinom 2.1.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+New:
+- Unity 2019.4: Makinom now requires at least Unity 2019.4.
+- Editor Settings: 'Sub-Section Separators' setting available. Adds separators between sub-section groups instead of showing all in a list of buttons. By default enabled.
+- Editor Settings: 'Settings Buttons' and 'Search Bar Buttons' settings available when using 'Allow View Limiting'. 'Search Bar Buttons' shows the new buttons in the search bar to limit the view to the root settings foldouts. 'Settings Buttons' shows the view limit buttons above and below the settings area.
+- Editor Settings: 'Scroll Index Change' setting available. Keep the scroll position consistent when changing data list entries. By default enabled.
+- Editor Settings: Hotkey Settings: 'Settings Scroll' setting available. Use 'Home' to scroll to the top and 'End' to scroll to the bottom of the settings area. By default enabled.
+- Editor Settings: Node Editor Settings: 'Scroll Trackpad Mode' settings available. Optionally use the scroll wheel input (e.g. when using a trackpad) to scroll the node area instead of zooming.
+- Editor Settings: Node Editor Settings: 'Hold Shift Zoom' setting available. Optionally only zoom using the scroll wheel while holding the 'Shift' key.
+- Editor Settings: Node Editor Settings: 'Auto Start Debugging' setting available. Automatically start debugging the first running instance of the currently opened schematic.
+- Editor Settings: 'Max Depth' setting available when showing the jump list. Limits the depth of displayed foldouts in the jumplist. Defaults to 3.
+- Editor: Settings Search Bar: 'Show Foldout Buttons' toggle available. Shows or hides the view limit buttons for the root settings foldouts in the search bar.
+- Editor: Text Areas: Double clicking on a text area will now start editing it. Same as clicking on the 'Edit Text' button.
+- Editor: Music: Loops: 'Test Loop' button available. Test the defined loop in the editor. Please note that due to playing in edit mode the result might not be 100% accurate.
+- Game Starter: 'Load Async' option available when using 'Use Asset Bundle' option. Optionally load the asset bundle and Makinom project asset using async operations. You can get the loading progress via the 'AsyncProgress' float property on the 'Game Starter' component, e.g. for custom a loading bar UI.
+- Bool/Int/Float/String Values: 'CSV' value types available. Read values from CSV files by row index/key and column index/key. Using row key refers to the value of a 1st column of a row, column key to the value of the 1st row of a column.
+- Float Values: 'Game Object Count' value type available. Uses the number of game objects of a selected object as value.
+- String Values: 'Scene Name' value type available. Uses the active scene's name as value.
+- String Values: 'Float Value' value type available. Uses a float value formatted as a text as value. The float value is defined with a float value selection, supporting variables, formulas, etc.
+- Vector 3 Values: 'Shot Velocity' value type available. Calculates the velocity from a position to a target for a given speed. Supports different arcs.
+- Float Operators: 'Bitwise Complement' (~), 'Left Shift' (<<), 'Right Shift' (>>), 'Logical AND' (&), 'Logical Exclusive OR' (^) and 'Logical OR' (|) float operators available. Use these operators for bit operations. Will convert the used values to integers before the operation.
+- Float Operators: Float operators have been replaced by an extensible class. Extend from the 'BaseFloatOperator' class to implement custom float operations. Previous settings will be udpated automatically.
+- Vector3 Operators: Vector3 operators have been replaced by an extensible class. Extend from the 'BaseVector3Operator' class to implement custom Vector3 operations. Previous settings will be udpated automatically.
+- String Operators: String operators have been replaced by an extensible class. Extend from the 'BaseStringOperator' class to implement custom string operations. Previous settings will be udpated automatically.
+- Input Keys: Unity Input Manager: 'Up/Down Full Axis' setting available when using 'Is Joypad Axis'. Optionally use the axis input of 'Up' and 'Down' input handling as full input (1/-1). Can be useful if the input is e.g. used in UI, as otherwise the received input axis at 'Up' or 'Down' could be too low.
+- Game Controls: Pause Key: 'Input Audio Clip' settings available. Optionally play an audio clip when using the pause key.
+- Game Controls: Pause Key: 'Conditions' settings available. Optionally only allow using the pause key when defined conditions are valid (e.g. game states).
+- Game Controls: Control Behaviours: 'Control Behaviours' settings available. Register custom control behaviour components with Makinom's control block system.
+- Game Controls: Move To Interaction: 'Speed Type' setting available for the speed settings. Optionally try to use a move speed defined on the player's game object using a 'Move Speed' component (or something else implementing the 'IMoveSpeed' interface) instead of a fixed, defined speed. If no move speed is found on the game object, the speed defined in the settings will be used.
+- Game Controls: Object Selection: Selection Input Settings: 'Input Audio Clip' settings available for the individual input keys. Optionally play an audio clip when using the keys.
+- Game Settings: 'Default Horizontal Plane' setting available. Defines the global default horizontal plane that'll be used. All other horizontal plane settings now offer a 'Default' option in addition to the 'XZ' and 'XY' options, using the default horizontal plane. All other horizontal plane settings have been changed to 'Default'.
+- Game States: 'Reset New Game' setting available. Optionally reset a game state to it's initial state when starting a new game. By default enabled.
+- Formulas: Field Value: 'Field Value' node available. Uses the value of an int or float field/parameter either from a 'Static' class, a game object's component or a component stored in selected data.
+- Formulas: Function Value: 'Function Value' node available. Uses the return value of called function either from a 'Static' class, a game object's component or a component stored in selected data. The function must use 1 parameter to pass on the 'FormulaCall' used to calculate the formula, which gives you access to user/target, current value and local variables/selected data, e.g. public void YourFunction(FormulaCall call).
+- Formulas: Math Function: 'Math Function' node available. Uses a Mathf function on the current value of the formula. E.g. allows rounding, absolute value or sum up of the value.
+- Formulas: Unity Console: 'Unity Console' node available. Prints a text to the Untiy console.
+- Formulas: Selected Data Count: 'Selected Data Count' node available. Either checks the number of data stored in a selected data list or uses the number as a value to change the formula's value.
+- Formulas: Check Height Differences: 'Check Height Differences' node available. Checks if the target is above or below the user.
+- Scene Objects: 'No Tooltip' setting available. Prevents the scene object from causing tooltips.
+- Scene Connections: 'Scene Connections' are available in the 'Game' section. Scan your project's scenes for connections (via 'Scene Changer' components) and use that information to find paths to navigation markers across multiple scenes. Navigation markers can be used to mark positions or game objects to be displayed by navigation HUDs.
+- Animations: Mecanim: 'Use Animator Speed' setting available when using 'Fixed' animation duration. Optionally multiply the fixed duration by the animator's speed. By default disabled.
+- Sound Assignments: Add multiple audio clips to a sound type assignment. One of the added clips will be played randomly. Previous settings will be updated automatically.
+- Text Codes: New variable text code for 'Int with Format' available. Display int variables with a defined formatting.
+- UI System: 'Show Confirmation Dialog' setting available. Optionally disable the UI system change confirmation dialogue. Use this option in case you're running into a Unity dialog related error.
+- UI System: Unity UI: 'Event System' settings available. Select which event system will be created, either none, Makinom's default event system or from a defined prefab with your event system setup.
+- UI Settings: Drag/Drop Settings: 'Drag/Drop Settings' available. Define how dragging and dropping UI content is handled and displayed.
+- UI Settings: Exit Game Question: 'Exit Game Question' settings available. Defines how an (optional) exit game question will look when stopping the game.
+- UI Settings: Flying Texts: 'Default UI' setting available. Define a default UI setup for flying texts that will be used if individual flying texts don't define a UI setup.
+- UI Settings: Flying Texts: 'Check Visibility' settings available. Optionally use a camera viewport check on the flying text's world position to determine if it's visible or not. Not visible flying texts will be hidden in the UI. By default enabled.
+- UI Boxes: 'Block Cursor Over Selectin' setting available. Optionally block selecting inputs on cursor over for the UI box (when 'Cursor Over Selection' is enabled in the general settings of UI boxes).
+- UI Boxes: Focus Settings: 'Focus Cursor Over' setting available. Optionally focus the UI box the cursor is currently over.
+- UI Boxes: Controls: 'Scroll Top Key' and 'Scroll Bottom Key' settings available. Optionally use input keys to scroll to the top or bottom of the scroll area.
+- HUDs: Navigation Bar: 'Navigation Bar' HUD type available. Navigation bars can show cardinal directions and scene information (e.g. interactions and navigation markers).
+- HUDs: Unity UI: 'HUD Navigation Bar' component available. Set up the navigation bar's settings and displayed navigation points (e.g. cardinal directions, separators, interactions, etc.).
+- HUDs: HUD Click: 'Schematic' click type available. Starts a schematic when clicking on a HUD or part of a HUD.
+- HUDs: HUD Click: 'Toggle Game Object' click type available. Toggles a game object active/inactive. Only for the 'Unity UI' module.
+- Save Games: Save Data Settings: 'Scene Positions' setting available. Defines if scene positions will be saved with save games. Scene positions can be set using the 'Set Scene Position' schematic node.
+- Save Games: Pause Settings: 'Pause Settings' available. Optionally pause the game or change the timescale while displaying save menus.
+- Save Games: Save Game Menu: 'Exit After Save' settings available. Optionally stop the game after saving - can also optionally display the exit game question to the player.
+- Save Games: Save Game Menu: Saving Info Dialogue: 'Saving Info Dialogue' settings available. Optionally display an information dialogue while saving the game. Will be closed when the save has been completed (before showing the 'Saved Info Dialogue').
+- Save Games: Save Game Menu: Saved Info Dialogue: 'Auto Close' settings available. Optionally auto close the saved info dialogue after a defined amount of time.
+- Save Games: Load Game Menu: Loading Info Dialogue: 'Loading Info Dialogue' settings available. Optionally display an information dialogue while loading the game. Will be closed when the load has been completed (before showing the 'Loaded Info Dialogue').
+- Save Games: Load Game Menu: Loaded Info Dialogue: 'Auto Close' settings available. Optionally auto close the loaded info dialogue after a defined amount of time.
+- Save Games: Save Point: Save Button: 'Close After Save' setting available. Optionally close the save menus after saving the game instead of returning to the save point menu.
+- General Condition Templates: 'General Condition Templates' sub-section available in 'Templates' section. Define general conditions, e.g. checking for game states or variables. General conditions can be extended by deriving from the 'BaseGeneralCondition' class.
+- Schematics: Change UI Color: 'Change UI Color' node available in 'UI' nodes. Changes or fades the color of a UI box, HUD, flying text or anything implementing the 'IColorFadeable' interface stored in selected data.
+- Schematics: Change UI Offset: 'Change UI Offset' node available in 'UI' nodes. Changes or fades the animation offset of a UI box, HUD, flying text or anything implementing the 'IUIAnimation' interface stored in selected data.
+- Schematics: Change UI Scale: 'Change UI Scale' node available in 'UI' nodes. Changes or fades the scale factor of a UI box, HUD, flying text or anything implementing the 'IUIAnimation' interface stored in selected data.
+- Schematics: Navigation Marker: 'Navigation Marker' node available in 'Game > Scene' nodes. Adds/removes a navigation marker or clears all markers.
+- Schematics: Start Machine: 'Start Without Objects' setting available. Optionally start the machine withouth any machine/starting objects. If disabled, the machine will start for each machine/starting object pair (or not at all if no game objects are available).
+- Schematics: Show Dialogue: Choices: 'Enable Drag' and 'Enable Click Drag' settings available. Optionally allow dragging or click dragging a choice button, e.g. to start a 'Drop' interaction.
+- Schematics: Wait For Input: 'Store Input Time' settings available. Optionally store the time it took the player to press the input (from start of the node) into a float variable.
+- Schematics: Unity Console: 'Debug Type' setting available. You can now print to the regular 'Log', 'Warning' log or 'Error' log of the Untiy console.
+- Schematics: Change Number Object Variables: 'Change Number Object Variables' node available. Changes an int of float variable on all currently registered object variables.
+- Schematics: Raycast, Shapecast, Check Shape, Select Game Objects: Filter Game Objects: 'Variable Conditions' settings available. Optionally filter game objects by object variables on them.
+- Schematics: Select Components, Remove Component, Enable Component, Is Component Enabled: 'Filter Game Objects' settings available. Optionally filter the used game objects.
+- Schematics: Store Scene: 'Load Type' setting available. Set the scene load type that will be used when loading the stored scene.
+- Schematics: Hide Autoclose Dialogues: 'Hide Autoclose Dialogues' node available in 'UI > Dialogue' nodes. Hides or shows (new) 'Autoclose' type dialogues.
+- Schematics: Are Autoclose Dialogues Hidden: 'Are Autoclose Dialouges Hidden' node available in 'UI > Dialogue' nodes. Checks if 'Autoclose' type dialogues are hidden.
+- Schematics: Block Flying Texts: 'Block Flying Texts' node available in 'UI > Dialogue' nodes. Blocks or unblocks new flying texts from being displayed.
+- Schematics: Are Flying Texts Blocked: 'Are Flying Texts Blocked' node available in 'UI > Dialogue' nodes. Checks if flying texts are blocked.
+- Schematics: Show Dialogue: Auto Close: 'Ignore Hidden' setting available for 'Auto Close' dialogues. Optionally ignore the hidden auto close dialogue state and show the dialogue in any case.
+- Schematics: Stop Game: 'Show Exit Game Question' setting available. Optionally show the exit game question to the player before stopping the game. By default disabled.
+- Schematics: Collision Camera: 'Collision Camera' node available in 'Game Object > Camera' nodes. Enable or diable the collision camera.
+- Schematics: Check Height Differences: 'Check Height Differences' node available in 'Movement > Movement' nodes. Checks if a game object is above or below another game object.
+- Schematics: Select Selected Data: 'Select Selected Data' node available in 'Value > Selected Data' nodes. Uses the firt, last, a random or all content from another selected data as selected data.
+- Schematics: Move, Change Position, Move Into Direction: 'Speed Type' setting available for the speed settings. Optionally try to use a move speed defined on a game object using a 'Move Speed' component (or something else implementing the 'IMoveSpeed' interface) instead of a fixed, defined speed. If no move speed is found on the game object, the speed defined in the node will be used.
+- Schematics: Change Position: 'Ignore Radius' setting available when using 'Move' to position/object. Ignores the radius of the mover and (optional) target object. By default enabled.
+- Schematics: Set Scene Position: 'Set Scene Position' node available. Set a default position/rotation in a scene - can be used by load scene nodes and scene changers to spawn the player. You can store one scene position per scene.
+- Schematics: Change Color: The 'Change Color' node can now also change the colors of 'UI Box' and 'HUD' components.
+- Schematics: Load CSV File: 'Load CSV File' node available in 'Value > Text File' nodes. Loads a CSV file's data for later use as bool, float and string values (in value selections).
+- Schematics: Clear CSV File: 'Clear CSV File' node available in 'Value > Text File' nodes. Removes a CSV file's loaded data or all CSV data.
+- Schematics: Stop Camera Position Fade: 'Stop Camera Position Fade' node available in 'Game Object > Camera' nodes. Stops a currently fading camera position change.
+- Spawn Point Component: Adding a collider (2D or 3D) will spawn at a random position within the collider's bounds. Using the 'Place On Ground' settings will find the ground for the individual random positions instead of placing the spawn point on the ground.
+- Navigation Marker Component: 'Navigation Marker' component available. Adds the game object as a (temporary) navigatoin marker. The marker is added when the component is enabled and removed when the component is disabled (e.g. when changing scenes or destroying the game object).
+- Game Object Manager Component: 'Game Object Manager' component available. Enables/disables game objects based on defined conditions (e.g. variables or game states).
+- Component Manager Component: 'Component Manager' component available. Enables/disables components, colliders, renderers or LOD groups based on defined conditions (e.g. variables or game states).
+- Variable Changer Component: 'Variable Changer' component available. Uses defined variable changes, supports auto, interaction, trigger and collision start types.
+- Move Speed Component: 'Move Speed' component available. Defines walk, run and sprint movement speeds that can be used by schematic nodes (movement nodes) to use a game object's speeds instead of a fixed, defined speed.
+- Scene Changers: 'Start Settings' available. You can now start scene changers like auto, interaction, trigger and collision machines. Defaults to 'Trigger Enter' start type (previous behaviour). Please note that already existing scene changers in your scenes need to manually set the start type.
+- Music Players: 'Start Settings' and 'Condition Settings' available. You can now start music players like auto, interaction, trigger and collision machines. New music players default to 'Start' start type (previous behaviour). Please note that already existing music players in your scenes need to manually set the start type.
+- Interaction Machines: 'Drop' start type available. Start the interaction by dropping something (from UI) on it. Allows checking the content information (e.g. name) of the dropped content.
+- HUD Condition Component: 'General Condition Template' condition available. Checks a selected general condition template.
+- Unity UI: UI Boxes, HUDs: 'Animation Offset' property available to be used by animations. Use this in animation clips to move the UI box or HUD, e.g. for open/close animations.
+- Unity UI: UI Boxes, HUDs: Open/Close State 'General Wait Time' setting available. Optionally use the 'Max Wait Time' as a general wait time, waiting for the defined time in any case.
+- Unity UI: UI Boxes: Inputs: 'Int Button' and 'Float Button' value inputs available. Change int/float value inputs using horizontal and/or vertical +/- buttons instead of sliders. Quickly create them using the context menu in the scene hierarchy.
+- Unity UI: UI Boxes: Inputs: 'Unfocused Highlight' setting available. Doesn't show the 'Highlighted' state for color tint inputs on onfocused UI boxes. Requires an 'UI Input Color Changer' component on the input's game object.
+- Unity UI: Inputs: Input components (e.g. 'UI Button Input' or 'UI Int Slider Input') can optionally override the input schematics of the UI box (select/accept schematics).
+- Machine Components: Conditions: 'General Condition Template' condition available. Checks a selected general condition template.
+- Radius Component: 'Use Scale' settings available. Optionally use the game object's scale to impact the radius. By default enabled, using X-axis scale.
+- Node Editor: You can now click drag the grid with the left mouse button while holding the 'ALT' key (Windows) or 'Option' key (Mac).
+- Data Assets: 'Sort At End' setting available (in the inspector when having data asset selected). Enable this to sort the asset at the end of their data list the next time the editor is opened (will be disabled when saving in the editor). E.g. use this before exporting data to make sure it's added in another project at the end of the list instead of interefring with the project's sorting.
+- Unity UI Setup: Context Menu: 'UI Box Fit Size' entries available. Set up UI boxes with content size fitters for vertical size adjustment.
+- Makinom Handler Component: Inspector: Manage audio volumes in the inspector of the 'Makinom Handler' component (found on the '_Makinom' game object that's created when starting Makinom in a game).
+
+Changes:
+- UI Boxes: Some input/tab settings have been moved from the 'UI Box' component to the UI box setup in 'UI > UI Boxes' in the Makinom editor. 'Auto Select First Input', 'Loop', 'Select First', 'Unfocused Selection' and 'Unfocused Highlight' are now part of the 'Controls' settings in 'UI > UI Boxes' (both default in the general settings and the individual UI box overrides). You have to redo your setup if you use any of these.
+- Variables: Object ID: The 'Object ID' definition when accessing variables (e.g. 'Change Variables' node or variable conditions) is now a string value selection field. E.g. allows using the current scene name as object ID.
+- Variable Conditions: 'Exists' setting is now by default disabled in newly created conditions. Your old settings are not changed by this.
+- Vector 3 Values: 'Gravity 2D' and 'Gravity 3D' have been moved from 'Value' to 'Physics' sub-menu.
+- Unity UI Setup: Context Menu: Creating UI boxes, inputs and HUDs using the scene hierarchy context menu will now add 'UI Color Changer' and 'UI Input Color Changer' (for inputs) components.
+- Editor Settings: Text Area: 'Preview Height' has been changed to 'Max Preview Height'. The setting now defines the maximum height the text preview (i.e. showing text of a currently not editing text area) will have instead of a fixed height.
+- Editor: Highly reduced the time it takes to open the Makinom editor. This comes at the cost of only searching for data assets in Makinom's data path ('Assets/Gaming Is Love/_Data/'), i.e. any individual Makinom data assets outside the data path will not be displayed in the editor. This limitation can only be changed in the source code.
+- Editor: Highly reduced the time it takes to save the Makinom project in the editor. Saving will now only save the Makinom assets that where actually changed. The more different settings/assets you change, the longer saving will take. This has no effect on the time it takes to create an (optional) backup.
+- Editor: Language Content Definition: The 'Language Content' foldout when defining texts and icons for other languages is now by default closed.
+- Editor: Custom Content: The 'Custom Content' you can define for the content information of data (e.g. 'Scene Objects') is now by default closed (foldout).
+- Editor: Foldouts: Improved foldout behaviour when opening/closing foldouts with child foldouts. The foldouts should now keep their opened/closed state intact without shifting to other foldouts.
+- Editor: Saving: The 'Create Backup' toggle's state will now be remembered between saves.
+- Scene Wizard: 'Create Game Object', 'Add Component' and 'Add Machine' now use searchable popup selections to select which game object/component/machine to use. You can extend the available options by deriving from 'SceneWizard_BaseCreateObject', 'SceneWizard_BaseAddComponent' and 'SceneWizard_BaseAddMachine', implementing a static, parameterless function named 'Use' for what happens when it's selected.
+- Animations: Mecanim: The 'Animation Clip' duration type will now multiply the clip's duration with the animator's speed to get the actual animation duration.
+- Game Settings: Raycast Type: The 'Raycast Type' setting is now used as the global default raycast type. All other raycast type settings now offer a 'Default' option (replacing the separate 'Own Raycast Type' setting), using the default raycast type. All other raycast type settings have been changed to 'Default'.
+- HUDs: Tooltip: 'Tooltip Check' settings replace the previous 'Inputs' and 'Scene Object' tooltip settings. Tooltip checks are an extensible system for checking which tooltips to display. When no checks are added, all tooltips can be displayed by the HUD. Please note that previous settings will not be udpated to the new system.
+- Schematics: Rigidbody Constraints: You can now add multiple constraints to e.g. freeze X and Y rotation.
+- Schematics: Show Dialogue: Choices: 'Variable Conditions' have been replaced by general 'Conditions' in individual 'Choice' settings. Currently supports variable and game state conditions. Previous settings will be updated automatically.
+- Schematics: Show Dialogue: Notification: The 'Notification Queue' setting is now a popup selection, allowing to add, replace or queue notifications (instead of only replace and queue as with the previous toggle setting). Previous settings will be updated automatically.
+- Schematics: Auto Save Slot Dialogue, Language Dialogue, Value Option Dialogue: Speaker, portrait and audio options have been removed and remodeled to regular title/message content display to make these dialogues useable outside schematics (e.g. for future extensions).
+- Schematics: Shake Camera, Shake Object: Intensity values are no longer limited to be between 0 and 1 (but it's still recommended for most use cases). E.g. using orthographic cameras with a large size require higher intensity values for the shaking to be noticable.
+
+Fixes:
+- Editor: Popups: Fixed an issue where closing popups by clicking on the popup field again blocked scrolling.
+- Editor: Popups: Fixed an issue where popups didn't open to the top side when being too close to the bottom. Issue was related to using different screen size scaling (Unity Editor Preferences).
+- Editor: Fixed an issue where copying listed data would use blank content information with only the copy name.
+- Variable/Reflection Fields: Fixed issues with variable and reflection fields that automatically selected and overwrote the initially typed letters when opening the selection popup.
+- Game Settings: Asset Settings: Asset Source Changes: Fixed an issue where the project-wide asset source changes didn't work correctly.
+- Unity UI: Portraits: Fixed an issue where using 'Disable If Empty' didn't disable the game object when showing no portrait.
+- Unity UI: Fixed placement issues when using 'Screen Space Camera' canvas.
+- Save Games: Fixed an issue where float values in save games could be saved with wrong values.
+- Save Games: Saving object variables now allows spaces in variable keys, this previously caused errors. Please note that previous save games will not load their object variables.
+- Save Games: Fixed an issue where save file descriptions where not displayed. Will be displayed for new save games created with this version (or newer), as the description with the save game content is part of the save file.
+- Input Keys: Unity Input Manager: Fixed an issue where using 'Is Joypad Axis' could lead to continuous input.
+- Backups: Backups exceeding the defined number of backups where not deleted.
+- Schematics: Load Scene: Using 'Stored' origin didn't load the stored scene.
+- Schematics: Actors: Find Object: Fixed an issue where the search wasn't processed if no machine object was available.
+- Schematic Nodes: Change Position: Fixed an issue where the radius from 'Radius' components wasn't used in stop distances.
+- UI Boxes: Fixed an issue where using typewriter with a text speed of 0 didn't display the full text and stopped at 1 letter.
+- UI Boxes: Controls: Fixed an issue where the (optional) scroll axis input wasn't used when inputs where added to the UI box (e.g. dialogue choices).
+- Music: Fixed an issue where looping didn't work correctly when playing a stored music.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Makinom 2.0.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+New:
+- Everything. Initial release.

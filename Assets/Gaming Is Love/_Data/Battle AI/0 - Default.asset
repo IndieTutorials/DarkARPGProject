@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1753358023, guid: 2f433824042009943be1767c00adb2ed, type: 3}
+  m_Name: 0 - Default
+  m_EditorClassIdentifier: 
+  data:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata realID="0" >
+
+      <_string>
+
+      <guid><![CDATA[323ca053-3b5c-4adf-977d-bd21cd36916c]]></guid>
+
+      </_string>
+
+      <setting
+      startIndex="-1" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool clearFoundTargets="False"
+      overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition 38 38
+      />
+
+      </_floatarrays>
+
+      <_string>
+
+      <name><![CDATA[Default]]></name>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.AI.BattleAISettings]]></_type>
+
+      </_string>
+
+      <_stringarrays>
+
+      <layer>
+
+      <0><![CDATA[Base
+      Layer]]></0>
+
+      </layer>
+
+      </_stringarrays>
+
+      <_subarrays>
+
+      <node>
+
+      </node>
+
+      <group>
+
+      </group>
+
+      </_subarrays>
+
+      </setting>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0
+  sortAtEnd: 0

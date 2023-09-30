@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1229767909, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: Status Values
+  m_EditorClassIdentifier: 
+  data:
+    name: Status Values
+    byteData: 
+    xmlData: '<xmldata>
+
+      <_subarrays>
+
+      <assets>
+
+      <0>
+
+      <_asset
+      asset="0" />
+
+      </0>
+
+      <1>
+
+      <_asset asset="1" />
+
+      </1>
+
+      <2>
+
+      <_asset
+      asset="2" />
+
+      </2>
+
+      <3>
+
+      <_asset asset="3" />
+
+      </3>
+
+      <4>
+
+      <_asset
+      asset="4" />
+
+      </4>
+
+      <5>
+
+      <_asset asset="5" />
+
+      </5>
+
+      <6>
+
+      <_asset
+      asset="6" />
+
+      </6>
+
+      </assets>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 11400000, guid: 541d7b1113e9688409c74862cda150e2, type: 2}
+      - {fileID: 11400000, guid: ef63b7da5fd19234eb6b12984bb150d2, type: 2}
+      - {fileID: 11400000, guid: abfde9515c50fbd4b851d8fd2a3d6c46, type: 2}
+      - {fileID: 11400000, guid: d2ecb473c1b028740bbf742152783c0a, type: 2}
+      - {fileID: 11400000, guid: 58f7bab97ad28b448a980f3f44f205f3, type: 2}
+      - {fileID: 11400000, guid: 59e6ee99eec128e4f89ce009695012f0, type: 2}
+      - {fileID: 11400000, guid: 939888a79e838c449b42dd58c76e22e7, type: 2}
+    encrypted: 0

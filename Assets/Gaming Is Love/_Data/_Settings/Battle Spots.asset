@@ -1,0 +1,292 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1229767909, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: Battle Spots
+  m_EditorClassIdentifier: 
+  data:
+    name: Battle Spots
+    byteData: 
+    xmlData: '<xmldata layerMask="-1" >
+
+      <_float distance="100" />
+
+      <_bool
+      useRotation="True" useScale="False" onGround="False" />
+
+      <playerExtra>
+
+      <_bool
+      usePlayerAdvantageSpot="False" useEnemyAdvantageSpot="False" />
+
+      <spot>
+
+      <_bool
+      ignoreScale="False" addRandom="False" setRotation="False" rotateToCenter="False"
+      rotateToCenterIgnoreHeight="True" setScale="False" />
+
+      <_floatarrays>
+
+      <spot
+      0 0 0 />
+
+      <rotation 0 0 0 />
+
+      <scale 1 1 1 />
+
+      </_floatarrays>
+
+      </spot>
+
+      </playerExtra>
+
+      <allyExtra>
+
+      <_bool
+      usePlayerAdvantageSpot="False" useEnemyAdvantageSpot="False" />
+
+      <spot>
+
+      <_bool
+      ignoreScale="False" addRandom="False" setRotation="False" rotateToCenter="False"
+      rotateToCenterIgnoreHeight="True" setScale="False" />
+
+      <_floatarrays>
+
+      <spot
+      0 0 0 />
+
+      <rotation 0 0 0 />
+
+      <scale 1 1 1 />
+
+      </_floatarrays>
+
+      </spot>
+
+      </allyExtra>
+
+      <enemyExtra>
+
+      <_bool
+      usePlayerAdvantageSpot="False" useEnemyAdvantageSpot="False" />
+
+      <spot>
+
+      <_bool
+      ignoreScale="False" addRandom="False" setRotation="False" rotateToCenter="False"
+      rotateToCenterIgnoreHeight="True" setScale="False" />
+
+      <_floatarrays>
+
+      <spot
+      0 0 0 />
+
+      <rotation 0 0 0 />
+
+      <scale 1 1 1 />
+
+      </_floatarrays>
+
+      </spot>
+
+      </enemyExtra>
+
+      <_subarrays>
+
+      <playerSpot>
+
+      <0>
+
+      <_bool
+      usePlayerAdvantageSpot="False" useEnemyAdvantageSpot="False" />
+
+      <spot>
+
+      <_bool
+      ignoreScale="False" addRandom="False" setRotation="False" rotateToCenter="False"
+      rotateToCenterIgnoreHeight="True" setScale="False" />
+
+      <_floatarrays>
+
+      <spot
+      0 0 3 />
+
+      <rotation 0 0 0 />
+
+      <scale 1 1 1 />
+
+      </_floatarrays>
+
+      </spot>
+
+      </0>
+
+      <1>
+
+      <_bool
+      usePlayerAdvantageSpot="False" useEnemyAdvantageSpot="False" />
+
+      <spot>
+
+      <_bool
+      ignoreScale="False" addRandom="False" setRotation="False" rotateToCenter="False"
+      rotateToCenterIgnoreHeight="True" setScale="False" />
+
+      <_floatarrays>
+
+      <spot
+      -3 0 3 />
+
+      <rotation 0 0 0 />
+
+      <scale 1 1 1 />
+
+      </_floatarrays>
+
+      </spot>
+
+      </1>
+
+      <2>
+
+      <_bool
+      usePlayerAdvantageSpot="False" useEnemyAdvantageSpot="False" />
+
+      <spot>
+
+      <_bool
+      ignoreScale="False" addRandom="False" setRotation="False" rotateToCenter="False"
+      rotateToCenterIgnoreHeight="True" setScale="False" />
+
+      <_floatarrays>
+
+      <spot
+      3 0 3 />
+
+      <rotation 0 0 0 />
+
+      <scale 1 1 1 />
+
+      </_floatarrays>
+
+      </spot>
+
+      </2>
+
+      </playerSpot>
+
+      <playerConditionalSpots>
+
+      </playerConditionalSpots>
+
+      <allySpot>
+
+      </allySpot>
+
+      <allyConditionalSpots>
+
+      </allyConditionalSpots>
+
+      <enemySpot>
+
+      <0>
+
+      <_bool
+      usePlayerAdvantageSpot="False" useEnemyAdvantageSpot="False" />
+
+      <spot>
+
+      <_bool
+      ignoreScale="False" addRandom="False" setRotation="False" rotateToCenter="False"
+      rotateToCenterIgnoreHeight="True" setScale="False" />
+
+      <_floatarrays>
+
+      <spot
+      0 0 -3 />
+
+      <rotation 0 0 0 />
+
+      <scale 1 1 1 />
+
+      </_floatarrays>
+
+      </spot>
+
+      </0>
+
+      <1>
+
+      <_bool
+      usePlayerAdvantageSpot="False" useEnemyAdvantageSpot="False" />
+
+      <spot>
+
+      <_bool
+      ignoreScale="False" addRandom="False" setRotation="False" rotateToCenter="False"
+      rotateToCenterIgnoreHeight="True" setScale="False" />
+
+      <_floatarrays>
+
+      <spot
+      -3 0 -3 />
+
+      <rotation 0 0 0 />
+
+      <scale 1 1 1 />
+
+      </_floatarrays>
+
+      </spot>
+
+      </1>
+
+      <2>
+
+      <_bool
+      usePlayerAdvantageSpot="False" useEnemyAdvantageSpot="False" />
+
+      <spot>
+
+      <_bool
+      ignoreScale="False" addRandom="False" setRotation="False" rotateToCenter="False"
+      rotateToCenterIgnoreHeight="True" setScale="False" />
+
+      <_floatarrays>
+
+      <spot
+      3 0 -3 />
+
+      <rotation 0 0 0 />
+
+      <scale 1 1 1 />
+
+      </_floatarrays>
+
+      </spot>
+
+      </2>
+
+      </enemySpot>
+
+      <enemyConditionalSpots>
+
+      </enemyConditionalSpots>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0

@@ -1,0 +1,1608 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1229767909, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: ORK Game Controls
+  m_EditorClassIdentifier: 
+  data:
+    name: ORK Game Controls
+    byteData: 
+    xmlData: '<xmldata>
+
+      <_bool switchOnlyBattle="False" switchNotDead="False"
+      switchKeepScale="False" switchPlayer="False" switchField="True" switchMenuUser="False"
+      switchMenuActiveTime="False" switchMenuRealTime="True" loopAbilityLevels="False"
+      />
+
+      <playerControl type="0" >
+
+      <_float runSpeed="8" gravity="-9.81"
+      speedSmoothing="10" />
+
+      <_bool sceneChangeDestroyPlayer="False" moveDead="True"
+      useSpeed="True" />
+
+      <buttonController moveType="0" >
+
+      <_float inputValue2WaySpeed="0.5"
+      rotateSpeed="500" camDirectionOffset="0" minFallTime="0.1" jumpSpeed="10" jumpDeceleration="10"
+      jumpGravity="20" inAirModifier="0.5" jumpMaxGroundAngle="45" sprintFactor="2"
+      />
+
+      <_bool rootMotionSetControllerGravity="False" use2WaySpeed="False"
+      firstPerson="False" useCamDirection="True" playFallAnimation="False" playLandAnimation="False"
+      useJump="False" useSprint="False" useEnergy="False" energyUseStatusValue="False"
+      />
+
+      <_string>
+
+      <forwardSpeedParameter><![CDATA[speed]]></forwardSpeedParameter>
+
+      <verticalSpeedParameter><![CDATA[verticalSpeed]]></verticalSpeedParameter>
+
+      <groundedParameter><![CDATA[grounded]]></groundedParameter>
+
+      </_string>
+
+      <dampForwardSpeedParameter>
+
+      <_float
+      dampTime="1" />
+
+      <_bool useDamping="False" />
+
+      </dampForwardSpeedParameter>
+
+      <dampVerticalSpeedParameter>
+
+      <_float
+      dampTime="1" />
+
+      <_bool useDamping="False" />
+
+      </dampVerticalSpeedParameter>
+
+      <verticalAxis>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </verticalAxis>
+
+      <horizontalAxis>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </horizontalAxis>
+
+      <jumpKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </jumpKey>
+
+      <sprintKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </sprintKey>
+
+      <energyConsume>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </energyConsume>
+
+      <maxEnergy>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </maxEnergy>
+
+      <energyRegeneration>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </energyRegeneration>
+
+      </buttonController>
+
+      <mouseController
+      layerMask="-1" mouseMoveType="0" navMeshSampleAreaMask="-1" >
+
+      <_float
+      raycastDistance="100" minimumMoveDistance="0.2" navMeshSampleDistance="1" secureTime="0.5"
+      />
+
+      <_bool cursorRespawn="False" secureMove="False" autoRemoveCursor="True"
+      autoRemoveCursorTarget="True" autoStopMove="True" />
+
+      <_floatarrays>
+
+      <cursorOffset
+      0 0 0 />
+
+      </_floatarrays>
+
+      <mouseTouch type="3" mouseClick="0"
+      fingerCount="1" clickCount="1" mode="0" >
+
+      <_float timeout="0" />
+
+      <_bool
+      allModes="False" pressedCursorOver="False" />
+
+      </mouseTouch>
+
+      <cursorObject>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </cursorObject>
+
+      <ignoreDistance>
+
+      <_bool
+      x="False" y="False" z="False" />
+
+      </ignoreDistance>
+
+      </mouseController>
+
+      <topDown2DController>
+
+      <_float
+      flipInputIgnore="0.1" sprintFactor="2" />
+
+      <_bool rotateZAxis="False"
+      verticalFlip="False" verticalFlipNegate="False" horizontalFlip="False" horizontalFlipNegate="False"
+      useSprint="False" useEnergy="False" />
+
+      <verticalAxis>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </verticalAxis>
+
+      <horizontalAxis>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </horizontalAxis>
+
+      <sprintKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </sprintKey>
+
+      <maxEnergy>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </maxEnergy>
+
+      <energyConsume>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </energyConsume>
+
+      <energyRegeneration>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </energyRegeneration>
+
+      </topDown2DController>
+
+      </playerControl>
+
+      <cameraControl
+      type="0" >
+
+      <followControl>
+
+      <_float distance="10" height="5" heightDamping="2"
+      rotationDamping="3" />
+
+      <_bool useUnscaledTime="False" />
+
+      <childObject
+      type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
+
+      </followControl>
+
+      <lookControl>
+
+      <_float
+      damping="6" />
+
+      <_bool useUnscaledTime="False" smooth="True" />
+
+      <childObject
+      type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
+
+      </lookControl>
+
+      <mouseControl>
+
+      <_float
+      distance="10" height="15" minHeight="5" maxHeight="30" heightDamping="2" rotation="0"
+      rotationDamping="3" rotationFactor="1" zoomFactor="1" zoomKeyChange="3" />
+
+      <_bool
+      useUnscaledTime="False" useInput="True" allowRotation="True" rememberRotation="False"
+      rememberRotationBattle="True" cameraTargetChangeResetRotation="False" cameraTargetChangeBlockRotation="False"
+      allowZoom="True" rememberZoom="False" rememberZoomBattle="True" cameraTargetChangeResetZoom="False"
+      cameraTargetChangeBlockZoom="False" limitChange="True" />
+
+      <childObject
+      type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
+
+      <mouseTouch
+      type="3" mouseClick="1" fingerCount="2" clickCount="1" mode="1" >
+
+      <_float
+      timeout="0" />
+
+      <_bool allModes="False" pressedCursorOver="False" />
+
+      </mouseTouch>
+
+      <zoomAxis
+      channel="0" >
+
+      <_float volume="1" />
+
+      <_bool useAxis="False" />
+
+      <axisKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </axisKey>
+
+      <plusKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </plusKey>
+
+      <minusKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </minusKey>
+
+      </zoomAxis>
+
+      </mouseControl>
+
+      <firstPersonControl>
+
+      <_bool
+      useUnscaledTime="False" lockCursor="False" />
+
+      <_floatarrays>
+
+      <offset
+      0 0 0 />
+
+      </_floatarrays>
+
+      <childObject type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
+
+      <verticalAxis>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </verticalAxis>
+
+      <verticalInvert>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.BoolValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_bool
+      value="False" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.BoolValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </verticalInvert>
+
+      <verticalSensitivity>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="15" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </verticalSensitivity>
+
+      <horizontalAxis>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </horizontalAxis>
+
+      <horizontalInvert>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.BoolValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_bool
+      value="False" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.BoolValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </horizontalInvert>
+
+      <horizontalSensitivity>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="15" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </horizontalSensitivity>
+
+      </firstPersonControl>
+
+      <topDownBorderControl
+      useRotationIn="3" usePanningIn="3" useScreenEdgePanningIn="3" screenEdgeValueSetter="1"
+      useDragPanningIn="3" useZoomingIn="3" >
+
+      <_float positionDamping="0"
+      distance="15" height="15" heightDamping="2" distanceDamping="2" rotationDamping="2"
+      rotation="0" rotationInputChange="90" rotationFactor="1" panningDistanceLimitField="20"
+      panningDistanceLimitBattle="20" dragPanningNoBlockMITimeout="0.1" dragPanningReleaseSmoothing="0.3"
+      zoomHeightInputChange="3" zoomDistanceInputChange="3" zoomMinHeightField="5"
+      zoomMaxHeightField="15" zoomMinHeightBattle="5" zoomMaxHeightBattle="15" heightInputChange="3"
+      zoomMinDistanceField="5" zoomMaxDistanceField="15" zoomMinDistanceBattle="5"
+      zoomMaxDistanceBattle="15" distanceInputChange="3" />
+
+      <_bool useUnscaledTime="False"
+      initialDamping="True" borderCameraEdge="False" rememberRotation="False" rememberRotationBattle="True"
+      cameraTargetChangeResetRotation="False" cameraTargetChangeBlockRotation="False"
+      rotateDeltaTime="False" rememberPanning="False" rememberPanningBattle="True"
+      cameraTargetChangeResetPanning="False" cameraTargetChangeBlockPanning="False"
+      panningIgnorePlayerMove="False" centerPanningKeyTransition="False" limitPanning="True"
+      screenEdgePanningUIBlock="False" dragPanningUIBlock="False" dragPanningInvertX="False"
+      dragPanningInvertY="False" dragPanningBlockMouseInput="False" rememberZoom="False"
+      rememberZoomBattle="True" cameraTargetChangeResetZoom="False" cameraTargetChangeBlockZoom="False"
+      zoomUIBlock="False" zoomDeltaTime="False" useHeightInput="False" heightDeltaTime="False"
+      useDistanceInput="False" distanceDeltaTime="False" />
+
+      <_floatarrays>
+
+      <positionPadding
+      0 0 0 0 />
+
+      <screenEdgeDistance 100 100 100 100 />
+
+      </_floatarrays>
+
+      <childObject
+      type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
+
+      <horizontalPlane
+      type="0" >
+
+      </horizontalPlane>
+
+      <rotationAxis channel="0" >
+
+      <_float
+      volume="1" />
+
+      <_bool useAxis="False" />
+
+      <axisKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </axisKey>
+
+      <plusKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </plusKey>
+
+      <minusKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </minusKey>
+
+      </rotationAxis>
+
+      <rotationResetInputKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </rotationResetInputKey>
+
+      <rotationMouseTouch
+      type="0" mouseClick="1" fingerCount="2" clickCount="1" mode="1" >
+
+      <_float
+      timeout="0" />
+
+      <_bool allModes="False" pressedCursorOver="False" />
+
+      </rotationMouseTouch>
+
+      <panningSpeed>
+
+      <_float
+      speed="10" inputSpeed="20" />
+
+      <_bool useInputKey="False" />
+
+      <inputKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </inputKey>
+
+      </panningSpeed>
+
+      <horizontalPanningKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </horizontalPanningKey>
+
+      <verticalPanningKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </verticalPanningKey>
+
+      <centerPanningKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </centerPanningKey>
+
+      <screenEdgePanningSpeed>
+
+      <_float
+      speed="10" inputSpeed="20" />
+
+      <_bool useInputKey="False" />
+
+      <inputKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </inputKey>
+
+      </screenEdgePanningSpeed>
+
+      <dragPanningSpeed>
+
+      <_float
+      speed="1" inputSpeed="2" />
+
+      <_bool useInputKey="False" />
+
+      <inputKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </inputKey>
+
+      </dragPanningSpeed>
+
+      <dragPanningMouseTouch
+      type="1" mouseClick="1" fingerCount="2" clickCount="1" mode="1" >
+
+      <_float
+      timeout="0" />
+
+      <_bool allModes="False" pressedCursorOver="False" />
+
+      </dragPanningMouseTouch>
+
+      <zoomAxis
+      channel="0" >
+
+      <_float volume="1" />
+
+      <_bool useAxis="False" />
+
+      <axisKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </axisKey>
+
+      <plusKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </plusKey>
+
+      <minusKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </minusKey>
+
+      </zoomAxis>
+
+      <zoomResetInputKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </zoomResetInputKey>
+
+      <heightAxis
+      channel="0" >
+
+      <_float volume="1" />
+
+      <_bool useAxis="False" />
+
+      <axisKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </axisKey>
+
+      <plusKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </plusKey>
+
+      <minusKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </minusKey>
+
+      </heightAxis>
+
+      <heightResetInputKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </heightResetInputKey>
+
+      <distanceAxis
+      channel="0" >
+
+      <_float volume="1" />
+
+      <_bool useAxis="False" />
+
+      <axisKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </axisKey>
+
+      <plusKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </plusKey>
+
+      <minusKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </minusKey>
+
+      </distanceAxis>
+
+      <distanceResetInputKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </distanceResetInputKey>
+
+      </topDownBorderControl>
+
+      <targetTransition>
+
+      <_float
+      time="1" />
+
+      <_bool enabled="False" perWorldUnit="False" usePosition="True"
+      useRotation="True" />
+
+      </targetTransition>
+
+      </cameraControl>
+
+      <inputIDSettings>
+
+      <_bool
+      addInteractionControllers="False" addPlayerControls="False" />
+
+      </inputIDSettings>
+
+      <nextMemberKey>
+
+      <inputKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </inputKey>
+
+      <audio
+      type="0" channel="0" >
+
+      <_float volume="1" />
+
+      </audio>
+
+      </nextMemberKey>
+
+      <previousMemberKey>
+
+      <inputKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </inputKey>
+
+      <audio
+      type="0" channel="0" >
+
+      <_float volume="1" />
+
+      </audio>
+
+      </previousMemberKey>
+
+      <nextLevelKey>
+
+      <inputKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </inputKey>
+
+      <audio
+      type="0" channel="0" >
+
+      <_float volume="1" />
+
+      </audio>
+
+      </nextLevelKey>
+
+      <previousLevelKey>
+
+      <inputKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </inputKey>
+
+      <audio
+      type="0" channel="0" >
+
+      <_float volume="1" />
+
+      </audio>
+
+      </previousLevelKey>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0

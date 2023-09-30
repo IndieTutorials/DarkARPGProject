@@ -1,0 +1,4222 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1229767909, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: Console Settings
+  m_EditorClassIdentifier: 
+  data:
+    name: Console Settings
+    byteData: 
+    xmlData: '<xmldata maxLines="50" maxLinesCombatant="30" >
+
+      <_float autoRemoveEvery="3"
+      />
+
+      <_bool useConsole="False" unityConsole="False" autoRemoveLines="False"
+      useCombatantConsoles="False" displayActions="True" ownActionTargetNames="False"
+      displayLearning="True" ownLearningGroupNames="False" displayForgetting="True"
+      ownForgettingGroupNames="False" displayStatus="True" displayLevelUp="True"
+      displayInventory="True" ownInventoryOwnerNames="False" displayQuests="True"
+      displayInitialTasks="False" displayResearch="True" displayPlayerGroup="True"
+      displayClass="True" />
+
+      <beforeLineText exportID="-1" >
+
+      <_bool
+      export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </beforeLineText>
+
+      <afterLineText
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </afterLineText>
+
+      <actionRange>
+
+      <_bool
+      alwaysPlayerGroup="True" />
+
+      <maxDistance>
+
+      <_bool ignoreRadius="False"
+      />
+
+      <rangeValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="20" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </rangeValue>
+
+      <ignoreDistance>
+
+      <_bool
+      x="False" y="False" z="False" />
+
+      </ignoreDistance>
+
+      <thresholdValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </thresholdValue>
+
+      </maxDistance>
+
+      </actionRange>
+
+      <actionTargetNames>
+
+      <_bool
+      onlyFirst="False" lineSeparation="False" />
+
+      <_string>
+
+      <separation><![CDATA[,
+      ]]></separation>
+
+      </_string>
+
+      <firstTargetText exportID="-1" >
+
+      <_bool
+      export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </firstTargetText>
+
+      <combatantText
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </combatantText>
+
+      <noCombatantsText
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </noCombatantsText>
+
+      </actionTargetNames>
+
+      <actionStatusValueChanges>
+
+      <_bool
+      showNoChange="False" lineSeparation="True" showNoValueChange="False" negativeChangeAbsolute="False"
+      negativeChangeRangeAbsolute="False" />
+
+      <_string>
+
+      <separation><![CDATA[,
+      ]]></separation>
+
+      </_string>
+
+      <infoText exportID="-1" >
+
+      <_bool
+      export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </infoText>
+
+      <negativeChange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      <change>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </negativeChange>
+
+      <negativeChangeRange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      <changemin> ~ <changemax>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </negativeChangeRange>
+
+      <positiveChange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      +<change>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </positiveChange>
+
+      <positiveChangeRange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      +<changemin> ~ +<changemax>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </positiveChangeRange>
+
+      <noChange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      0]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </noChange>
+
+      </actionStatusValueChanges>
+
+      <actionAddAbility>
+
+      <_bool
+      enabled="False" usePerCombatant="False" />
+
+      <text exportID="-1" >
+
+      <_bool
+      export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </actionAddAbility>
+
+      <actionAddItem>
+
+      <_bool
+      enabled="False" usePerCombatant="False" />
+
+      <text exportID="-1" >
+
+      <_bool
+      export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </actionAddItem>
+
+      <actionAddDefend>
+
+      <_bool
+      enabled="False" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </actionAddDefend>
+
+      <actionAddEscape>
+
+      <_bool
+      enabled="False" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </actionAddEscape>
+
+      <actionAddDeath>
+
+      <_bool
+      enabled="False" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </actionAddDeath>
+
+      <actionAddNone>
+
+      <_bool
+      enabled="False" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </actionAddNone>
+
+      <actionAddChangeMember>
+
+      <_bool
+      enabled="False" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </actionAddChangeMember>
+
+      <actionAddJoinBattle>
+
+      <_bool
+      enabled="False" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </actionAddJoinBattle>
+
+      <actionAddGridMove>
+
+      <_bool
+      enabled="False" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </actionAddGridMove>
+
+      <actionAbility>
+
+      <_bool
+      enabled="True" usePerCombatant="False" />
+
+      <text exportID="-1" >
+
+      <_bool
+      export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<username>
+      uses <name> on <targetname>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </actionAbility>
+
+      <actionCast>
+
+      <_bool
+      enabled="True" usePerCombatant="False" />
+
+      <text exportID="-1" >
+
+      <_bool
+      export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<username>
+      casts <name>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </actionCast>
+
+      <actionCastCancel>
+
+      <_bool
+      enabled="True" usePerCombatant="False" />
+
+      <text exportID="-1" >
+
+      <_bool
+      export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<username>
+      cancels casting <name>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </actionCastCancel>
+
+      <actionItem>
+
+      <_bool
+      enabled="True" usePerCombatant="False" />
+
+      <text exportID="-1" >
+
+      <_bool
+      export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<username>
+      uses <name> on <targetname>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </actionItem>
+
+      <actionDefend>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<username>
+      defends himself.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </actionDefend>
+
+      <actionEscape>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<username>
+      tries to escape.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </actionEscape>
+
+      <actionDeath>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<username>
+      dies.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </actionDeath>
+
+      <actionNone>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<username>
+      does nothing.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </actionNone>
+
+      <actionChangeMember>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<username>
+      is exchanged for <targetname>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </actionChangeMember>
+
+      <actionJoinBattle>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<username>
+      joins the battle.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </actionJoinBattle>
+
+      <actionGridMove>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<username>
+      moves.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </actionGridMove>
+
+      <learningRange>
+
+      <_bool
+      alwaysPlayerGroup="True" />
+
+      <maxDistance>
+
+      <_bool ignoreRadius="False"
+      />
+
+      <rangeValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="20" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </rangeValue>
+
+      <ignoreDistance>
+
+      <_bool
+      x="False" y="False" z="False" />
+
+      </ignoreDistance>
+
+      <thresholdValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </thresholdValue>
+
+      </maxDistance>
+
+      </learningRange>
+
+      <learningGroupNames>
+
+      <_bool
+      onlyFirst="False" lineSeparation="False" />
+
+      <_string>
+
+      <separation><![CDATA[,
+      ]]></separation>
+
+      </_string>
+
+      <firstTargetText exportID="-1" >
+
+      <_bool
+      export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </firstTargetText>
+
+      <combatantText
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </combatantText>
+
+      <noCombatantsText
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </noCombatantsText>
+
+      </learningGroupNames>
+
+      <learnAbility>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<username>
+      learns <name>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </learnAbility>
+
+      <learnGroupAbility>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<usernames>
+      learn <name>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </learnGroupAbility>
+
+      <learnCraftingRecipe>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<username>
+      receives <name>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </learnCraftingRecipe>
+
+      <learnLog>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<username>
+      learns <name>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </learnLog>
+
+      <learnLogUpdate>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      updated.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </learnLogUpdate>
+
+      <forgettingRange>
+
+      <_bool
+      alwaysPlayerGroup="True" />
+
+      <maxDistance>
+
+      <_bool ignoreRadius="False"
+      />
+
+      <rangeValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="20" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </rangeValue>
+
+      <ignoreDistance>
+
+      <_bool
+      x="False" y="False" z="False" />
+
+      </ignoreDistance>
+
+      <thresholdValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </thresholdValue>
+
+      </maxDistance>
+
+      </forgettingRange>
+
+      <forgettingGroupNames>
+
+      <_bool
+      onlyFirst="False" lineSeparation="False" />
+
+      <_string>
+
+      <separation><![CDATA[,
+      ]]></separation>
+
+      </_string>
+
+      <firstTargetText exportID="-1" >
+
+      <_bool
+      export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </firstTargetText>
+
+      <combatantText
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </combatantText>
+
+      <noCombatantsText
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </noCombatantsText>
+
+      </forgettingGroupNames>
+
+      <forgetAbility>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<username>
+      forgets <name>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </forgetAbility>
+
+      <forgetGroupAbility>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<usernames>
+      forget <name>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </forgetGroupAbility>
+
+      <forgetCraftingRecipe>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<username>
+      removes <name>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </forgetCraftingRecipe>
+
+      <forgetLog>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<username>
+      forgets <name>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </forgetLog>
+
+      <forgetLogUpdate>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      updated.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </forgetLogUpdate>
+
+      <statusRange>
+
+      <_bool
+      alwaysPlayerGroup="True" />
+
+      <maxDistance>
+
+      <_bool ignoreRadius="False"
+      />
+
+      <rangeValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="20" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </rangeValue>
+
+      <ignoreDistance>
+
+      <_bool
+      x="False" y="False" z="False" />
+
+      </ignoreDistance>
+
+      <thresholdValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </thresholdValue>
+
+      </maxDistance>
+
+      </statusRange>
+
+      <statusIncreaseSV>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<username>
+      +<value> <name>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </statusIncreaseSV>
+
+      <statusDecreaseSV>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<username>
+      -<value> <name>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </statusDecreaseSV>
+
+      <statusSetSV>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<username>
+      <name> set to <value>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </statusSetSV>
+
+      <statusApplyEffect>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      added to <username>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </statusApplyEffect>
+
+      <statusReapplyEffect>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      renewed on <username>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </statusReapplyEffect>
+
+      <statusMissEffect>
+
+      <_bool
+      enabled="False" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      failed on <username>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </statusMissEffect>
+
+      <statusRemoveEffect>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      removed from <username>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </statusRemoveEffect>
+
+      <levelUpRange>
+
+      <_bool
+      alwaysPlayerGroup="True" />
+
+      <maxDistance>
+
+      <_bool ignoreRadius="False"
+      />
+
+      <rangeValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="20" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </rangeValue>
+
+      <ignoreDistance>
+
+      <_bool
+      x="False" y="False" z="False" />
+
+      </ignoreDistance>
+
+      <thresholdValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </thresholdValue>
+
+      </maxDistance>
+
+      </levelUpRange>
+
+      <levelUp>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<username>
+      reaches level <level>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </levelUp>
+
+      <levelUpClass>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<username>
+      reaches class level <level>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </levelUpClass>
+
+      <levelUpAbility>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<username>
+      <name> reaches level <level>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </levelUpAbility>
+
+      <levelUpEquipment>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<username>
+      <name> reaches level <level>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </levelUpEquipment>
+
+      <inventoryOwnerNames>
+
+      <_bool
+      onlyFirst="False" lineSeparation="False" />
+
+      <_string>
+
+      <separation><![CDATA[,
+      ]]></separation>
+
+      </_string>
+
+      <firstTargetText exportID="-1" >
+
+      <_bool
+      export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </firstTargetText>
+
+      <combatantText
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </combatantText>
+
+      <noCombatantsText
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </noCombatantsText>
+
+      </inventoryOwnerNames>
+
+      <inventoryAddItem>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<usernames>
+      finds <name> (<quantity>).]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </inventoryAddItem>
+
+      <inventoryRemoveItem>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<usernames>
+      drops <name> (<quantity>).]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </inventoryRemoveItem>
+
+      <inventoryAddCurrency>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<usernames>
+      finds <name> (<quantity>).]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </inventoryAddCurrency>
+
+      <inventoryRemoveCurrency>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<usernames>
+      drops <name> (<quantity>).]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </inventoryRemoveCurrency>
+
+      <inventorySetCurrency>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<usernames>
+      <name> set to <quantity>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </inventorySetCurrency>
+
+      <inventoryAddEquipment>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<usernames>
+      finds <name> (<quantity>).]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </inventoryAddEquipment>
+
+      <inventoryRemoveEquipment>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<usernames>
+      drops <name> (<quantity>).]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </inventoryRemoveEquipment>
+
+      <durabilityIncreaseEquipment>
+
+      <_bool
+      enabled="True" absoluteChange="False" />
+
+      <text exportID="-1" >
+
+      <_bool
+      export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<username>''s
+      <name> increased to <durability>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </durabilityIncreaseEquipment>
+
+      <durabilityDecreaseEquipment>
+
+      <_bool
+      enabled="True" absoluteChange="False" />
+
+      <text exportID="-1" >
+
+      <_bool
+      export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<username>''s
+      <name> dropped to <durability>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </durabilityDecreaseEquipment>
+
+      <durabilityOutwornEquipment>
+
+      <_bool
+      enabled="True" absoluteChange="False" />
+
+      <text exportID="-1" >
+
+      <_bool
+      export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<username>''s
+      <name> is outworn.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </durabilityOutwornEquipment>
+
+      <aiBehaviourAdd>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      (<quantity>) added.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </aiBehaviourAdd>
+
+      <aiBehaviourRemove>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      (<quantity>) removed.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </aiBehaviourRemove>
+
+      <aiRulesetAdd>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      (<quantity>) added.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </aiRulesetAdd>
+
+      <aiRulesetRemove>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      (<quantity>) removed.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </aiRulesetRemove>
+
+      <addQuest>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[''<name>''
+      added.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </addQuest>
+
+      <removeQuest>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[''<name>''
+      removed.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </removeQuest>
+
+      <inactivateQuest>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[''<name>''
+      is inactive.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </inactivateQuest>
+
+      <activateQuest>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[''<name>''
+      is active.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </activateQuest>
+
+      <finishQuest>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[''<name>''
+      finished.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </finishQuest>
+
+      <failQuest>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[''<name>''
+      failed.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </failQuest>
+
+      <inactivateTask>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[Task
+      ''<name>'' removed.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </inactivateTask>
+
+      <activateTask>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[Task
+      ''<name>'' added.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </activateTask>
+
+      <finishTask>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[Task
+      ''<name>'' finished.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </finishTask>
+
+      <failTask>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[Task
+      ''<name>'' failed.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </failTask>
+
+      <addResearchTree>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<username>
+      learns <name>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </addResearchTree>
+
+      <removeResearchTree>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<username>
+      forgets <name>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </removeResearchTree>
+
+      <startResearch>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<username>
+      started researching <name>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </startResearch>
+
+      <cancelResearch>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<username>
+      canceled researching <name>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </cancelResearch>
+
+      <finishResearch>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<username>
+      finished researching <name>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </finishResearch>
+
+      <joinGroup>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      joins the group.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </joinGroup>
+
+      <leaveGroup>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      leaves the group.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </leaveGroup>
+
+      <classAdded>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<classname>
+      added to <name>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </classAdded>
+
+      <classRemoved>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<classname>
+      removed from <name>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </classRemoved>
+
+      <classSlotAdded>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<slotname>
+      added to <name>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </classSlotAdded>
+
+      <classSlotRemoved>
+
+      <_bool
+      enabled="True" />
+
+      <text exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<slotname>
+      removed from <name>.]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      </classSlotRemoved>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0

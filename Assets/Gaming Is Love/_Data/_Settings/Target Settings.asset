@@ -1,0 +1,1518 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1229767909, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: Target Settings
+  m_EditorClassIdentifier: 
+  data:
+    name: Target Settings
+    byteData: 
+    xmlData: '<xmldata targetLayerMask="-1" >
+
+      <_float targetRayDistance="100"
+      />
+
+      <_bool resetTargetRangeToggle="False" resetTargetTypeToggle="False"
+      useDirectionalSelection="False" directionalSelectionBlockUIBoxInput="True"
+      availableTargetActionSelection="False" availableTargetTargetSelection="False"
+      targetAcceptOnlySelected="False" targetUseGridCell="False" targetCursorOverSelection="False"
+      targetCursorOverMouseMoveOnly="False" showTargetConfirmation="False" />
+
+      <targetMenu>
+
+      <_bool
+      useTargetMenu="True" autoOnlySingleTarget="False" autoOnlyGroupTarget="False"
+      rotateToTarget="False" rotateToTargetGridRotation="False" rotateToTargetCursorOver="False"
+      />
+
+      </targetMenu>
+
+      <defaultTargetSelections>
+
+      <enemySingle>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="0" />
+
+      </settings>
+
+      </enemySingle>
+
+      <enemyGroup>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="1" />
+
+      </settings>
+
+      </enemyGroup>
+
+      <enemyNone>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="2" />
+
+      </settings>
+
+      </enemyNone>
+
+      <allySingle>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="3" />
+
+      </settings>
+
+      </allySingle>
+
+      <allyGroup>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="4" />
+
+      </settings>
+
+      </allyGroup>
+
+      <allyNone>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="5" />
+
+      </settings>
+
+      </allyNone>
+
+      <allSingle>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="6" />
+
+      </settings>
+
+      </allSingle>
+
+      <allGroup>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="7" />
+
+      </settings>
+
+      </allGroup>
+
+      <allNone>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="8" />
+
+      </settings>
+
+      </allNone>
+
+      <self>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="9" />
+
+      </settings>
+
+      </self>
+
+      </defaultTargetSelections>
+
+      <targetNextKey>
+
+      <inputKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </inputKey>
+
+      <audio
+      type="0" channel="0" >
+
+      <_float volume="1" />
+
+      </audio>
+
+      </targetNextKey>
+
+      <targetPreviousKey>
+
+      <inputKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </inputKey>
+
+      <audio
+      type="0" channel="0" >
+
+      <_float volume="1" />
+
+      </audio>
+
+      </targetPreviousKey>
+
+      <targetNearestKey>
+
+      <inputKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </inputKey>
+
+      <audio
+      type="0" channel="0" >
+
+      <_float volume="1" />
+
+      </audio>
+
+      </targetNearestKey>
+
+      <targetRangeKey>
+
+      <inputKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </inputKey>
+
+      <audio
+      type="0" channel="0" >
+
+      <_float volume="1" />
+
+      </audio>
+
+      </targetRangeKey>
+
+      <targetTypeKey>
+
+      <inputKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </inputKey>
+
+      <audio
+      type="0" channel="0" >
+
+      <_float volume="1" />
+
+      </audio>
+
+      </targetTypeKey>
+
+      <targetHighlight>
+
+      <_subarrays>
+
+      <highlight>
+
+      </highlight>
+
+      </_subarrays>
+
+      </targetHighlight>
+
+      <availableTargetPlayerHighlight>
+
+      <_subarrays>
+
+      <highlight>
+
+      </highlight>
+
+      </_subarrays>
+
+      </availableTargetPlayerHighlight>
+
+      <availableTargetAllyHighlight>
+
+      <_subarrays>
+
+      <highlight>
+
+      </highlight>
+
+      </_subarrays>
+
+      </availableTargetAllyHighlight>
+
+      <availableTargetEnemyHighlight>
+
+      <_subarrays>
+
+      <highlight>
+
+      </highlight>
+
+      </_subarrays>
+
+      </availableTargetEnemyHighlight>
+
+      <targetMouseTouch
+      type="0" mouseClick="0" fingerCount="1" clickCount="1" mode="0" >
+
+      <_float
+      timeout="0" />
+
+      <_bool allModes="False" pressedCursorOver="False" />
+
+      </targetMouseTouch>
+
+      <defaultTargetRaycast
+      layerMask="-1" rayOrigin="0" >
+
+      <_float distance="100" inputCursorSpeed="3"
+      />
+
+      <_bool ignoreUser="False" clampToUseRange="True" blockPlayerControl="False"
+      blockCameraControl="False" rotateToRaycast="False" autoTarget="True" useMousePosition="False"
+      mouseOnlyPlayer="True" useRayCursor="False" useInputKeys="False" useUserHighlight="False"
+      />
+
+      <_floatarrays>
+
+      <offset 0 0 0 />
+
+      <rayDirection 0 0 1
+      />
+
+      <targetOffset 0 0 0 />
+
+      <screenOffset 0 0 0 />
+
+      <rayCursorOffset
+      0 0 0 />
+
+      </_floatarrays>
+
+      <userChildObject type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </userChildObject>
+
+      <targetChildObject
+      type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </targetChildObject>
+
+      <mouseTouch
+      type="0" mouseClick="0" fingerCount="1" clickCount="1" mode="0" >
+
+      <_float
+      timeout="0" />
+
+      <_bool allModes="False" pressedCursorOver="False" />
+
+      </mouseTouch>
+
+      <cursorChange
+      cursorMode="0" >
+
+      <_floatarrays>
+
+      <hotSpot 0 0 />
+
+      </_floatarrays>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </cursorChange>
+
+      </defaultTargetRaycast>
+
+      <targetInformationLayout>
+
+      <_bool
+      useTitle="False" ownStatusChangeDisplay="True" />
+
+      <content>
+
+      <mainContent>
+
+      <_bool
+      addHUD="False" />
+
+      <content exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <text>
+
+      <_string>
+
+      <text><![CDATA[<name>
+
+      <statuschanges>]]></text>
+
+      </_string>
+
+      </text>
+
+      <image>
+
+      <sprite>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </sprite>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </image>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </content>
+
+      </mainContent>
+
+      <_subarrays>
+
+      <additionalContent>
+
+      </additionalContent>
+
+      </_subarrays>
+
+      </content>
+
+      <statusChangeDisplay>
+
+      <hitChanceDisplay>
+
+      <_float
+      minChance="0" maxChance="100" />
+
+      <_bool showNoChance="False" useMinChance="False"
+      useMaxChance="False" />
+
+      <infoText exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[Hit
+      Chance: <chance1>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </infoText>
+
+      </hitChanceDisplay>
+
+      <criticalChanceDisplay>
+
+      <_float
+      minChance="0" maxChance="100" />
+
+      <_bool showNoChance="False" useMinChance="False"
+      useMaxChance="False" />
+
+      <infoText exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[Critical
+      Chance: <chance1>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </infoText>
+
+      </criticalChanceDisplay>
+
+      <svChangeDisplay>
+
+      <_bool
+      showNoChange="False" lineSeparation="True" showNoValueChange="False" negativeChangeAbsolute="False"
+      negativeChangeRangeAbsolute="False" />
+
+      <_string>
+
+      <separation><![CDATA[,
+      ]]></separation>
+
+      </_string>
+
+      <infoText exportID="-1" >
+
+      <_bool
+      export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </infoText>
+
+      <negativeChange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      <change>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </negativeChange>
+
+      <negativeChangeRange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      <changemin> ~ <changemax>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </negativeChangeRange>
+
+      <positiveChange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      +<change>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </positiveChange>
+
+      <positiveChangeRange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      +<changemin> ~ +<changemax>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </positiveChangeRange>
+
+      <noChange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      0]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </noChange>
+
+      </svChangeDisplay>
+
+      <svCritChangeDisplay>
+
+      <_bool
+      showNoChange="False" lineSeparation="True" showNoValueChange="False" negativeChangeAbsolute="False"
+      negativeChangeRangeAbsolute="False" />
+
+      <_string>
+
+      <separation><![CDATA[,
+      ]]></separation>
+
+      </_string>
+
+      <infoText exportID="-1" >
+
+      <_bool
+      export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </infoText>
+
+      <negativeChange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      <change>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </negativeChange>
+
+      <negativeChangeRange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      <changemin> ~ <changemax>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </negativeChangeRange>
+
+      <positiveChange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      +<change>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </positiveChange>
+
+      <positiveChangeRange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      +<changemin> ~ +<changemax>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </positiveChangeRange>
+
+      <noChange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      0]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </noChange>
+
+      </svCritChangeDisplay>
+
+      <aseChangeDisplay>
+
+      <_bool
+      showNoChange="False" lineSeparation="True" />
+
+      <_string>
+
+      <separation><![CDATA[
+      ]]></separation>
+
+      </_string>
+
+      <infoText exportID="-1" >
+
+      <_bool
+      export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </infoText>
+
+      <effectText
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </effectText>
+
+      </aseChangeDisplay>
+
+      <rseChangeDisplay>
+
+      <_bool
+      showNoChange="False" lineSeparation="True" />
+
+      <_string>
+
+      <separation><![CDATA[
+      ]]></separation>
+
+      </_string>
+
+      <infoText exportID="-1" >
+
+      <_bool
+      export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </infoText>
+
+      <effectText
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </effectText>
+
+      </rseChangeDisplay>
+
+      <aseCritChangeDisplay>
+
+      <_bool
+      showNoChange="False" lineSeparation="True" />
+
+      <_string>
+
+      <separation><![CDATA[
+      ]]></separation>
+
+      </_string>
+
+      <infoText exportID="-1" >
+
+      <_bool
+      export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </infoText>
+
+      <effectText
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </effectText>
+
+      </aseCritChangeDisplay>
+
+      <rseCritChangeDisplay>
+
+      <_bool
+      showNoChange="False" lineSeparation="True" />
+
+      <_string>
+
+      <separation><![CDATA[
+      ]]></separation>
+
+      </_string>
+
+      <infoText exportID="-1" >
+
+      <_bool
+      export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </infoText>
+
+      <effectText
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </effectText>
+
+      </rseCritChangeDisplay>
+
+      </statusChangeDisplay>
+
+      </targetInformationLayout>
+
+      <_subarrays>
+
+      <groupTargetSelection>
+
+      </groupTargetSelection>
+
+      <individualTargetSelection>
+
+      </individualTargetSelection>
+
+      <targetInformation>
+
+      </targetInformation>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 11400000, guid: eb4dc9c2bff030948a05ef36f5c2d84c, type: 2}
+      - {fileID: 11400000, guid: 27d25171647e61e4bad2bd1721cc509c, type: 2}
+      - {fileID: 11400000, guid: 6fa3e18108bc0a74f9e04e00908eb155, type: 2}
+      - {fileID: 11400000, guid: 33307bfeba43b584797c99444e3228c5, type: 2}
+      - {fileID: 11400000, guid: 15d687b84720330409ea1a217f8f998e, type: 2}
+      - {fileID: 11400000, guid: 6ec94c63774f32c4f819a2967a57ad82, type: 2}
+      - {fileID: 11400000, guid: 920f2784893f0164e97ed031e7d35ca8, type: 2}
+      - {fileID: 11400000, guid: d786a1f818647654e8bde85b80d5fade, type: 2}
+      - {fileID: 11400000, guid: 1f2a4d1639ef99a4d90b3765c0117ca7, type: 2}
+      - {fileID: 11400000, guid: 7b6c9c3ce161b734b9694cd09f622830, type: 2}
+    encrypted: 0

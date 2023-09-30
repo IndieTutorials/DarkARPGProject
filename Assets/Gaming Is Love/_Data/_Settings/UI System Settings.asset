@@ -1,0 +1,223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1229767909, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: UI System Settings
+  m_EditorClassIdentifier: 
+  data:
+    name: UI System Settings
+    byteData: 
+    xmlData: '<xmldata>
+
+      <_floatarrays>
+
+      <defaultScreen 1920 1080 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.UI.UnityUISystem]]></type>
+
+      </_string>
+
+      <defaultMaskMaterial>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </defaultMaskMaterial>
+
+      <settings
+      eventSystemType="1" pixelDragThreshold="5" layer="0" >
+
+      <_float planeDistance="0.1"
+      />
+
+      <_bool addCanvasScaler="True" canvasScalerScreenSize="True" pixelPerfect="False"
+      useScreenSpaceCamera="False" nearPlaneOffset="True" useMainCamera="True" mainCameraFallback="True"
+      />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UI.UnityUISystem]]></_type>
+
+      </_string>
+
+      <prefabs>
+
+      <buttonPrefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="0" />
+
+      </settings>
+
+      </buttonPrefab>
+
+      <tabButtonPrefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="1" />
+
+      </settings>
+
+      </tabButtonPrefab>
+
+      <boolInputPrefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="2" />
+
+      </settings>
+
+      </boolInputPrefab>
+
+      <stringInputPrefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="3" />
+
+      </settings>
+
+      </stringInputPrefab>
+
+      <intInputPrefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="4" />
+
+      </settings>
+
+      </intInputPrefab>
+
+      <floatInputPrefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="5" />
+
+      </settings>
+
+      </floatInputPrefab>
+
+      </prefabs>
+
+      </settings>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 5403620195553571936, guid: b21a45c6c6e3a034cbe61e6d5d30038d, type: 3}
+      - {fileID: 944894348998219742, guid: 738809c33daca5f4497bf02c75a1951e, type: 3}
+      - {fileID: 8118755298453965451, guid: 4c31bd37f21db2b45b062dc173ba5a80, type: 3}
+      - {fileID: 1700012745806292162, guid: b01a1a9e281969540a80722d7c059d40, type: 3}
+      - {fileID: 902365910282039221, guid: 996d362a2446e6b49bf72b920209bd67, type: 3}
+      - {fileID: 4710209905404096739, guid: caba7162788df1545bff87759c0f0629, type: 3}
+    encrypted: 0

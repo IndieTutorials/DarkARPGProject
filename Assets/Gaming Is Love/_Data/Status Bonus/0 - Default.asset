@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 375566508, guid: 2f433824042009943be1767c00adb2ed, type: 3}
+  m_Name: 0 - Default
+  m_EditorClassIdentifier: 
+  data:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata realID="0" >
+
+      <_string>
+
+      <name><![CDATA[Default]]></name>
+
+      <guid><![CDATA[ab91d222-163b-4af6-89df-f3b449d4226b]]></guid>
+
+      </_string>
+
+      <setting>
+
+      <_float
+      hitBonus="0" counterBonus="0" criticalBonus="0" blockBonus="0" escapeBonus="0"
+      walkBonus="0" runBonus="0" sprintBonus="0" itemStealBonus="0" currencyStealBonus="0"
+      itemLimitBonus="0" inventorySlotBonus="0" randomBattleBonus="0" expFactorBonus="0"
+      gridMoveRangeBonus="0" />
+
+      <statusEffects>
+
+      <_bool useCriticalAttackEffects="False"
+      useCriticalDefenceEffects="False" />
+
+      <_subarrays>
+
+      <effect>
+
+      </effect>
+
+      <attackEffect>
+
+      </attackEffect>
+
+      <blockAttackEffect>
+
+      </blockAttackEffect>
+
+      <defenceEffect>
+
+      </defenceEffect>
+
+      <blockDefenceEffect>
+
+      </blockDefenceEffect>
+
+      </_subarrays>
+
+      </statusEffects>
+
+      <blockChange>
+
+      <_bool
+      blockChangesAttacks="False" blockChangesAbilities="False" blockChangesItems="False"
+      />
+
+      <blockAbilityChanges>
+
+      <_subarrays>
+
+      <abilityType>
+
+      </abilityType>
+
+      <ability>
+
+      </ability>
+
+      </_subarrays>
+
+      </blockAbilityChanges>
+
+      <blockItemChanges>
+
+      <_subarrays>
+
+      <itemType>
+
+      </itemType>
+
+      <item>
+
+      </item>
+
+      </_subarrays>
+
+      </blockItemChanges>
+
+      </blockChange>
+
+      <_subarrays>
+
+      <statusBonus>
+
+      </statusBonus>
+
+      <statusChangeModifier>
+
+      </statusChangeModifier>
+
+      <attackModifierBonus>
+
+      </attackModifierBonus>
+
+      <defenceModifierBonus>
+
+      </defenceModifierBonus>
+
+      </_subarrays>
+
+      </setting>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0
+  sortAtEnd: 0

@@ -1,0 +1,908 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -326218779, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: UnEquip_Helmet_A_Schematic
+  m_EditorClassIdentifier: 
+  time: 28/04/2023 11:37:17
+  version: 2.12.0
+  data:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata maxNodes="100" startIndex="0" stopIndex="-1" endIndex="-1"
+      nodeLayer="0" nodeGroup="-1" >
+
+      <_bool limitNodes="False" closeAllDialogues="False"
+      blockPlayer="False" blockCamera="False" clearBlocks="False" storeInitialCameraPosition="False"
+      mainCamera="True" cameraTag="False" clearActors="True" clearPrefabs="True"
+      clearVariables="False" clearSelectedData="False" useUnityTimeScale="True" useMakinomTimeScale="True"
+      initVarsEachRun="False" destroyPrefabs="False" removePrefabSaver="True" useEndSlots="False"
+      overrideNodeName="False" />
+
+      <_floatarrays>
+
+      <nodePosition -399
+      -114 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <cameraName><![CDATA[]]></cameraName>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.SchematicSettings]]></_type>
+
+      </_string>
+
+      <_stringarrays>
+
+      <layer>
+
+      <0><![CDATA[Base
+      Layer]]></0>
+
+      </layer>
+
+      </_stringarrays>
+
+      <initialVariables>
+
+      <_subarrays>
+
+      <variable>
+
+      </variable>
+
+      </_subarrays>
+
+      </initialVariables>
+
+      <_subarrays>
+
+      <machineStartVariable>
+
+      </machineStartVariable>
+
+      <actor>
+
+      <0>
+
+      <_bool
+      useSceneObject="True" setName="False" />
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.ORKFramework.Schematics.ORKPlayerActorType]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.Schematics.ORKPlayerActorType]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <_subarrays>
+
+      <portrait>
+
+      </portrait>
+
+      </_subarrays>
+
+      </0>
+
+      </actor>
+
+      <prefab>
+
+      </prefab>
+
+      <audioClip>
+
+      </audioClip>
+
+      <audioMixer>
+
+      </audioMixer>
+
+      <audioMixerGroup>
+
+      </audioMixerGroup>
+
+      <sprite>
+
+      </sprite>
+
+      <texture>
+
+      </texture>
+
+      <material>
+
+      </material>
+
+      <physicMaterial>
+
+      </physicMaterial>
+
+      <physicsMaterial2D>
+
+      </physicsMaterial2D>
+
+      <node>
+
+      <0
+      next="1" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool useChildObjects="False"
+      active="True" executeOnStop="False" isBreakpoint="False" overrideNodeName="False"
+      />
+
+      <_floatarrays>
+
+      <nodePosition -133 -114 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.Nodes.SelectGameObjectsNode]]></_type>
+
+      </_string>
+
+      <dataChange
+      changeType="2" >
+
+      <selectedData origin="0" objectScope="1" >
+
+      <key>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <value><![CDATA[helmet]]></value>
+
+      <_type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </key>
+
+      </selectedData>
+
+      </dataChange>
+
+      <usedObject
+      type="0" actorID="0" prefabID="0" prefabID2="-1" >
+
+      <_bool selectedOnlyGameObjects="False"
+      useRoot="True" />
+
+      <_string>
+
+      <childName><![CDATA[Mesh/Model/Helmet_A]]></childName>
+
+      </_string>
+
+      </usedObject>
+
+      <filter
+      needed="0" neededDistance="0" neededAngle="0" >
+
+      <variableCondition needed="0"
+      >
+
+      <_subarrays>
+
+      <variable>
+
+      </variable>
+
+      </_subarrays>
+
+      </variableCondition>
+
+      <_subarrays>
+
+      <objectCheck>
+
+      </objectCheck>
+
+      <distanceCheck>
+
+      </distanceCheck>
+
+      <angleCheck>
+
+      </angleCheck>
+
+      <excludeObject>
+
+      </excludeObject>
+
+      </_subarrays>
+
+      </filter>
+
+      </0>
+
+      <1
+      next="2" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool useChildObjects="False"
+      active="True" executeOnStop="False" isBreakpoint="False" overrideNodeName="False"
+      />
+
+      <_floatarrays>
+
+      <nodePosition -133 -57 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.Nodes.SelectGameObjectsNode]]></_type>
+
+      </_string>
+
+      <dataChange
+      changeType="2" >
+
+      <selectedData origin="0" objectScope="1" >
+
+      <key>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <value><![CDATA[hair]]></value>
+
+      <_type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </key>
+
+      </selectedData>
+
+      </dataChange>
+
+      <usedObject
+      type="0" actorID="0" prefabID="0" prefabID2="-1" >
+
+      <_bool selectedOnlyGameObjects="False"
+      useRoot="True" />
+
+      <_string>
+
+      <childName><![CDATA[Mesh/Model/Beard_01]]></childName>
+
+      </_string>
+
+      </usedObject>
+
+      <filter
+      needed="0" neededDistance="0" neededAngle="0" >
+
+      <variableCondition needed="0"
+      >
+
+      <_subarrays>
+
+      <variable>
+
+      </variable>
+
+      </_subarrays>
+
+      </variableCondition>
+
+      <_subarrays>
+
+      <objectCheck>
+
+      </objectCheck>
+
+      <distanceCheck>
+
+      </distanceCheck>
+
+      <angleCheck>
+
+      </angleCheck>
+
+      <excludeObject>
+
+      </excludeObject>
+
+      </_subarrays>
+
+      </filter>
+
+      </1>
+
+      <2
+      next="3" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool useChildObjects="False"
+      active="True" executeOnStop="False" isBreakpoint="False" overrideNodeName="False"
+      />
+
+      <_floatarrays>
+
+      <nodePosition -133 0 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.Nodes.SelectGameObjectsNode]]></_type>
+
+      </_string>
+
+      <dataChange
+      changeType="0" >
+
+      <selectedData origin="0" objectScope="1" >
+
+      <key>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <value><![CDATA[hair]]></value>
+
+      <_type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </key>
+
+      </selectedData>
+
+      </dataChange>
+
+      <usedObject
+      type="0" actorID="0" prefabID="0" prefabID2="-1" >
+
+      <_bool selectedOnlyGameObjects="False"
+      useRoot="True" />
+
+      <_string>
+
+      <childName><![CDATA[Mesh/Model/Beard_20]]></childName>
+
+      </_string>
+
+      </usedObject>
+
+      <filter
+      needed="0" neededDistance="0" neededAngle="0" >
+
+      <variableCondition needed="0"
+      >
+
+      <_subarrays>
+
+      <variable>
+
+      </variable>
+
+      </_subarrays>
+
+      </variableCondition>
+
+      <_subarrays>
+
+      <objectCheck>
+
+      </objectCheck>
+
+      <distanceCheck>
+
+      </distanceCheck>
+
+      <angleCheck>
+
+      </angleCheck>
+
+      <excludeObject>
+
+      </excludeObject>
+
+      </_subarrays>
+
+      </filter>
+
+      </2>
+
+      <3
+      next="4" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool useChildObjects="False"
+      active="True" executeOnStop="False" isBreakpoint="False" overrideNodeName="False"
+      />
+
+      <_floatarrays>
+
+      <nodePosition -133 57 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.Nodes.SelectGameObjectsNode]]></_type>
+
+      </_string>
+
+      <dataChange
+      changeType="0" >
+
+      <selectedData origin="0" objectScope="1" >
+
+      <key>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <value><![CDATA[hair]]></value>
+
+      <_type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </key>
+
+      </selectedData>
+
+      </dataChange>
+
+      <usedObject
+      type="0" actorID="0" prefabID="0" prefabID2="-1" >
+
+      <_bool selectedOnlyGameObjects="False"
+      useRoot="True" />
+
+      <_string>
+
+      <childName><![CDATA[Mesh/Model/Hair_01]]></childName>
+
+      </_string>
+
+      </usedObject>
+
+      <filter
+      needed="0" neededDistance="0" neededAngle="0" >
+
+      <variableCondition needed="0"
+      >
+
+      <_subarrays>
+
+      <variable>
+
+      </variable>
+
+      </_subarrays>
+
+      </variableCondition>
+
+      <_subarrays>
+
+      <objectCheck>
+
+      </objectCheck>
+
+      <distanceCheck>
+
+      </distanceCheck>
+
+      <angleCheck>
+
+      </angleCheck>
+
+      <excludeObject>
+
+      </excludeObject>
+
+      </_subarrays>
+
+      </filter>
+
+      </3>
+
+      <4
+      next="5" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool useChildObjects="False"
+      active="True" executeOnStop="False" isBreakpoint="False" overrideNodeName="False"
+      />
+
+      <_floatarrays>
+
+      <nodePosition -133 114 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.Nodes.SelectGameObjectsNode]]></_type>
+
+      </_string>
+
+      <dataChange
+      changeType="0" >
+
+      <selectedData origin="0" objectScope="1" >
+
+      <key>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <value><![CDATA[hair]]></value>
+
+      <_type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </key>
+
+      </selectedData>
+
+      </dataChange>
+
+      <usedObject
+      type="0" actorID="0" prefabID="0" prefabID2="-1" >
+
+      <_bool selectedOnlyGameObjects="False"
+      useRoot="True" />
+
+      <_string>
+
+      <childName><![CDATA[Mesh/Model/Hair_20]]></childName>
+
+      </_string>
+
+      </usedObject>
+
+      <filter
+      needed="0" neededDistance="0" neededAngle="0" >
+
+      <variableCondition needed="0"
+      >
+
+      <_subarrays>
+
+      <variable>
+
+      </variable>
+
+      </_subarrays>
+
+      </variableCondition>
+
+      <_subarrays>
+
+      <objectCheck>
+
+      </objectCheck>
+
+      <distanceCheck>
+
+      </distanceCheck>
+
+      <angleCheck>
+
+      </angleCheck>
+
+      <excludeObject>
+
+      </excludeObject>
+
+      </_subarrays>
+
+      </filter>
+
+      </4>
+
+      <5
+      next="6" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool setActive="False" waitBetween="True"
+      active="True" executeOnStop="False" isBreakpoint="False" overrideNodeName="False"
+      />
+
+      <_floatarrays>
+
+      <nodePosition 133 -114 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.Nodes.ActivateObjectNode]]></_type>
+
+      </_string>
+
+      <usedObject
+      type="6" actorID="0" prefabID="0" prefabID2="-1" >
+
+      <_bool selectedOnlyGameObjects="True"
+      useRoot="False" />
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      <selectedData
+      origin="0" objectScope="1" >
+
+      <key>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <value><![CDATA[helmet]]></value>
+
+      <_type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </key>
+
+      </selectedData>
+
+      </usedObject>
+
+      <timeBetweenValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </timeBetweenValue>
+
+      </5>
+
+      <6
+      next="-1" nodeLayer="0" nodeGroup="-1" >
+
+      <_bool setActive="True" waitBetween="True"
+      active="True" executeOnStop="False" isBreakpoint="False" overrideNodeName="False"
+      />
+
+      <_floatarrays>
+
+      <nodePosition 133 -57 />
+
+      </_floatarrays>
+
+      <_string>
+
+      <nodeName><![CDATA[]]></nodeName>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.Nodes.ActivateObjectNode]]></_type>
+
+      </_string>
+
+      <usedObject
+      type="6" actorID="0" prefabID="0" prefabID2="-1" >
+
+      <_bool selectedOnlyGameObjects="True"
+      useRoot="False" />
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      <selectedData
+      origin="0" objectScope="1" >
+
+      <key>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <value><![CDATA[hair]]></value>
+
+      <_type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </key>
+
+      </selectedData>
+
+      </usedObject>
+
+      <timeBetweenValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </timeBetweenValue>
+
+      </6>
+
+      </node>
+
+      <group>
+
+      </group>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0

@@ -1,0 +1,306 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1229767909, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: Battle Grid Highlights
+  m_EditorClassIdentifier: 
+  data:
+    name: Battle Grid Highlights
+    byteData: 
+    xmlData: '<xmldata>
+
+      <_bool hideUnusedPrefabs="True" useCombatantCells="False"
+      uiHidesCombatantCells="False" useTurnEndedCombatantCells="False" useCombatantSelections="False"
+      uiHidesCombatantSelections="False" uiHidesPlacement="False" uiHidesMoveCommand="False"
+      moveRangeBlockedHighlightOccupied="True" uiHidesAvailableTarget="False" availableTargetActionSelection="False"
+      availableTargetTargetSelection="False" availableTargetTooltip="False" availableTargetAboveAffectRange="True"
+      uiHidesSelectedTarget="False" uiHidesTargetCell="False" uiHidesOrientation="False"
+      uiHidesMarkedCell="False" uiHidesUseRange="False" useRangeActionSelection="False"
+      useRangeTargetSelection="False" useRangeTooltip="False" uiHidesAffectRange="False"
+      affectRangeActionSelection="False" affectRangeTargetSelection="False" affectRangeTooltip="False"
+      uiHidesExamine="False" examineCombatantIsBlocked="False" uiHidesSelectingCombatant="False"
+      selectingPriority="False" selectingCombatantActionSelection="False" selectingCombatantTargetSelection="False"
+      selectingCombatantTooltip="False" uiHidesGridFormation="False" uiHidesCustom="False"
+      />
+
+      <areaHighlight>
+
+      <_subarrays>
+
+      <highlight>
+
+      </highlight>
+
+      </_subarrays>
+
+      </areaHighlight>
+
+      <selectionHighlight>
+
+      <_subarrays>
+
+      <highlight>
+
+      </highlight>
+
+      </_subarrays>
+
+      </selectionHighlight>
+
+      <noSelectionHighlight>
+
+      <_subarrays>
+
+      <highlight>
+
+      </highlight>
+
+      </_subarrays>
+
+      </noSelectionHighlight>
+
+      <placementHighlight
+      baseType="0" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </placementHighlight>
+
+      <placementSelectionHighlight
+      baseType="1" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </placementSelectionHighlight>
+
+      <noPlacementSelectionHighlight
+      baseType="2" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </noPlacementSelectionHighlight>
+
+      <moveRangeHighlight
+      baseType="0" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </moveRangeHighlight>
+
+      <moveRangeBlockedHighlight
+      baseType="0" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </moveRangeBlockedHighlight>
+
+      <moveRangePassableHighlight
+      baseType="0" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </moveRangePassableHighlight>
+
+      <moveSelectionHighlight
+      baseType="1" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </moveSelectionHighlight>
+
+      <noMoveSelectionHighlight
+      baseType="2" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </noMoveSelectionHighlight>
+
+      <movePathHighlight
+      baseType="0" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </movePathHighlight>
+
+      <availableTargetPlayerHighlight
+      baseType="1" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </availableTargetPlayerHighlight>
+
+      <availableTargetAllyHighlight
+      baseType="1" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </availableTargetAllyHighlight>
+
+      <availableTargetEnemyHighlight
+      baseType="1" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </availableTargetEnemyHighlight>
+
+      <selectedTargetPlayerHighlight
+      baseType="1" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </selectedTargetPlayerHighlight>
+
+      <selectedTargetAllyHighlight
+      baseType="1" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </selectedTargetAllyHighlight>
+
+      <selectedTargetEnemyHighlight
+      baseType="1" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </selectedTargetEnemyHighlight>
+
+      <targetCellSelectionHighlight
+      baseType="1" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </targetCellSelectionHighlight>
+
+      <noTargetCellSelectionHighlight
+      baseType="2" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </noTargetCellSelectionHighlight>
+
+      <orientationSelectionHighlight
+      baseType="1" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </orientationSelectionHighlight>
+
+      <markedCellHighlight
+      baseType="0" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </markedCellHighlight>
+
+      <useRangeHighlight
+      baseType="0" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </useRangeHighlight>
+
+      <affectRangeHighlight
+      baseType="0" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </affectRangeHighlight>
+
+      <examineHighlight
+      baseType="1" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </examineHighlight>
+
+      <examineBlockedHighlight
+      baseType="1" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </examineBlockedHighlight>
+
+      <selectingPlayerHighlight
+      baseType="1" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </selectingPlayerHighlight>
+
+      <selectingAllyHighlight
+      baseType="1" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </selectingAllyHighlight>
+
+      <selectingEnemyHighlight
+      baseType="1" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </selectingEnemyHighlight>
+
+      <gridFormationHighlight
+      baseType="0" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </gridFormationHighlight>
+
+      <gridFormationPositionHighlight
+      baseType="1" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </gridFormationPositionHighlight>
+
+      <customHighlight
+      baseType="0" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </customHighlight>
+
+      <customHighlight2
+      baseType="0" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </customHighlight2>
+
+      <customHighlight3
+      baseType="0" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </customHighlight3>
+
+      <customHighlight4
+      baseType="0" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </customHighlight4>
+
+      <customHighlight5
+      baseType="0" >
+
+      <_bool enable="False" ownHighlight="False" />
+
+      </customHighlight5>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0

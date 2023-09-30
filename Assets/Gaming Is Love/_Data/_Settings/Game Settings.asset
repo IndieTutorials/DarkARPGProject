@@ -1,0 +1,351 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1229767909, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: Game Settings
+  m_EditorClassIdentifier: 
+  data:
+    name: Game Settings
+    byteData: 
+    xmlData: '<xmldata horizontalPlane="0" raycastType="2" defaultRounding="0" dataSaveFormat="1"
+      >
+
+      <_float minRandomRange="0" maxRandomRange="100" startGlobalVolume="1"
+      startMusicVolume="1" startSoundVolume="1" />
+
+      <_bool encryptData="False"
+      />
+
+      <visibilityCheck type="0" >
+
+      <_floatarrays>
+
+      <viewportPadding
+      0 0 0 />
+
+      </_floatarrays>
+
+      </visibilityCheck>
+
+      <defaultScreenFade>
+
+      <_bool
+      useFadeOut="True" useFadeIn="True" waitFadeIn="False" />
+
+      <fadeOut>
+
+      <_float
+      time="0.5" />
+
+      <_bool alpha="True" red="True" green="True" blue="True"
+      fromCurrent="False" />
+
+      <_floatarrays>
+
+      <startColor 0 0 0 0 />
+
+      <endColor
+      0 0 0 1 />
+
+      </_floatarrays>
+
+      <interpolation>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.LinearInterpolation]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.LinearInterpolation]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </interpolation>
+
+      </fadeOut>
+
+      <fadeIn>
+
+      <_float
+      time="0.5" />
+
+      <_bool alpha="True" red="True" green="True" blue="True"
+      fromCurrent="False" />
+
+      <_floatarrays>
+
+      <startColor 0 0 0 1 />
+
+      <endColor
+      0 0 0 0 />
+
+      </_floatarrays>
+
+      <interpolation>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.LinearInterpolation]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.LinearInterpolation]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </interpolation>
+
+      </fadeIn>
+
+      </defaultScreenFade>
+
+      <initialVariables>
+
+      <_subarrays>
+
+      <variable>
+
+      </variable>
+
+      </_subarrays>
+
+      </initialVariables>
+
+      <assetSettings
+      defaultAssetBundleLoadType="0" >
+
+      <_bool unloadResourcesOnSceneChange="False"
+      unloadAssetBundlesOnSceneChange="False" />
+
+      <defaultAssetBundlePath pathOrigin="3"
+      >
+
+      <_string>
+
+      <path><![CDATA[]]></path>
+
+      </_string>
+
+      </defaultAssetBundlePath>
+
+      <_subarrays>
+
+      <loadAssetBundle>
+
+      </loadAssetBundle>
+
+      </_subarrays>
+
+      </assetSettings>
+
+      <unityWrapper>
+
+      <_string>
+
+      <instantiateType><![CDATA[GamingIsLove.Makinom.UnityInstantiateSetting]]></instantiateType>
+
+      <destroyType><![CDATA[GamingIsLove.Makinom.UnityDestroySetting]]></destroyType>
+
+      <loadSceneType><![CDATA[GamingIsLove.Makinom.UnityLoadSceneSetting]]></loadSceneType>
+
+      <randomNumberType><![CDATA[GamingIsLove.Makinom.UnityRandomNumberSetting]]></randomNumberType>
+
+      </_string>
+
+      <instantiateSettings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UnityInstantiateSetting]]></_type>
+
+      </_string>
+
+      </instantiateSettings>
+
+      <destroySettings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UnityDestroySetting]]></_type>
+
+      </_string>
+
+      </destroySettings>
+
+      <loadSceneSettings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UnityLoadSceneSetting]]></_type>
+
+      </_string>
+
+      </loadSceneSettings>
+
+      <randomNumberSettings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UnityRandomNumberSetting]]></_type>
+
+      </_string>
+
+      </randomNumberSettings>
+
+      </unityWrapper>
+
+      <performance>
+
+      <_bool
+      autoDataInit="False" />
+
+      <variableHandlerLists poolSize="30" trimExcessSize="250"
+      >
+
+      <_bool trimExcess="False" />
+
+      </variableHandlerLists>
+
+      <selectedDataHandlerLists
+      poolSize="30" trimExcessSize="250" >
+
+      <_bool trimExcess="False" />
+
+      </selectedDataHandlerLists>
+
+      <gameObjectLists
+      poolSize="30" trimExcessSize="250" >
+
+      <_bool trimExcess="False" />
+
+      </gameObjectLists>
+
+      <objectLists
+      poolSize="30" trimExcessSize="250" >
+
+      <_bool trimExcess="False" />
+
+      </objectLists>
+
+      </performance>
+
+      <_subarrays>
+
+      <soundChannel>
+
+      <0
+      channel="0" >
+
+      <_float startVolume="1" />
+
+      <mixerGroup>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mixerGroup>
+
+      </0>
+
+      <1
+      channel="1" >
+
+      <_float startVolume="1" />
+
+      <mixerGroup>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mixerGroup>
+
+      </1>
+
+      <2
+      channel="2" >
+
+      <_float startVolume="1" />
+
+      <mixerGroup>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mixerGroup>
+
+      </2>
+
+      </soundChannel>
+
+      <musicChannel>
+
+      </musicChannel>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0

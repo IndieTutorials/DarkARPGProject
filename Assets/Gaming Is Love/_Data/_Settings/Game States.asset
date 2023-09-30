@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1229767909, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: Game States
+  m_EditorClassIdentifier: 
+  data:
+    name: Game States
+    byteData: 
+    xmlData: '<xmldata>
+
+      <_subarrays>
+
+      <assets>
+
+      <0>
+
+      <_asset
+      asset="0" />
+
+      </0>
+
+      <1>
+
+      <_asset asset="1" />
+
+      </1>
+
+      <2>
+
+      <_asset
+      asset="2" />
+
+      </2>
+
+      <3>
+
+      <_asset asset="3" />
+
+      </3>
+
+      <4>
+
+      <_asset
+      asset="4" />
+
+      </4>
+
+      <5>
+
+      <_asset asset="5" />
+
+      </5>
+
+      <6>
+
+      <_asset
+      asset="6" />
+
+      </6>
+
+      <7>
+
+      <_asset asset="7" />
+
+      </7>
+
+      </assets>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 11400000, guid: a87b26469bc652142b33da733b301e5b, type: 2}
+      - {fileID: 11400000, guid: 6279daca2aadf8546a4ee7829caed3af, type: 2}
+      - {fileID: 11400000, guid: 79043b60a482e6143bba59effd5451e7, type: 2}
+      - {fileID: 11400000, guid: ac6c751c584aff64aa5f42ada2d04be4, type: 2}
+      - {fileID: 11400000, guid: 658b1e2cb55b7ac4491b43729d17a6b1, type: 2}
+      - {fileID: 11400000, guid: 3fc816148f7a2c1488f7555ed5316008, type: 2}
+      - {fileID: 11400000, guid: c74eda3ced0082e46aa7eb8218d0485c, type: 2}
+      - {fileID: 11400000, guid: cb51eeb4ef48a504b862c10e5141b7fa, type: 2}
+    encrypted: 0

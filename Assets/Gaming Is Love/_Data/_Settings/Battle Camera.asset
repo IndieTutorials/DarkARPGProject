@@ -1,0 +1,391 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1229767909, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: Battle Camera
+  m_EditorClassIdentifier: 
+  data:
+    name: Battle Camera
+    byteData: 
+    xmlData: '<xmldata type="0" >
+
+      <_float lookAtDamping="5" rotationSpeed="0"
+      />
+
+      <_bool useCombatantCenter="False" rememberPosition="False" limitRotation="False"
+      toggleClearLookTargets="False" toggleOnlyPlayerChoosing="False" cameraControlTarget="False"
+      cameraControlTargetSelectingPlayer="True" cameraControlTargetArena="True" ownControlTargetTransition="False"
+      />
+
+      <_floatarrays>
+
+      <rotationAxis 0 0 0 />
+
+      <minRotation
+      0 0 0 />
+
+      <maxRotation 0 0 0 />
+
+      </_floatarrays>
+
+      <toggleKey
+      channel="0" >
+
+      <_float volume="1" />
+
+      <_bool toggleStartState="True"
+      useKey="False" onlyWhileKey="False" />
+
+      <toggleKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </toggleKey>
+
+      </toggleKey>
+
+      <latestDamage
+      type="1" >
+
+      <_float time="0" chance="100" />
+
+      <_bool enable="False"
+      targetArena="False" cameraControlTargetReset="False" ownControlTargetTransition="False"
+      />
+
+      <childObject type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
+
+      <requirement
+      distanceOrigin="0" >
+
+      <_float minDistance="1" maxDistance="10" horizontalViewport="0.25"
+      verticalViewport="0.25" />
+
+      <_bool useMinDistance="False" useMaxDistance="False"
+      useViewport="False" />
+
+      <ignoreDistance>
+
+      <_bool x="False" y="False"
+      z="False" />
+
+      </ignoreDistance>
+
+      </requirement>
+
+      <_subarrays>
+
+      <camPos>
+
+      </camPos>
+
+      </_subarrays>
+
+      </latestDamage>
+
+      <latestDamageActionBlock>
+
+      <_bool
+      blockBaseAttack="False" blockCounterAttack="False" blockDefend="False" blockEscape="False"
+      blockDeath="False" blockNone="False" blockChangeMember="False" blockJoin="False"
+      blockGridMove="False" blockAbilities="False" blockItems="False" />
+
+      <blockAbilityUse>
+
+      <_subarrays>
+
+      <abilityType>
+
+      </abilityType>
+
+      <ability>
+
+      </ability>
+
+      </_subarrays>
+
+      </blockAbilityUse>
+
+      <blockItemUse>
+
+      <_subarrays>
+
+      <itemType>
+
+      </itemType>
+
+      <item>
+
+      </item>
+
+      </_subarrays>
+
+      </blockItemUse>
+
+      </latestDamageActionBlock>
+
+      <latestUser
+      type="1" >
+
+      <_float time="0" chance="100" />
+
+      <_bool enable="False"
+      targetArena="False" cameraControlTargetReset="False" ownControlTargetTransition="False"
+      />
+
+      <childObject type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
+
+      <requirement
+      distanceOrigin="0" >
+
+      <_float minDistance="1" maxDistance="10" horizontalViewport="0.25"
+      verticalViewport="0.25" />
+
+      <_bool useMinDistance="False" useMaxDistance="False"
+      useViewport="False" />
+
+      <ignoreDistance>
+
+      <_bool x="False" y="False"
+      z="False" />
+
+      </ignoreDistance>
+
+      </requirement>
+
+      <_subarrays>
+
+      <camPos>
+
+      </camPos>
+
+      </_subarrays>
+
+      </latestUser>
+
+      <latestUserActionBlock>
+
+      <_bool
+      blockBaseAttack="False" blockCounterAttack="False" blockDefend="False" blockEscape="False"
+      blockDeath="False" blockNone="False" blockChangeMember="False" blockJoin="False"
+      blockGridMove="False" blockAbilities="False" blockItems="False" />
+
+      <blockAbilityUse>
+
+      <_subarrays>
+
+      <abilityType>
+
+      </abilityType>
+
+      <ability>
+
+      </ability>
+
+      </_subarrays>
+
+      </blockAbilityUse>
+
+      <blockItemUse>
+
+      <_subarrays>
+
+      <itemType>
+
+      </itemType>
+
+      <item>
+
+      </item>
+
+      </_subarrays>
+
+      </blockItemUse>
+
+      </latestUserActionBlock>
+
+      <selectingUser
+      type="1" >
+
+      <_float time="0" chance="100" />
+
+      <_bool enable="False"
+      targetArena="False" cameraControlTargetReset="False" ownControlTargetTransition="False"
+      />
+
+      <childObject type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
+
+      <requirement
+      distanceOrigin="0" >
+
+      <_float minDistance="1" maxDistance="10" horizontalViewport="0.25"
+      verticalViewport="0.25" />
+
+      <_bool useMinDistance="False" useMaxDistance="False"
+      useViewport="False" />
+
+      <ignoreDistance>
+
+      <_bool x="False" y="False"
+      z="False" />
+
+      </ignoreDistance>
+
+      </requirement>
+
+      <_subarrays>
+
+      <camPos>
+
+      </camPos>
+
+      </_subarrays>
+
+      </selectingUser>
+
+      <menuUser
+      type="1" >
+
+      <_float time="0" chance="100" />
+
+      <_bool enable="False"
+      targetArena="False" cameraControlTargetReset="False" ownControlTargetTransition="False"
+      />
+
+      <childObject type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
+
+      <requirement
+      distanceOrigin="0" >
+
+      <_float minDistance="1" maxDistance="10" horizontalViewport="0.25"
+      verticalViewport="0.25" />
+
+      <_bool useMinDistance="False" useMaxDistance="False"
+      useViewport="False" />
+
+      <ignoreDistance>
+
+      <_bool x="False" y="False"
+      z="False" />
+
+      </ignoreDistance>
+
+      </requirement>
+
+      <_subarrays>
+
+      <camPos>
+
+      </camPos>
+
+      </_subarrays>
+
+      </menuUser>
+
+      <selection
+      type="1" >
+
+      <_float time="0" chance="100" />
+
+      <_bool enable="False"
+      targetArena="False" cameraControlTargetReset="False" ownControlTargetTransition="False"
+      />
+
+      <childObject type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
+
+      <requirement
+      distanceOrigin="0" >
+
+      <_float minDistance="1" maxDistance="10" horizontalViewport="0.25"
+      verticalViewport="0.25" />
+
+      <_bool useMinDistance="False" useMaxDistance="False"
+      useViewport="False" />
+
+      <ignoreDistance>
+
+      <_bool x="False" y="False"
+      z="False" />
+
+      </ignoreDistance>
+
+      </requirement>
+
+      <_subarrays>
+
+      <camPos>
+
+      </camPos>
+
+      </_subarrays>
+
+      </selection>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0

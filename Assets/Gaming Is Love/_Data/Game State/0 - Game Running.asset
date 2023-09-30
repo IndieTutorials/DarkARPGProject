@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 130964126, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: 0 - Game Running
+  m_EditorClassIdentifier: 
+  data:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata realID="0" >
+
+      <_bool initialState="False" resetInitialState="True"
+      />
+
+      <_string>
+
+      <name><![CDATA[Game Running]]></name>
+
+      <guid><![CDATA[GameRunning]]></guid>
+
+      </_string>
+
+      <_subarrays>
+
+      <autoActivate>
+
+      <0>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.StartGameGameStateChangeType]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.StartGameGameStateChangeType]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </0>
+
+      </autoActivate>
+
+      <autoInactivate>
+
+      <0>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.StopGameGameStateChangeType]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.StopGameGameStateChangeType]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </0>
+
+      </autoInactivate>
+
+      <activeChange>
+
+      </activeChange>
+
+      <inactiveChange>
+
+      </inactiveChange>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0
+  sortAtEnd: 0

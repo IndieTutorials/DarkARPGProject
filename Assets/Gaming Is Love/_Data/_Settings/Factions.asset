@@ -1,0 +1,227 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1229767909, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: Factions
+  m_EditorClassIdentifier: 
+  data:
+    name: Factions
+    byteData: 
+    xmlData: '<xmldata>
+
+      <_float min="-1000" max="1000" />
+
+      <_subarrays>
+
+      <sympathy>
+
+      <0>
+
+      <_float
+      sympathy="-1000" />
+
+      <faction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="0" />
+
+      </settings>
+
+      </faction>
+
+      <faction2>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="1" />
+
+      </settings>
+
+      </faction2>
+
+      </0>
+
+      <1>
+
+      <_float
+      sympathy="1000" />
+
+      <faction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="2" />
+
+      </settings>
+
+      </faction>
+
+      <faction2>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="3" />
+
+      </settings>
+
+      </faction2>
+
+      </1>
+
+      <2>
+
+      <_float
+      sympathy="-100" />
+
+      <faction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="4" />
+
+      </settings>
+
+      </faction>
+
+      <faction2>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="5" />
+
+      </settings>
+
+      </faction2>
+
+      </2>
+
+      </sympathy>
+
+      <assets>
+
+      <0>
+
+      <_asset
+      asset="6" />
+
+      </0>
+
+      <1>
+
+      <_asset asset="7" />
+
+      </1>
+
+      <2>
+
+      <_asset
+      asset="8" />
+
+      </2>
+
+      </assets>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 11400000, guid: 6c3767dfd4384b749875129232f6b3db, type: 2}
+      - {fileID: 11400000, guid: 7aa634dab335b4e459e03fa559a1a995, type: 2}
+      - {fileID: 11400000, guid: 6c3767dfd4384b749875129232f6b3db, type: 2}
+      - {fileID: 11400000, guid: b2855342cfe4d984aad3fdfa7cd41083, type: 2}
+      - {fileID: 11400000, guid: 7aa634dab335b4e459e03fa559a1a995, type: 2}
+      - {fileID: 11400000, guid: b2855342cfe4d984aad3fdfa7cd41083, type: 2}
+      - {fileID: 11400000, guid: 6c3767dfd4384b749875129232f6b3db, type: 2}
+      - {fileID: 11400000, guid: 7aa634dab335b4e459e03fa559a1a995, type: 2}
+      - {fileID: 11400000, guid: b2855342cfe4d984aad3fdfa7cd41083, type: 2}
+    encrypted: 0

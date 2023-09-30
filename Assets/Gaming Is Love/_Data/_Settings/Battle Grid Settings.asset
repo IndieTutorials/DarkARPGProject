@@ -1,0 +1,482 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1229767909, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: Battle Grid Settings
+  m_EditorClassIdentifier: 
+  data:
+    name: Battle Grid Settings
+    byteData: 
+    xmlData: '<xmldata type="0" hexagonalType="2" rayLayerMask="-1" >
+
+      <_float
+      cellSize="1" rayDistance="100" />
+
+      <_bool squareDiagonalDistanceOne="False"
+      />
+
+      <_floatarrays>
+
+      <cellOffset 0 0 />
+
+      </_floatarrays>
+
+      <horizontalPlane
+      type="0" >
+
+      </horizontalPlane>
+
+      <cellSelection channel="0" >
+
+      <_float
+      axisMinimum="0.3" cameraDirectionOffset="0" cursorTimeout="0.25" mouseSelectionRange="5"
+      selectVolume="1" acceptVolume="1" cancelVolume="1" failVolume="1" />
+
+      <_bool
+      useInputSelection="False" useCameraDirection="True" mouseHoverSelect="False"
+      mouseHoverUIBlock="False" mouseMoveOnly="False" mouseAcceptOnlySelected="False"
+      mouseLimitSelectionRange="False" playHoverSelectAudio="False" />
+
+      <verticalAxis>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </verticalAxis>
+
+      <horizontalAxis>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </horizontalAxis>
+
+      <mouseTouch
+      type="0" mouseClick="0" fingerCount="1" clickCount="1" mode="0" >
+
+      <_float
+      timeout="0" />
+
+      <_bool allModes="False" pressedCursorOver="False" />
+
+      </mouseTouch>
+
+      <selectAudio>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </selectAudio>
+
+      <acceptAudio>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </acceptAudio>
+
+      <cancelAudio>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </cancelAudio>
+
+      <failAudio>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </failAudio>
+
+      </cellSelection>
+
+      <orientationSelection>
+
+      <_bool
+      onlyNeighbourCells="True" blockActionUse="False" rotateOnSelection="True" blockDiagonalRotation="False"
+      examineCell="False" examineCellCombatant="False" ownCancelKey="False" cameraControlTarget="False"
+      ownControlTargetTransition="False" showInfo="False" showAcceptQuestion="False"
+      ownCellSelection="False" />
+
+      </orientationSelection>
+
+      <combatantPlacement>
+
+      <_bool
+      selectBattleGroup="False" useWholeGroup="True" showSelection="False" cancelRemovePlaced="False"
+      rememberCell="False" placeOnSelection="False" allowCancelCell="True" cellOwnCancelKey="False"
+      examineCell="False" examineCellCombatant="False" selectOrientation="False"
+      allowCancelOrientation="True" cameraControlTarget="False" ownControlTargetTransition="False"
+      showInfo="False" showAcceptQuestion="False" ownCellSelection="False" />
+
+      <combatantSorter
+      sorting="0" >
+
+      <_bool invert="False" />
+
+      </combatantSorter>
+
+      <_subarrays>
+
+      <combatantInfoDisplay>
+
+      </combatantInfoDisplay>
+
+      </_subarrays>
+
+      </combatantPlacement>
+
+      <moveCommand>
+
+      <_bool
+      useOnlyOnce="False" useOnlyOncePlayer="True" useOnlyOnceAlly="True" useOnlyOnceEnemy="True"
+      markTargetCell="True" allowCancel="False" cancelUserCell="False" ownCancelKey="False"
+      blockActionUse="False" startFromUser="True" rotateToCell="False" gridRotation="False"
+      examineCell="False" examineCellCombatant="False" useShortestPath="False" prioritizeDirection="False"
+      moveToOwnCells="False" moveOverAllies="False" moveOverEnemies="False" squareDiagonalMove="False"
+      squareDiagonalMoveBlockingCombatants="True" costSVShowFlyingText="False" costSVShowConsole="False"
+      cameraControlTarget="False" ownControlTargetTransition="False" showInfo="False"
+      infoOnlyAvailableCells="False" showAcceptQuestion="False" ownCellSelection="False"
+      />
+
+      <costStatusValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </costStatusValue>
+
+      <moveRange>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </moveRange>
+
+      <heightLimit>
+
+      <_bool
+      limitUpwardMove="False" limitDownwardMove="False" />
+
+      <maxUpwardDistance>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="1" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </maxUpwardDistance>
+
+      <maxDownwardDistance>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="1" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </maxDownwardDistance>
+
+      </heightLimit>
+
+      <battleAnimation>
+
+      <_subarrays>
+
+      <animation>
+
+      </animation>
+
+      </_subarrays>
+
+      </battleAnimation>
+
+      </moveCommand>
+
+      <targetCellSelection>
+
+      <_bool
+      allowCancel="False" ownCancelKey="False" blockActionUse="False" startFromUser="True"
+      rotateToCell="False" gridRotation="False" examineCell="False" examineCellCombatant="False"
+      cameraControlTarget="False" ownControlTargetTransition="False" showInfo="False"
+      showAcceptQuestion="False" ownCellSelection="False" />
+
+      </targetCellSelection>
+
+      <examine
+      channelMoveRange="0" channelAttackRange="0" >
+
+      <_float moveRangeVolume="1"
+      attackRangeVolume="1" />
+
+      <_bool allowCancel="False" ownCancelKey="False"
+      blockActionUse="False" alwaysActive="False" alwaysActiveDuringTargetSelection="False"
+      alwaysActiveDuringActions="False" alwaysActiveOnlyPlayerPhase="False" targetExamineCell="False"
+      targetExamineCellCombatant="False" cameraControlTarget="False" ownControlTargetTransition="False"
+      showInfo="False" ownCellSelection="False" showMoveRange="False" moveRangeMaxEnemy="True"
+      moveRangeMaxAlly="True" moveRangeAuto="False" showAttackRange="False" useCounterRange="False"
+      attackRangeAuto="False" />
+
+      <moveRangeKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </moveRangeKey>
+
+      <attackRangeKey>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </attackRangeKey>
+
+      <_subarrays>
+
+      <cellInfo>
+
+      </cellInfo>
+
+      <combatantInfoDisplay>
+
+      </combatantInfoDisplay>
+
+      </_subarrays>
+
+      </examine>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0

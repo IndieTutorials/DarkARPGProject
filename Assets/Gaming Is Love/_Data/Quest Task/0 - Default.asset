@@ -1,0 +1,388 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140980895, guid: 2f433824042009943be1767c00adb2ed, type: 3}
+  m_Name: 0 - Default
+  m_EditorClassIdentifier: 
+  data:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata realID="0" >
+
+      <_bool updateText="False" replaceTexts="False"
+      autoActivate="False" autoFinish="False" finishQuest="False" autoFail="False"
+      failQuest="False" ownTaskStatusIcons="False" ownConsoleInactivate="False" ownConsoleActivate="False"
+      ownConsoleFinish="False" ownConsoleFail="False" />
+
+      <_string>
+
+      <editorName><![CDATA[]]></editorName>
+
+      <guid><![CDATA[9c11444f-a045-4bab-8835-6886a537f7c2]]></guid>
+
+      </_string>
+
+      <quest>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </quest>
+
+      <reward>
+
+      <_subarrays>
+
+      <experience>
+
+      </experience>
+
+      <normalSV>
+
+      </normalSV>
+
+      <item>
+
+      </item>
+
+      </_subarrays>
+
+      </reward>
+
+      <activateSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </activateSchematicAsset>
+
+      <inactivateSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </inactivateSchematicAsset>
+
+      <activateRequirements
+      finishedTasksNeeded="0" itemsNeeded="0" enemyKillsNeeded="0" countsNeeded="0"
+      >
+
+      <conditions>
+
+      <_bool useConditions="False" />
+
+      </conditions>
+
+      <_subarrays>
+
+      <finishedTask>
+
+      </finishedTask>
+
+      <item>
+
+      </item>
+
+      <enemyKill>
+
+      </enemyKill>
+
+      <count>
+
+      </count>
+
+      </_subarrays>
+
+      </activateRequirements>
+
+      <finishSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </finishSchematicAsset>
+
+      <finishRequirements
+      finishedTasksNeeded="0" itemsNeeded="0" enemyKillsNeeded="0" countsNeeded="0"
+      >
+
+      <conditions>
+
+      <_bool useConditions="False" />
+
+      </conditions>
+
+      <_subarrays>
+
+      <finishedTask>
+
+      </finishedTask>
+
+      <item>
+
+      </item>
+
+      <enemyKill>
+
+      </enemyKill>
+
+      <count>
+
+      </count>
+
+      </_subarrays>
+
+      </finishRequirements>
+
+      <failSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </failSchematicAsset>
+
+      <failRequirements
+      finishedTasksNeeded="0" itemsNeeded="0" enemyKillsNeeded="0" countsNeeded="0"
+      >
+
+      <conditions>
+
+      <_bool useConditions="False" />
+
+      </conditions>
+
+      <_subarrays>
+
+      <finishedTask>
+
+      </finishedTask>
+
+      <item>
+
+      </item>
+
+      <enemyKill>
+
+      </enemyKill>
+
+      <count>
+
+      </count>
+
+      </_subarrays>
+
+      </failRequirements>
+
+      <languageContent
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <name>
+
+      <_string>
+
+      <text><![CDATA[Default]]></text>
+
+      </_string>
+
+      </name>
+
+      <shortName>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </shortName>
+
+      <description>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </description>
+
+      <icon>
+
+      <_string>
+
+      <textCode><![CDATA[]]></textCode>
+
+      </_string>
+
+      <image>
+
+      <sprite>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </sprite>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </image>
+
+      </icon>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </languageContent>
+
+      <_subarrays>
+
+      <navigationMarker>
+
+      </navigationMarker>
+
+      <activateLogText>
+
+      </activateLogText>
+
+      <finishLogText>
+
+      </finishLogText>
+
+      <failLogText>
+
+      </failLogText>
+
+      <customContent>
+
+      </customContent>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0
+  sortAtEnd: 0

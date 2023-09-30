@@ -1,0 +1,804 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1229767909, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: Cursor Settings
+  m_EditorClassIdentifier: 
+  data:
+    name: Cursor Settings
+    byteData: 
+    xmlData: '<xmldata>
+
+      <_bool resetSystemDefault="True" targetValidOriginBox="False"
+      targetValidOriginShortcut="False" inActionIgnoreDeath="False" showAttackRangeCursor="False"
+      attackRangeCursorOver="False" />
+
+      <defaultCursor cursorMode="0" >
+
+      <_floatarrays>
+
+      <hotSpot
+      0 0 />
+
+      </_floatarrays>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </defaultCursor>
+
+      <targetSelfValid
+      cursorMode="0" >
+
+      <_floatarrays>
+
+      <hotSpot 0 0 />
+
+      </_floatarrays>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </targetSelfValid>
+
+      <targetAllyValid
+      cursorMode="0" >
+
+      <_floatarrays>
+
+      <hotSpot 0 0 />
+
+      </_floatarrays>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </targetAllyValid>
+
+      <targetEnemyValid
+      cursorMode="0" >
+
+      <_floatarrays>
+
+      <hotSpot 0 0 />
+
+      </_floatarrays>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </targetEnemyValid>
+
+      <targetAllValid
+      cursorMode="0" >
+
+      <_floatarrays>
+
+      <hotSpot 0 0 />
+
+      </_floatarrays>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </targetAllValid>
+
+      <targetSelfInvalid
+      cursorMode="0" >
+
+      <_floatarrays>
+
+      <hotSpot 0 0 />
+
+      </_floatarrays>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </targetSelfInvalid>
+
+      <targetAllyInvalid
+      cursorMode="0" >
+
+      <_floatarrays>
+
+      <hotSpot 0 0 />
+
+      </_floatarrays>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </targetAllyInvalid>
+
+      <targetEnemyInvalid
+      cursorMode="0" >
+
+      <_floatarrays>
+
+      <hotSpot 0 0 />
+
+      </_floatarrays>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </targetEnemyInvalid>
+
+      <targetAllInvalid
+      cursorMode="0" >
+
+      <_floatarrays>
+
+      <hotSpot 0 0 />
+
+      </_floatarrays>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </targetAllInvalid>
+
+      <targetSelfNone
+      cursorMode="0" >
+
+      <_floatarrays>
+
+      <hotSpot 0 0 />
+
+      </_floatarrays>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </targetSelfNone>
+
+      <targetAllyNone
+      cursorMode="0" >
+
+      <_floatarrays>
+
+      <hotSpot 0 0 />
+
+      </_floatarrays>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </targetAllyNone>
+
+      <targetEnemyNone
+      cursorMode="0" >
+
+      <_floatarrays>
+
+      <hotSpot 0 0 />
+
+      </_floatarrays>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </targetEnemyNone>
+
+      <targetAllNone
+      cursorMode="0" >
+
+      <_floatarrays>
+
+      <hotSpot 0 0 />
+
+      </_floatarrays>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </targetAllNone>
+
+      <inActionPlayer
+      cursorMode="0" >
+
+      <_floatarrays>
+
+      <hotSpot 0 0 />
+
+      </_floatarrays>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </inActionPlayer>
+
+      <inActionAlly
+      cursorMode="0" >
+
+      <_floatarrays>
+
+      <hotSpot 0 0 />
+
+      </_floatarrays>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </inActionAlly>
+
+      <inActionEnemy
+      cursorMode="0" >
+
+      <_floatarrays>
+
+      <hotSpot 0 0 />
+
+      </_floatarrays>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </inActionEnemy>
+
+      <inAttackRange
+      cursorMode="0" >
+
+      <_floatarrays>
+
+      <hotSpot 0 0 />
+
+      </_floatarrays>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </inAttackRange>
+
+      <outOfAttackRange
+      cursorMode="0" >
+
+      <_floatarrays>
+
+      <hotSpot 0 0 />
+
+      </_floatarrays>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </outOfAttackRange>
+
+      <gridPlacementSelection
+      cursorMode="0" >
+
+      <_floatarrays>
+
+      <hotSpot 0 0 />
+
+      </_floatarrays>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </gridPlacementSelection>
+
+      <gridNoPlacementSelection
+      cursorMode="0" >
+
+      <_floatarrays>
+
+      <hotSpot 0 0 />
+
+      </_floatarrays>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </gridNoPlacementSelection>
+
+      <gridOrientationSelection
+      cursorMode="0" >
+
+      <_floatarrays>
+
+      <hotSpot 0 0 />
+
+      </_floatarrays>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </gridOrientationSelection>
+
+      <gridMoveSelection
+      cursorMode="0" >
+
+      <_floatarrays>
+
+      <hotSpot 0 0 />
+
+      </_floatarrays>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </gridMoveSelection>
+
+      <gridNoMoveSelection
+      cursorMode="0" >
+
+      <_floatarrays>
+
+      <hotSpot 0 0 />
+
+      </_floatarrays>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </gridNoMoveSelection>
+
+      <gridExamineSelection
+      cursorMode="0" >
+
+      <_floatarrays>
+
+      <hotSpot 0 0 />
+
+      </_floatarrays>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </gridExamineSelection>
+
+      <gridExamineSelectionBlocked
+      cursorMode="0" >
+
+      <_floatarrays>
+
+      <hotSpot 0 0 />
+
+      </_floatarrays>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </gridExamineSelectionBlocked>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0

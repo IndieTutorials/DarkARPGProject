@@ -1,0 +1,3334 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1229767909, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: Text Display Settings
+  m_EditorClassIdentifier: 
+  data:
+    name: Text Display Settings
+    byteData: 
+    xmlData: '<xmldata>
+
+      <_bool targetChangeDummyTargetUserLevel="False" targetChangeUseTooltipCombatant="False"
+      />
+
+      <quantityText>
+
+      <_bool ownAIBehaviourText="False" ownAIRulesetText="False"
+      ownCraftingRecipeText="False" ownCurrencyText="False" ownEquipmentText="False"
+      ownItemText="False" />
+
+      <defaultText>
+
+      <_bool useQuantityZeroText="False"
+      useQuantityOneText="False" />
+
+      <quantityText exportID="-1" >
+
+      <_bool
+      export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<quantity>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </quantityText>
+
+      </defaultText>
+
+      </quantityText>
+
+      <priceText>
+
+      <buyPriceText>
+
+      <_bool
+      usePriceZeroText="False" usePriceOneText="False" />
+
+      <priceText exportID="-1"
+      >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<price>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </priceText>
+
+      </buyPriceText>
+
+      <sellPriceText>
+
+      <_bool
+      usePriceZeroText="False" usePriceOneText="False" />
+
+      <priceText exportID="-1"
+      >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<price>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </priceText>
+
+      </sellPriceText>
+
+      </priceText>
+
+      <timeFormatting>
+
+      <defaultFormat>
+
+      <_string>
+
+      <format><![CDATA[<secondstotal>]]></format>
+
+      <secondsFormat><![CDATA[0]]></secondsFormat>
+
+      <minutesFormat><![CDATA[0]]></minutesFormat>
+
+      <hoursFormat><![CDATA[0]]></hoursFormat>
+
+      <daysFormat><![CDATA[0]]></daysFormat>
+
+      </_string>
+
+      </defaultFormat>
+
+      <_subarrays>
+
+      <conditionalFormat>
+
+      <0>
+
+      <timeCheck
+      type="5" >
+
+      <_float value="86400" value2="0" />
+
+      </timeCheck>
+
+      <formatText>
+
+      <_string>
+
+      <format><![CDATA[<days>d]]></format>
+
+      <secondsFormat><![CDATA[0]]></secondsFormat>
+
+      <minutesFormat><![CDATA[0]]></minutesFormat>
+
+      <hoursFormat><![CDATA[0]]></hoursFormat>
+
+      <daysFormat><![CDATA[0]]></daysFormat>
+
+      </_string>
+
+      </formatText>
+
+      </0>
+
+      <1>
+
+      <timeCheck
+      type="5" >
+
+      <_float value="3600" value2="0" />
+
+      </timeCheck>
+
+      <formatText>
+
+      <_string>
+
+      <format><![CDATA[<hours>h]]></format>
+
+      <secondsFormat><![CDATA[0]]></secondsFormat>
+
+      <minutesFormat><![CDATA[0]]></minutesFormat>
+
+      <hoursFormat><![CDATA[0]]></hoursFormat>
+
+      <daysFormat><![CDATA[0]]></daysFormat>
+
+      </_string>
+
+      </formatText>
+
+      </1>
+
+      <2>
+
+      <timeCheck
+      type="5" >
+
+      <_float value="60" value2="0" />
+
+      </timeCheck>
+
+      <formatText>
+
+      <_string>
+
+      <format><![CDATA[<minutes>m]]></format>
+
+      <secondsFormat><![CDATA[0]]></secondsFormat>
+
+      <minutesFormat><![CDATA[0]]></minutesFormat>
+
+      <hoursFormat><![CDATA[0]]></hoursFormat>
+
+      <daysFormat><![CDATA[0]]></daysFormat>
+
+      </_string>
+
+      </formatText>
+
+      </2>
+
+      </conditionalFormat>
+
+      </_subarrays>
+
+      </timeFormatting>
+
+      <numberFormatting>
+
+      <statusValueFormat>
+
+      <defaultFormat
+      type="0" manipulator="0" >
+
+      <_string>
+
+      <formatText><![CDATA[<value>]]></formatText>
+
+      <format><![CDATA[0]]></format>
+
+      </_string>
+
+      </defaultFormat>
+
+      <_subarrays>
+
+      <conditionalFormat>
+
+      </conditionalFormat>
+
+      </_subarrays>
+
+      </statusValueFormat>
+
+      <statusValuePercentFormat>
+
+      <defaultFormat
+      type="0" manipulator="0" >
+
+      <_string>
+
+      <formatText><![CDATA[<value>]]></formatText>
+
+      <format><![CDATA[0]]></format>
+
+      </_string>
+
+      </defaultFormat>
+
+      <_subarrays>
+
+      <conditionalFormat>
+
+      </conditionalFormat>
+
+      </_subarrays>
+
+      </statusValuePercentFormat>
+
+      <attackModifierFormat>
+
+      <defaultFormat
+      type="0" manipulator="0" >
+
+      <_string>
+
+      <formatText><![CDATA[<value>]]></formatText>
+
+      <format><![CDATA[0]]></format>
+
+      </_string>
+
+      </defaultFormat>
+
+      <_subarrays>
+
+      <conditionalFormat>
+
+      </conditionalFormat>
+
+      </_subarrays>
+
+      </attackModifierFormat>
+
+      <attackModifierChangeFormat>
+
+      <defaultFormat
+      type="0" manipulator="0" >
+
+      <_string>
+
+      <formatText><![CDATA[<value>]]></formatText>
+
+      <format><![CDATA[0]]></format>
+
+      </_string>
+
+      </defaultFormat>
+
+      <_subarrays>
+
+      <conditionalFormat>
+
+      </conditionalFormat>
+
+      </_subarrays>
+
+      </attackModifierChangeFormat>
+
+      <defenceModifierFormat>
+
+      <defaultFormat
+      type="0" manipulator="0" >
+
+      <_string>
+
+      <formatText><![CDATA[<value>]]></formatText>
+
+      <format><![CDATA[0]]></format>
+
+      </_string>
+
+      </defaultFormat>
+
+      <_subarrays>
+
+      <conditionalFormat>
+
+      </conditionalFormat>
+
+      </_subarrays>
+
+      </defenceModifierFormat>
+
+      <defenceModifierChangeFormat>
+
+      <defaultFormat
+      type="0" manipulator="0" >
+
+      <_string>
+
+      <formatText><![CDATA[<value>]]></formatText>
+
+      <format><![CDATA[0]]></format>
+
+      </_string>
+
+      </defaultFormat>
+
+      <_subarrays>
+
+      <conditionalFormat>
+
+      </conditionalFormat>
+
+      </_subarrays>
+
+      </defenceModifierChangeFormat>
+
+      <baseLevelFormat>
+
+      <defaultFormat
+      type="0" manipulator="0" >
+
+      <_string>
+
+      <formatText><![CDATA[<value>]]></formatText>
+
+      <format><![CDATA[0]]></format>
+
+      </_string>
+
+      </defaultFormat>
+
+      <_subarrays>
+
+      <conditionalFormat>
+
+      </conditionalFormat>
+
+      </_subarrays>
+
+      </baseLevelFormat>
+
+      <classLevelFormat>
+
+      <defaultFormat
+      type="0" manipulator="0" >
+
+      <_string>
+
+      <formatText><![CDATA[<value>]]></formatText>
+
+      <format><![CDATA[0]]></format>
+
+      </_string>
+
+      </defaultFormat>
+
+      <_subarrays>
+
+      <conditionalFormat>
+
+      </conditionalFormat>
+
+      </_subarrays>
+
+      </classLevelFormat>
+
+      <abilityLevelFormat>
+
+      <defaultFormat
+      type="0" manipulator="0" >
+
+      <_string>
+
+      <formatText><![CDATA[<value>]]></formatText>
+
+      <format><![CDATA[0]]></format>
+
+      </_string>
+
+      </defaultFormat>
+
+      <_subarrays>
+
+      <conditionalFormat>
+
+      </conditionalFormat>
+
+      </_subarrays>
+
+      </abilityLevelFormat>
+
+      <equipmentLevelFormat>
+
+      <defaultFormat
+      type="0" manipulator="0" >
+
+      <_string>
+
+      <formatText><![CDATA[<value>]]></formatText>
+
+      <format><![CDATA[0]]></format>
+
+      </_string>
+
+      </defaultFormat>
+
+      <_subarrays>
+
+      <conditionalFormat>
+
+      </conditionalFormat>
+
+      </_subarrays>
+
+      </equipmentLevelFormat>
+
+      <currencyQuantityFormat>
+
+      <defaultFormat
+      type="0" manipulator="0" >
+
+      <_string>
+
+      <formatText><![CDATA[<value>]]></formatText>
+
+      <format><![CDATA[0]]></format>
+
+      </_string>
+
+      </defaultFormat>
+
+      <_subarrays>
+
+      <conditionalFormat>
+
+      </conditionalFormat>
+
+      </_subarrays>
+
+      </currencyQuantityFormat>
+
+      <itemQuantityFormat>
+
+      <defaultFormat
+      type="0" manipulator="0" >
+
+      <_string>
+
+      <formatText><![CDATA[<value>]]></formatText>
+
+      <format><![CDATA[0]]></format>
+
+      </_string>
+
+      </defaultFormat>
+
+      <_subarrays>
+
+      <conditionalFormat>
+
+      </conditionalFormat>
+
+      </_subarrays>
+
+      </itemQuantityFormat>
+
+      <equipmentQuantityFormat>
+
+      <defaultFormat
+      type="0" manipulator="0" >
+
+      <_string>
+
+      <formatText><![CDATA[<value>]]></formatText>
+
+      <format><![CDATA[0]]></format>
+
+      </_string>
+
+      </defaultFormat>
+
+      <_subarrays>
+
+      <conditionalFormat>
+
+      </conditionalFormat>
+
+      </_subarrays>
+
+      </equipmentQuantityFormat>
+
+      <aiBehaviourQuantityFormat>
+
+      <defaultFormat
+      type="0" manipulator="0" >
+
+      <_string>
+
+      <formatText><![CDATA[<value>]]></formatText>
+
+      <format><![CDATA[0]]></format>
+
+      </_string>
+
+      </defaultFormat>
+
+      <_subarrays>
+
+      <conditionalFormat>
+
+      </conditionalFormat>
+
+      </_subarrays>
+
+      </aiBehaviourQuantityFormat>
+
+      <aiRulesetQuantityFormat>
+
+      <defaultFormat
+      type="0" manipulator="0" >
+
+      <_string>
+
+      <formatText><![CDATA[<value>]]></formatText>
+
+      <format><![CDATA[0]]></format>
+
+      </_string>
+
+      </defaultFormat>
+
+      <_subarrays>
+
+      <conditionalFormat>
+
+      </conditionalFormat>
+
+      </_subarrays>
+
+      </aiRulesetQuantityFormat>
+
+      <craftingRecipeQuantityFormat>
+
+      <defaultFormat
+      type="0" manipulator="0" >
+
+      <_string>
+
+      <formatText><![CDATA[<value>]]></formatText>
+
+      <format><![CDATA[0]]></format>
+
+      </_string>
+
+      </defaultFormat>
+
+      <_subarrays>
+
+      <conditionalFormat>
+
+      </conditionalFormat>
+
+      </_subarrays>
+
+      </craftingRecipeQuantityFormat>
+
+      <factionSympathyFormat>
+
+      <defaultFormat
+      type="0" manipulator="0" >
+
+      <_string>
+
+      <formatText><![CDATA[<value>]]></formatText>
+
+      <format><![CDATA[0]]></format>
+
+      </_string>
+
+      </defaultFormat>
+
+      <_subarrays>
+
+      <conditionalFormat>
+
+      </conditionalFormat>
+
+      </_subarrays>
+
+      </factionSympathyFormat>
+
+      <intNumberFormat>
+
+      <defaultFormat
+      type="0" manipulator="0" >
+
+      <_string>
+
+      <formatText><![CDATA[<value>]]></formatText>
+
+      <format><![CDATA[0]]></format>
+
+      </_string>
+
+      </defaultFormat>
+
+      <_subarrays>
+
+      <conditionalFormat>
+
+      </conditionalFormat>
+
+      </_subarrays>
+
+      </intNumberFormat>
+
+      <floatNumberFormat>
+
+      <defaultFormat
+      type="1" manipulator="0" >
+
+      <_string>
+
+      <formatText><![CDATA[<value>]]></formatText>
+
+      <format><![CDATA[0.0]]></format>
+
+      </_string>
+
+      </defaultFormat>
+
+      <_subarrays>
+
+      <conditionalFormat>
+
+      </conditionalFormat>
+
+      </_subarrays>
+
+      </floatNumberFormat>
+
+      </numberFormatting>
+
+      <combatantChoice>
+
+      <_bool
+      addTooltip="False" />
+
+      <layout>
+
+      <customInput>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.UI.UnityUICustomInputSettings]]></_type>
+
+      </_string>
+
+      <prefab>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </prefab>
+
+      </settings>
+
+      </customInput>
+
+      <mainContentLayout
+      type="2" iconType="0" >
+
+      <_bool useContentVariables="False" customAddIcon="False"
+      removeEmptyLines="False" />
+
+      <addHUD type="0" >
+
+      <_bool useEmptyUI="False"
+      />
+
+      <_string>
+
+      <uiKey><![CDATA[]]></uiKey>
+
+      </_string>
+
+      </addHUD>
+
+      </mainContentLayout>
+
+      <_subarrays>
+
+      <additionalContent>
+
+      </additionalContent>
+
+      </_subarrays>
+
+      </layout>
+
+      </combatantChoice>
+
+      <combatantNameList>
+
+      <_bool
+      onlyFirst="False" lineSeparation="False" />
+
+      <_string>
+
+      <separation><![CDATA[,
+      ]]></separation>
+
+      </_string>
+
+      <firstTargetText exportID="-1" >
+
+      <_bool
+      export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </firstTargetText>
+
+      <combatantText
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </combatantText>
+
+      <noCombatantsText
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </noCombatantsText>
+
+      </combatantNameList>
+
+      <useCostDisplay>
+
+      <_bool
+      lineSeparation="False" useMinMaxRangeText="True" useCountFirst="False" showZeroActionCost="False"
+      actionCostFirst="False" />
+
+      <_string>
+
+      <separation><![CDATA[ ]]></separation>
+
+      <actionCostFormat><![CDATA[0]]></actionCostFormat>
+
+      </_string>
+
+      <minMaxRangeText
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<changemin>
+      ~ <changemax>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </minMaxRangeText>
+
+      <negativeChange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      <change>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </negativeChange>
+
+      <positiveChange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      +<change>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </positiveChange>
+
+      <setChange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      =<change>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </setChange>
+
+      <usesLevelUp
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </usesLevelUp>
+
+      <useCount
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </useCount>
+
+      <actionCostBattleSystem>
+
+      <_bool
+      ownBattleSystem="False" />
+
+      </actionCostBattleSystem>
+
+      <actionCost
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </actionCost>
+
+      <itemCost
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      <quantity>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </itemCost>
+
+      <equipmentCost
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      <quantity>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </equipmentCost>
+
+      <currencyCost
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      <quantity>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </currencyCost>
+
+      <aiBehaviourCost
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      <quantity>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </aiBehaviourCost>
+
+      <aiRulesetCost
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      <quantity>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </aiRulesetCost>
+
+      <craftingRecipeCost
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      <quantity>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </craftingRecipeCost>
+
+      <itemTypeCost
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      <quantity>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </itemTypeCost>
+
+      </useCostDisplay>
+
+      <bonusDisplay>
+
+      <_bool
+      svCombinedLineSeparation="True" />
+
+      <_string>
+
+      <svCombinedSeparation><![CDATA[
+      ]]></svCombinedSeparation>
+
+      </_string>
+
+      <text exportID="-1" >
+
+      <_bool
+      export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<status>
+
+      <statuspercent>
+
+      <attackmodifier>
+
+      <defencemodifier>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </text>
+
+      <svBonusDisplay>
+
+      <_bool
+      lineSeparation="True" showNoValueChange="False" />
+
+      <_string>
+
+      <separation><![CDATA[
+      ]]></separation>
+
+      </_string>
+
+      <infoText exportID="-1" >
+
+      <_bool
+      export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </infoText>
+
+      <negativeChange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      <change>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </negativeChange>
+
+      <positiveChange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      +<change>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </positiveChange>
+
+      <noChange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      0]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </noChange>
+
+      </svBonusDisplay>
+
+      <svBonusPercentDisplay>
+
+      <_bool
+      lineSeparation="True" showNoValueChange="False" />
+
+      <_string>
+
+      <separation><![CDATA[
+      ]]></separation>
+
+      </_string>
+
+      <infoText exportID="-1" >
+
+      <_bool
+      export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </infoText>
+
+      <negativeChange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      <change>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </negativeChange>
+
+      <positiveChange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      +<change>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </positiveChange>
+
+      <noChange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      0]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </noChange>
+
+      </svBonusPercentDisplay>
+
+      <svCombinedInfoText
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </svCombinedInfoText>
+
+      <attackModifierBonusDisplay
+      lineBreaks="2" >
+
+      <_bool lineSeparation="True" showNoValueChange="False"
+      />
+
+      <_string>
+
+      <separation><![CDATA[ ]]></separation>
+
+      </_string>
+
+      <infoText
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </infoText>
+
+      <modifierHeader
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </modifierHeader>
+
+      <negativeChange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      <change>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </negativeChange>
+
+      <positiveChange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      +<change>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </positiveChange>
+
+      <noChange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      0]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </noChange>
+
+      <immunity
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      immune]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </immunity>
+
+      <factorValue
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      x<factor>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </factorValue>
+
+      </attackModifierBonusDisplay>
+
+      <defenceModifierBonusDisplay
+      lineBreaks="2" >
+
+      <_bool lineSeparation="True" showNoValueChange="False"
+      />
+
+      <_string>
+
+      <separation><![CDATA[ ]]></separation>
+
+      </_string>
+
+      <infoText
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </infoText>
+
+      <modifierHeader
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </modifierHeader>
+
+      <negativeChange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      <change>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </negativeChange>
+
+      <positiveChange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      +<change>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </positiveChange>
+
+      <noChange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      0]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </noChange>
+
+      <immunity
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      immune]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </immunity>
+
+      <factorValue
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      x<factor>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </factorValue>
+
+      </defenceModifierBonusDisplay>
+
+      <effectAutoAddDisplay>
+
+      <_bool
+      lineSeparation="True" />
+
+      <_string>
+
+      <separation><![CDATA[ ]]></separation>
+
+      </_string>
+
+      <infoText
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </infoText>
+
+      <statusEffectText
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </statusEffectText>
+
+      </effectAutoAddDisplay>
+
+      <effectAutoRemoveDisplay>
+
+      <_bool
+      lineSeparation="True" />
+
+      <_string>
+
+      <separation><![CDATA[ ]]></separation>
+
+      </_string>
+
+      <infoText
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </infoText>
+
+      <statusEffectText
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </statusEffectText>
+
+      </effectAutoRemoveDisplay>
+
+      </bonusDisplay>
+
+      <preview
+      isEnemy="2" isDead="1" inBattle="2" >
+
+      <_float blinkTime="1" />
+
+      <_bool
+      tooltipPreview="False" dragPreview="False" actionSelectionPreview="False" targetSelectionPreview="False"
+      overruleSelectionPreviews="False" uiHidesSelectionPreviews="False" onlyPlayerGroup="True"
+      othersPreviewAbilities="True" othersPreviewItems="True" othersPreviewEquipment="True"
+      abilityUseCosts="True" abilityActionCost="False" abilityUserChanges="True"
+      abilityTargetChanges="True" abilityCriticalChanges="False" itemUseCosts="True"
+      itemActionCost="False" itemUserChanges="True" itemTargetChanges="True" itemCriticalChanges="False"
+      defendActionCost="False" escapeActionCost="False" noneActionCost="False" gridMoveActionCost="False"
+      gridMoveMoveCost="False" gridMoveStatusValueCost="False" changeMemberActionCost="False"
+      blinkPreview="False" blinkStartWithPreview="True" blinkTargetCursorOverReset="False"
+      svUseNoChangeValueText="False" svUseNoChangeChangeText="False" attackModifierUseNoChangeValueText="False"
+      attackModifierUseNoChangeChangeText="False" defenceModifierUseNoChangeValueText="False"
+      defenceModifierUseNoChangeChangeText="False" />
+
+      <minMaxRangeText exportID="-1"
+      >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<min>
+      ~ <max>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </minMaxRangeText>
+
+      </preview>
+
+      <statusValueChangedState>
+
+      <_float
+      changedStateDuration="3" lastCombinedChangeTimeout="1" />
+
+      <_bool autoResetCombined="False"
+      autoResetSingle="False" />
+
+      </statusValueChangedState>
+
+      <textCodeUserChanges
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<statuschanges>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </textCodeUserChanges>
+
+      <targetChangeDummyTarget>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </targetChangeDummyTarget>
+
+      <textCodeTargetChanges
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<statuschanges>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </textCodeTargetChanges>
+
+      <statusChangeDisplay>
+
+      <hitChanceDisplay>
+
+      <_float
+      minChance="0" maxChance="100" />
+
+      <_bool showNoChance="False" useMinChance="False"
+      useMaxChance="False" />
+
+      <infoText exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[Hit
+      Chance: <chance1>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </infoText>
+
+      </hitChanceDisplay>
+
+      <criticalChanceDisplay>
+
+      <_float
+      minChance="0" maxChance="100" />
+
+      <_bool showNoChance="False" useMinChance="False"
+      useMaxChance="False" />
+
+      <infoText exportID="-1" >
+
+      <_bool export="True"
+      />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[Critical
+      Chance: <chance1>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </infoText>
+
+      </criticalChanceDisplay>
+
+      <svChangeDisplay>
+
+      <_bool
+      showNoChange="False" lineSeparation="True" showNoValueChange="False" negativeChangeAbsolute="False"
+      negativeChangeRangeAbsolute="False" />
+
+      <_string>
+
+      <separation><![CDATA[,
+      ]]></separation>
+
+      </_string>
+
+      <infoText exportID="-1" >
+
+      <_bool
+      export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </infoText>
+
+      <negativeChange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      <change>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </negativeChange>
+
+      <negativeChangeRange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      <changemin> ~ <changemax>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </negativeChangeRange>
+
+      <positiveChange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      +<change>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </positiveChange>
+
+      <positiveChangeRange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      +<changemin> ~ +<changemax>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </positiveChangeRange>
+
+      <noChange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      0]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </noChange>
+
+      </svChangeDisplay>
+
+      <svCritChangeDisplay>
+
+      <_bool
+      showNoChange="False" lineSeparation="True" showNoValueChange="False" negativeChangeAbsolute="False"
+      negativeChangeRangeAbsolute="False" />
+
+      <_string>
+
+      <separation><![CDATA[,
+      ]]></separation>
+
+      </_string>
+
+      <infoText exportID="-1" >
+
+      <_bool
+      export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </infoText>
+
+      <negativeChange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      <change>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </negativeChange>
+
+      <negativeChangeRange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      <changemin> ~ <changemax>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </negativeChangeRange>
+
+      <positiveChange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      +<change>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </positiveChange>
+
+      <positiveChangeRange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      +<changemin> ~ +<changemax>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </positiveChangeRange>
+
+      <noChange
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>
+      0]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </noChange>
+
+      </svCritChangeDisplay>
+
+      <aseChangeDisplay>
+
+      <_bool
+      showNoChange="False" lineSeparation="True" />
+
+      <_string>
+
+      <separation><![CDATA[
+      ]]></separation>
+
+      </_string>
+
+      <infoText exportID="-1" >
+
+      <_bool
+      export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </infoText>
+
+      <effectText
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </effectText>
+
+      </aseChangeDisplay>
+
+      <rseChangeDisplay>
+
+      <_bool
+      showNoChange="False" lineSeparation="True" />
+
+      <_string>
+
+      <separation><![CDATA[
+      ]]></separation>
+
+      </_string>
+
+      <infoText exportID="-1" >
+
+      <_bool
+      export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </infoText>
+
+      <effectText
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </effectText>
+
+      </rseChangeDisplay>
+
+      <aseCritChangeDisplay>
+
+      <_bool
+      showNoChange="False" lineSeparation="True" />
+
+      <_string>
+
+      <separation><![CDATA[
+      ]]></separation>
+
+      </_string>
+
+      <infoText exportID="-1" >
+
+      <_bool
+      export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </infoText>
+
+      <effectText
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </effectText>
+
+      </aseCritChangeDisplay>
+
+      <rseCritChangeDisplay>
+
+      <_bool
+      showNoChange="False" lineSeparation="True" />
+
+      <_string>
+
+      <separation><![CDATA[
+      ]]></separation>
+
+      </_string>
+
+      <infoText exportID="-1" >
+
+      <_bool
+      export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </infoText>
+
+      <effectText
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <_string>
+
+      <text><![CDATA[<name>]]></text>
+
+      </_string>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </effectText>
+
+      </rseCritChangeDisplay>
+
+      </statusChangeDisplay>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0

@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 619879560, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: EditorData
+  m_EditorClassIdentifier: 
+  lastProject: {fileID: 11400000, guid: 0bc70f97059511146b4090119da8307e, type: 2}
+  lastSaveFormat: 1
+  lastEncrypted: 0
+  editorHelpLanguageTexts: {fileID: 0}
+  section: 9
+  subSection: 0
+  tabIndex: -1
+  scrollY: 0
+  foldoutLimit: 
+  helpDrag: 220
+  subSectionDrag: 250
+  tabListDrag: 250
+  formulaDrag: 250
+  schematicDrag: 540
+  jumpListDrag: 250
+  dataSelectionSorting: 0
+  typeDataSelectionSorting: 0
+  createBackup: 1
+  updateSchematics: 1
+  schematicUpdateFolder: 
+  updatePrefabs: 0
+  updateScenes: 0
+  sceneUpdate: 
+  schematicAsset:
+  - {fileID: 11400000, guid: 652e399977583454db382ba00dc46b67, type: 2}
+  - {fileID: 11400000, guid: 85088ac42c3af164fa6ccd6b360e5145, type: 2}
+  - {fileID: 11400000, guid: 375892ebc47594e43995132048747929, type: 2}
+  - {fileID: 11400000, guid: 75b9c332bce57454a9c163389b01d913, type: 2}
+  - {fileID: 11400000, guid: a5ee26f22f79ab640981e602dfb68433, type: 2}
+  - {fileID: 11400000, guid: def04e0b6d43cf0448df7c8def263f80, type: 2}
+  - {fileID: 11400000, guid: 1acd820119094044d93a30cd0841e8ed, type: 2}
+  - {fileID: 11400000, guid: 761319d3214d28c419cbaa862db9c844, type: 2}
+  - {fileID: 11400000, guid: 456cc3908c3fc6e4dba400e50cc89d81, type: 2}
+  - {fileID: 11400000, guid: 6565e7e1dc4ab0f48a650c92da714c11, type: 2}
+  - {fileID: 11400000, guid: 34f9712de9efb7542a24f28700514587, type: 2}
+  - {fileID: 11400000, guid: aafaadf41180cb74c9b23171d9c7be83, type: 2}
+  dialogueImportSettings:
+    name: 
+    byteData: 
+    xmlData: 
+    lookUp:
+      assets: []
+    encrypted: 0
+  variablesDefined: []
+  variablesEditor: []
+  variablesSchematic:
+  - DODGE
+  - SPRINT
+  - helmet
+  - hair
+  variablesScene: []
+  variablesPrefab: []
+  foldoutKeys: []
+  foldoutStates: []
+  popupFavorites: []

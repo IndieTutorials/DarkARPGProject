@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 4c069b443747fdc4d9865fd3654aec30
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Tiro Devanagari Marathi
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 1c4e7d8ad4922de4d927a637eaa2567a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

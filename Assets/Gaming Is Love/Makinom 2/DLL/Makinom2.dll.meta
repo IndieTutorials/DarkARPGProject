@@ -1,0 +1,37 @@
+fileFormatVersion: 2
+guid: bfb06eec059d3a345ac43927a4389437
+PluginImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  iconMap: {}
+  executionOrder:
+    GamingIsLove.Makinom.Components.CollisionCamera: 1100
+    GamingIsLove.Makinom.Components.GameStarter: -1000
+    GamingIsLove.Makinom.MakinomHandler: -100
+    GamingIsLove.Makinom.MakinomLateFixedTick: 1000
+  defineConstraints: []
+  isPreloaded: 0
+  isOverridable: 0
+  isExplicitlyReferenced: 0
+  validateReferences: 1
+  platformData:
+  - first:
+      Any: 
+    second:
+      enabled: 1
+      settings: {}
+  - first:
+      Editor: Editor
+    second:
+      enabled: 0
+      settings:
+        DefaultValueInitialized: true
+  - first:
+      Windows Store Apps: WindowsStoreApps
+    second:
+      enabled: 0
+      settings:
+        CPU: AnyCPU
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

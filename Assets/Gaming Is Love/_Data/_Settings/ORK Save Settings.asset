@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1229767909, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: ORK Save Settings
+  m_EditorClassIdentifier: 
+  data:
+    name: ORK Save Settings
+    byteData: 
+    xmlData: '<xmldata saveSpawnID="0" boxSaveOption="2" itemSaveOption="2" itemAutoRemoveAfter="3"
+      dropSaveOption="0" dropAutoRemoveAfter="3" battlesSaveOption="2" battleAutoRemoveAfter="3"
+      shopsSaveOption="2" objectVariableOption="2" saveSpawnedCombatants="0" combatantAutoRemoveAfter="3"
+      >
+
+      <_bool saveStatistics="True" saveGroups="True" saveFactions="True"
+      saveLogs="True" saveQuests="True" saveBestiary="True" saveBattleGains="True"
+      savePlayerMaxBattleGroupSize="True" saveGroupPosition="True" saveCameraPosition="True"
+      saveMusic="True" saveBlockStates="False" itemAutoRemove="False" dropAutoRemove="False"
+      battleAutoRemove="False" combatantAutoRemove="False" saveItems="True" saveEquipment="True"
+      saveRecipes="True" saveCurrency="True" aiBehaviours="True" aiRulesets="True"
+      />
+
+      <_string>
+
+      <saveSceneName><![CDATA[]]></saveSceneName>
+
+      </_string>
+
+      <playerPrefsGameOptions>
+
+      <_bool
+      rememberSelections="False" randomBattleChance="False" />
+
+      </playerPrefsGameOptions>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0

@@ -1,0 +1,435 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2004880764, guid: 2f433824042009943be1767c00adb2ed, type: 3}
+  m_Name: 1 - Stamina Regen Block
+  m_EditorClassIdentifier: 
+  data:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata priority="0" stackable="0" maxStack="99" endAfter="3" effectRecast="1"
+      endActionChange="0" realID="1" >
+
+      <_bool hidden="False" saveGame="True"
+      endStackOnDuration="False" recastOnStack="False" setMaxStack="False" useHitChance="False"
+      blockAllActions="False" stopMovement="False" forceAIControlled="False" autoAttack="False"
+      attackAllies="False" blockAttack="False" blockDefend="False" blockEscape="False"
+      blockEquipmentChange="False" blockClassSlotChange="False" blockCommand="False"
+      reflectAbilities="False" noTurnOrderChange="False" noTurnRemove="False" blockCastCancel="False"
+      blockActionCancel="False" blockAbilities="False" blockItems="False" endAfterTimeInBattle="True"
+      endAfterTimeInField="True" endUserExtraTurn="False" useEndChance="False" endWithBattle="False"
+      endOnAttack="False" endOnDeath="True" endOnAbilities="False" endOnItems="False"
+      useEndAction="False" endActionBlockBattleCamera="False" autoApply="False" autoRemove="False"
+      ownEffectUI="False" ownFlyingText="False" ownTimeFormat="False" ownBonusDisplay="False"
+      ownConsoleApply="False" ownConsoleReapply="False" ownConsoleMiss="False" ownConsoleRemove="False"
+      />
+
+      <_string>
+
+      <editorName><![CDATA[]]></editorName>
+
+      <guid><![CDATA[StaminaRegenBlock-Effect]]></guid>
+
+      </_string>
+
+      <type>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </type>
+
+      <blockAbilityUse>
+
+      <_subarrays>
+
+      <abilityType>
+
+      </abilityType>
+
+      <ability>
+
+      </ability>
+
+      </_subarrays>
+
+      </blockAbilityUse>
+
+      <blockItemUse>
+
+      <_subarrays>
+
+      <itemType>
+
+      </itemType>
+
+      <item>
+
+      </item>
+
+      </_subarrays>
+
+      </blockItemUse>
+
+      <endAfterDuration>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="1" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </endAfterDuration>
+
+      <endOnAbilityUse>
+
+      <_subarrays>
+
+      <abilityType>
+
+      </abilityType>
+
+      <ability>
+
+      </ability>
+
+      </_subarrays>
+
+      </endOnAbilityUse>
+
+      <endOnItemUse>
+
+      <_subarrays>
+
+      <itemType>
+
+      </itemType>
+
+      <item>
+
+      </item>
+
+      </_subarrays>
+
+      </endOnItemUse>
+
+      <animations>
+
+      <_subarrays>
+
+      <animation>
+
+      </animation>
+
+      <animationBattle>
+
+      </animationBattle>
+
+      </_subarrays>
+
+      </animations>
+
+      <bonus>
+
+      <_bool
+      useCustomBonus="False" />
+
+      <_subarrays>
+
+      <bonuses>
+
+      </bonuses>
+
+      </_subarrays>
+
+      </bonus>
+
+      <languageContent
+      exportID="-1" >
+
+      <_bool export="True" />
+
+      <_string>
+
+      <translationNote><![CDATA[]]></translationNote>
+
+      </_string>
+
+      <data>
+
+      <name>
+
+      <_string>
+
+      <text><![CDATA[Stamina
+      Regen Block]]></text>
+
+      </_string>
+
+      </name>
+
+      <shortName>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </shortName>
+
+      <description>
+
+      <_string>
+
+      <text><![CDATA[]]></text>
+
+      </_string>
+
+      </description>
+
+      <icon>
+
+      <_string>
+
+      <textCode><![CDATA[]]></textCode>
+
+      </_string>
+
+      <image>
+
+      <sprite>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </sprite>
+
+      <texture>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </texture>
+
+      </image>
+
+      </icon>
+
+      </data>
+
+      <_subarrays>
+
+      <language>
+
+      </language>
+
+      </_subarrays>
+
+      </languageContent>
+
+      <_subarrays>
+
+      <endEffectChange>
+
+      </endEffectChange>
+
+      <prefab>
+
+      </prefab>
+
+      <statusValueChange>
+
+      <0
+      changeBlock="2" setOn="0" simpleOperator="0" setter="0" rounding="0" >
+
+      <_bool
+      absorb="False" timeInitialUse="True" timeOnlyOnce="False" timeInField="True"
+      timeInBattle="True" ignoreLimit="False" ignoreBarrier="False" showText="True"
+      showConsole="True" keepOverflow="False" animateDamage="False" useMinValue="False"
+      useMaxValue="False" useModifierChanges="False" useChance="False" />
+
+      <status>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="0" />
+
+      </settings>
+
+      </status>
+
+      <value>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </value>
+
+      </0>
+
+      </statusValueChange>
+
+      <effectSchematic>
+
+      </effectSchematic>
+
+      <addEquipmentSlot>
+
+      </addEquipmentSlot>
+
+      <blockedEquipmentSlot>
+
+      </blockedEquipmentSlot>
+
+      <setAttackModifier>
+
+      </setAttackModifier>
+
+      <setDefenceModifier>
+
+      </setDefenceModifier>
+
+      <customContent>
+
+      </customContent>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 11400000, guid: d2ecb473c1b028740bbf742152783c0a, type: 2}
+    encrypted: 0
+  sortAtEnd: 0

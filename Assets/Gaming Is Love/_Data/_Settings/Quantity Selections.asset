@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1229767909, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: Quantity Selections
+  m_EditorClassIdentifier: 
+  data:
+    name: Quantity Selections
+    byteData: 
+    xmlData: '<xmldata>
+
+      <quantityRemove minimum="1" >
+
+      <quantitySelection>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="0" />
+
+      </settings>
+
+      </quantitySelection>
+
+      </quantityRemove>
+
+      <quantityDrop
+      minimum="1" >
+
+      <quantitySelection>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="1" />
+
+      </settings>
+
+      </quantitySelection>
+
+      </quantityDrop>
+
+      <quantityGive
+      minimum="1" >
+
+      <quantitySelection>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="2" />
+
+      </settings>
+
+      </quantitySelection>
+
+      </quantityGive>
+
+      <quantityBuy
+      minimum="1" >
+
+      <quantitySelection>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="3" />
+
+      </settings>
+
+      </quantitySelection>
+
+      </quantityBuy>
+
+      <quantitySell
+      minimum="1" >
+
+      <quantitySelection>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="4" />
+
+      </settings>
+
+      </quantitySelection>
+
+      </quantitySell>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 11400000, guid: 86228772c6effa54b8e9254025f95f58, type: 2}
+      - {fileID: 11400000, guid: 86228772c6effa54b8e9254025f95f58, type: 2}
+      - {fileID: 11400000, guid: 86228772c6effa54b8e9254025f95f58, type: 2}
+      - {fileID: 11400000, guid: 86228772c6effa54b8e9254025f95f58, type: 2}
+      - {fileID: 11400000, guid: 86228772c6effa54b8e9254025f95f58, type: 2}
+    encrypted: 0
