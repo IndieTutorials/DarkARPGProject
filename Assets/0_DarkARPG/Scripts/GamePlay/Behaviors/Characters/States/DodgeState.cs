@@ -19,7 +19,7 @@ namespace RustedGames
 
         private AnimationSet _LocalCurrentAnimationSet => Character.CurrentAnimationSet;
 
-        public override bool CanEnterState => Character.CharacterMovement.Dodge;
+       // public override bool CanEnterState => Character.CharacterMovement.Dodge;
 
         public override bool CanExitState => true;
 
@@ -71,10 +71,11 @@ namespace RustedGames
 
         private void OnAnimationEnded()
         {
-            Character.CharacterMovement.VariableHandler.SetWithoutNotify
-                (GameConstants.DodgeObjectVariableKey, false);
+            /*Character.CharacterMovement.VariableHandler.SetWithoutNotify
+                (GameConstants.DodgeObjectVariableKey, false);*/
 
-            Character.StateMachine.TrySetDefaultState();
+           Character.StateMachine.TrySetDefaultState();
+
         }
 
         private void ChangeAnimationSet()

@@ -51,7 +51,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _Character: {fileID: 805337960}
   _States:
-  - {fileID: 6323048516344849355}
   - {fileID: 648199681}
   - {fileID: 285878727632593595}
   _AutoInternalTransitions: 1

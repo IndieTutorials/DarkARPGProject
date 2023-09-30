@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: -326218779, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
   m_Name: DodgeAbilitySchematic
   m_EditorClassIdentifier: 
-  time: 26/03/2023 12:10:01
-  version: 2.11.0
+  time: 30/09/2023 17:02:05
+  version: 2.14.0
   data:
     name: settings
     byteData: 
@@ -116,86 +116,72 @@ MonoBehaviour:
       <node>
 
       <0
-      next="-1" nodeLayer="0" nodeGroup="-1" >
+      type="1" next="-1" nodeLayer="0" nodeGroup="-1" >
 
-      <_bool active="True" executeOnStop="False"
-      isBreakpoint="False" overrideNodeName="False" />
+      <_bool waitBetween="False"
+      debugLog="True" active="True" executeOnStop="False" isBreakpoint="False" overrideNodeName="False"
+      />
 
       <_floatarrays>
 
-      <nodePosition
-      -114 -95 />
+      <nodePosition -133 -95 />
 
       </_floatarrays>
 
       <_string>
 
+      <stateName><![CDATA[DodgeState]]></stateName>
+
       <nodeName><![CDATA[]]></nodeName>
 
-      <_type><![CDATA[GamingIsLove.Makinom.Schematics.Nodes.ChangeVariablesNode]]></_type>
+      <_type><![CDATA[GamingIsLove.ORKFramework.Schematics.Nodes.TrySetStateNode]]></_type>
 
       </_string>
 
-      <change>
-
-      <_subarrays>
-
-      <variable>
-
-      <0
-      changeType="0" >
-
-      <variable removeType="0" type="1" axisType="0" >
-
-      <_bool
-      remove="False" normalize="False" />
-
-      <variable origin="2" objectScope="1"
-      listChange="0" >
-
-      <key>
-
-      <_string>
-
-      <type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></type>
-
-      </_string>
-
-      <settings>
-
-      <_string>
-
-      <value><![CDATA[DODGE]]></value>
-
-      <_type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></_type>
-
-      </_string>
-
-      </settings>
-
-      </key>
-
-      <fromObject
-      type="2" actorID="0" prefabID="0" prefabID2="-1" >
+      <character
+      type="3" actorID="0" prefabID="0" prefabID2="-1" >
 
       <_bool selectedOnlyGameObjects="False"
       useRoot="False" />
 
+      <childObject type="1" >
+
       <_string>
 
-      <childName><![CDATA[]]></childName>
+      <childName><![CDATA[States]]></childName>
 
       </_string>
 
-      </fromObject>
+      </childObject>
 
-      </variable>
+      </character>
 
-      <stringOperator>
+      <timeBetweenValue>
 
       <_string>
 
-      <type><![CDATA[GamingIsLove.Makinom.SetStringOperator]]></type>
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="0" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
 
       </_string>
 
@@ -203,86 +189,15 @@ MonoBehaviour:
 
       <_string>
 
-      <_type><![CDATA[GamingIsLove.Makinom.SetStringOperator]]></_type>
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
 
       </_string>
 
       </settings>
 
-      </stringOperator>
+      </mathFunction>
 
-      <boolValue>
-
-      <_string>
-
-      <type><![CDATA[GamingIsLove.Makinom.BoolValue_ValueType`1]]></type>
-
-      </_string>
-
-      <settings>
-
-      <_bool
-      value="True" />
-
-      <_string>
-
-      <_type><![CDATA[GamingIsLove.Makinom.BoolValue_ValueType`1]]></_type>
-
-      </_string>
-
-      </settings>
-
-      </boolValue>
-
-      <floatOperator>
-
-      <_string>
-
-      <type><![CDATA[GamingIsLove.Makinom.SetFloatOperator]]></type>
-
-      </_string>
-
-      <settings>
-
-      <_string>
-
-      <_type><![CDATA[GamingIsLove.Makinom.SetFloatOperator]]></_type>
-
-      </_string>
-
-      </settings>
-
-      </floatOperator>
-
-      <vector3Operator>
-
-      <_string>
-
-      <type><![CDATA[GamingIsLove.Makinom.SetVector3Operator]]></type>
-
-      </_string>
-
-      <settings>
-
-      <_string>
-
-      <_type><![CDATA[GamingIsLove.Makinom.SetVector3Operator]]></_type>
-
-      </_string>
-
-      </settings>
-
-      </vector3Operator>
-
-      </variable>
-
-      </0>
-
-      </variable>
-
-      </_subarrays>
-
-      </change>
+      </timeBetweenValue>
 
       </0>
 
