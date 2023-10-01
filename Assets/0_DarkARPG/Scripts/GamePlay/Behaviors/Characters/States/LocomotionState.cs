@@ -87,11 +87,31 @@ namespace RustedGames
             _Walk = Character.CurrentAnimationSet.Walk;
             _Jog = Character.CurrentAnimationSet.Jog;
             _Sprint = Character.CurrentAnimationSet.Sprint;
+
+            _Walk.Events.Add(0.36f, OnRightFootStep);
+            _Walk.Events.Add(0.87f, OnLeftFootStep);
+
+            _Jog.Events.Add(0.33f, OnRightFootStep);
+            _Jog.Events.Add(0.86f, OnLeftFootStep);
+
+            _Sprint.Events.Add(0.37f, OnRightFootStep);
+            _Sprint.Events.Add(0.83f, OnLeftFootStep);
+
         }
 
         private void OnDestroy()
         {
             Weapon.OnWeaponChanged -= UpdateAnimationSet;
+        }
+
+        private void OnLeftFootStep()
+        {
+            Character.CharacterMovement.FootStepper.FootstepWalkIndex(1);
+        }
+
+        private void OnRightFootStep()
+        {
+            Character.CharacterMovement.FootStepper.FootstepWalkIndex(0);
         }
 
     }

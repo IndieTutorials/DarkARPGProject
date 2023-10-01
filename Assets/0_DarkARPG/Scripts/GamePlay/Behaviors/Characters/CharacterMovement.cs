@@ -44,6 +44,10 @@ namespace RustedGames
         private CharacterController _CharacterController;
         public CharacterController CharacterController => _CharacterController;
 
+        [SerializeField]
+        private GamingIsLove.Footsteps.Footstepper _Footstepper;
+        public GamingIsLove.Footsteps.Footstepper FootStepper => _Footstepper;
+
         private GamingIsLove.Makinom.VariableHandler _VariableHandler;
         public GamingIsLove.Makinom.VariableHandler VariableHandler => _VariableHandler;
 
@@ -55,6 +59,9 @@ namespace RustedGames
         }
         private void Update()
         {
+
+            _Footstepper.SetGrounded(_CharacterController.isGrounded);
+
             HandleMovement();
 
             if (LockOnTarget)

@@ -83,7 +83,7 @@ MonoBehaviour:
       _FadeDuration: 0.25
       _Events:
         _NormalizedTimes:
-        - 1
+        - 0.8222222
         _Callbacks: []
         _Names: []
       _Clip: {fileID: 7400000, guid: 92586032714d3aa4aa225771f533365a, type: 2}
@@ -93,7 +93,7 @@ MonoBehaviour:
       _FadeDuration: 0.25
       _Events:
         _NormalizedTimes:
-        - 1
+        - 0.8222222
         _Callbacks: []
         _Names: []
       _Clip: {fileID: 7400000, guid: 376e1a039142223439866050e0743063, type: 2}
@@ -103,7 +103,7 @@ MonoBehaviour:
       _FadeDuration: 0.25
       _Events:
         _NormalizedTimes:
-        - 1
+        - 0.97368413
         _Callbacks: []
         _Names: []
       _Clip: {fileID: 7400000, guid: a237b6bcb3765224789aa0765554ba4f, type: 2}
@@ -123,7 +123,7 @@ MonoBehaviour:
       _FadeDuration: 0.25
       _Events:
         _NormalizedTimes:
-        - 1
+        - 0.90243894
         _Callbacks: []
         _Names: []
       _Clip: {fileID: 7400000, guid: c07c59eeaee2848419deb779ea492596, type: 2}
@@ -143,7 +143,7 @@ MonoBehaviour:
       _FadeDuration: 0.25
       _Events:
         _NormalizedTimes:
-        - 1
+        - 0.97368413
         _Callbacks: []
         _Names: []
       _Clip: {fileID: 7400000, guid: 3d06455b053c3b54e8cbf3d12c8f8ab1, type: 2}
@@ -153,7 +153,7 @@ MonoBehaviour:
       _FadeDuration: 0.25
       _Events:
         _NormalizedTimes:
-        - 1
+        - 0.8222222
         _Callbacks: []
         _Names: []
       _Clip: {fileID: 7400000, guid: f7e866985ddab2a4ca4754e8c236c48b, type: 2}

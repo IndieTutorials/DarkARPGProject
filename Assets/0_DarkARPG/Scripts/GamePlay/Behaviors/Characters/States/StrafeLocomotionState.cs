@@ -78,11 +78,32 @@ namespace RustedGames
         {
             _DirectionalStrafeWalkMovement = Character.CurrentAnimationSet.DirectionalStrafeWalk;
             _DirectionalStrafeJogMovement = Character.CurrentAnimationSet.DirectionalStrafeJog;
+
+            foreach (var clip in _DirectionalStrafeWalkMovement.GetClips())
+            {
+                clip.Events.Add(0.3f, OnRightFootStep);
+                clip.Events.Add(0.75f, OnLeftFootStep);
+            }
+            foreach (var clip in _DirectionalStrafeJogMovement.GetClips())
+            {
+                clip.Events.Add(0.36f, OnRightFootStep);
+                clip.Events.Add(0.77f, OnLeftFootStep);
+            }
         }
 
         private void OnDestroy()
         {
             Weapon.OnWeaponChanged -= UpdateAnimationSet;
+        }
+
+        private void OnLeftFootStep()
+        {
+            Character.CharacterMovement.FootStepper.FootstepWalkIndex(1);
+        }
+
+        private void OnRightFootStep()
+        {
+            Character.CharacterMovement.FootStepper.FootstepWalkIndex(0);
         }
 
     }

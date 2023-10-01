@@ -218,6 +218,7 @@ GameObject:
   - component: {fileID: 393880844}
   - component: {fileID: 393880843}
   - component: {fileID: 393880842}
+  - component: {fileID: 393880845}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -285,6 +286,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &393880845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393880841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c16f6972377ab2498d9f9d0b6e6ab16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terrain: {fileID: 393880843}
+  textureMaterials:
+  - {fileID: 11400000, guid: 33eb71d641d45f04eb7d389013a12d9e, type: 2}
 --- !u!1 &442620951
 GameObject:
   m_ObjectHideFlags: 0
@@ -1349,11 +1365,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6356167030108823891, guid: 7df5a940d68cf974a884a9580e3d6cff, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.00000004687623
+      value: -0.000000037662872
       objectReference: {fileID: 0}
     - target: {fileID: 6356167030108823891, guid: 7df5a940d68cf974a884a9580e3d6cff, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000021346258
+      value: 0.000000017150727
       objectReference: {fileID: 0}
     - target: {fileID: 6356167030163129501, guid: 7df5a940d68cf974a884a9580e3d6cff, type: 3}
       propertyPath: m_LocalRotation.x

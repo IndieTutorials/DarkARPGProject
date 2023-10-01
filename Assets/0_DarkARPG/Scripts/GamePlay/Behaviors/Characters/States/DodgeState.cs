@@ -84,11 +84,19 @@ namespace RustedGames
             _Roll = Character.CurrentAnimationSet.Roll;
             _DirectionalDash = Character.CurrentAnimationSet.DirectionalDash;
 
+            _Backstep.Events.Add(0.19f, OnLeftFootStep);
+            _Backstep.Events.Add(0.37f, OnRightFootStep);
+
             _Backstep.Events.OnEnd += OnAnimationEnded;
             _Roll.Events.OnEnd += OnAnimationEnded;
 
             foreach(ClipTransition clipTransition in _DirectionalDash.GetClips())
             {
+
+                clipTransition.Events.Add(0.07f, OnLeftFootStep);
+                clipTransition.Events.Add(0.37f, OnRightFootStep);
+                clipTransition.Events.Add(0.43f, OnLeftFootStep);
+
                 clipTransition.Events.OnEnd += OnAnimationEnded;
             }
         }
@@ -96,6 +104,16 @@ namespace RustedGames
         private void OnDestroy()
         {
             Weapon.OnWeaponChanged -= UpdateAnimationSet;
+        }
+
+        private void OnLeftFootStep()
+        {
+            Character.CharacterMovement.FootStepper.FootstepWalkIndex(1);
+        }
+
+        private void OnRightFootStep()
+        {
+            Character.CharacterMovement.FootStepper.FootstepWalkIndex(0);
         }
 
     }
