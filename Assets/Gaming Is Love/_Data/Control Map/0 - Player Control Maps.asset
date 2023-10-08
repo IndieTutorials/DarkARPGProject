@@ -92,11 +92,11 @@ MonoBehaviour:
       <0
       type="0" >
 
-      <_float triggerAt="0" axisTimeout="0.5" minSpeed="2.5" autoCloseTime="3"
+      <_float triggerAt="0" axisTimeout="0.5" minSpeed="0" autoCloseTime="3"
       successVolume="1" />
 
       <_bool isAxis="False" useAG="False" inAir="False"
-      useSpeed="True" blockBattleCamera="False" showTooltip="False" closeOn2nd="True"
+      useSpeed="False" blockBattleCamera="False" showTooltip="False" closeOn2nd="True"
       tooltipPrioritize="False" autoCloseTooltip="False" targetingCancelOn2nd="False"
       enableAutoAttack="False" duringTargetSelection="False" ownSuccessClip="False"
       />
@@ -124,11 +124,19 @@ MonoBehaviour:
 
       </key>
 
-      <actionSettings type="2"
+      <actionSettings type="0"
       abilityLevel="1" memberIndex="0" >
 
       <_bool resetAttackIndex="False" useSubAbilityType="False"
       abilityUseHighestLevel="True" useSubItemType="False" isSilent="False" />
+
+      <attack
+      attackIndex="0" >
+
+      <_bool useCurrentAttack="True" forceAttackIndex="False"
+      useEquipmentSlot="False" />
+
+      </attack>
 
       <ability>
 
@@ -145,9 +153,6 @@ MonoBehaviour:
       <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
 
       </_string>
-
-      <_asset
-      asset="1" />
 
       </settings>
 
@@ -236,7 +241,7 @@ MonoBehaviour:
       <1 type="0"
       >
 
-      <_float triggerAt="0" axisTimeout="0.5" minSpeed="0.5" autoCloseTime="3"
+      <_float triggerAt="0" axisTimeout="0.5" minSpeed="2.5" autoCloseTime="3"
       successVolume="1" />
 
       <_bool isAxis="False" useAG="False" inAir="False"
@@ -262,7 +267,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="2" />
+      asset="1" />
 
       </settings>
 
@@ -291,7 +296,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="3" />
+      asset="2" />
 
       </settings>
 
@@ -384,7 +389,7 @@ MonoBehaviour:
       successVolume="1" />
 
       <_bool isAxis="False" useAG="False" inAir="False"
-      useSpeed="False" blockBattleCamera="False" showTooltip="False" closeOn2nd="True"
+      useSpeed="True" blockBattleCamera="False" showTooltip="False" closeOn2nd="True"
       tooltipPrioritize="False" autoCloseTooltip="False" targetingCancelOn2nd="False"
       enableAutoAttack="False" duringTargetSelection="False" ownSuccessClip="False"
       />
@@ -406,7 +411,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="4" />
+      asset="3" />
 
       </settings>
 
@@ -435,7 +440,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="5" />
+      asset="4" />
 
       </settings>
 
@@ -521,6 +526,150 @@ MonoBehaviour:
 
       </2>
 
+      <3 type="0"
+      >
+
+      <_float triggerAt="0" axisTimeout="0.5" minSpeed="0.5" autoCloseTime="3"
+      successVolume="1" />
+
+      <_bool isAxis="False" useAG="False" inAir="False"
+      useSpeed="False" blockBattleCamera="False" showTooltip="False" closeOn2nd="True"
+      tooltipPrioritize="False" autoCloseTooltip="False" targetingCancelOn2nd="False"
+      enableAutoAttack="False" duringTargetSelection="False" ownSuccessClip="False"
+      />
+
+      <key>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="5" />
+
+      </settings>
+
+      </key>
+
+      <actionSettings type="2"
+      abilityLevel="1" memberIndex="0" >
+
+      <_bool resetAttackIndex="False" useSubAbilityType="False"
+      abilityUseHighestLevel="True" useSubItemType="False" isSilent="False" />
+
+      <ability>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="6" />
+
+      </settings>
+
+      </ability>
+
+      <abilityType>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </abilityType>
+
+      <item>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </item>
+
+      <itemType>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </itemType>
+
+      </actionSettings>
+
+      <targeting>
+
+      <_bool
+      onlyCursorOverTarget="False" cursorOverInRange="False" useCursorOverTarget="False"
+      useAutoTarget="False" autoTargetOnly="False" useGroupTarget="True" useIndividualTarget="True"
+      prioritizeRaycast="False" noTargetSelection="False" needTargets="False" />
+
+      </targeting>
+
+      <conditions>
+
+      <_bool
+      useConditions="False" />
+
+      </conditions>
+
+      </3>
+
       </controlKey>
 
       </_subarrays>
@@ -530,6 +679,7 @@ MonoBehaviour:
 '
     lookUp:
       assets:
+      - {fileID: 11400000, guid: a99df4747757737419e831017de4baff, type: 2}
       - {fileID: 11400000, guid: d978258d82d860a4fa38bcc83beee762, type: 2}
       - {fileID: 11400000, guid: 486aaa9352da4294f9f9dd12e93b3931, type: 2}
       - {fileID: 11400000, guid: 2e18e0835cf362f41a9c0dc4d249f49d, type: 2}

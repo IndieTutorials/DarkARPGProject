@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6323048516344849355}
   - component: {fileID: 8365888113004579440}
   - component: {fileID: 285878727632593595}
+  - component: {fileID: 125899011612235629}
   m_Layer: 0
   m_Name: States
   m_TagString: Untagged
@@ -416,6 +417,28 @@ MonoBehaviour:
       _NormalizedStartTime: NaN
   _MovementLevel: 0
   _MagnitudeThreshold: 0.98
+--- !u!114 &125899011612235629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648199679}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b115b61e126f94ca8a8b319fc2c924, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Character: {fileID: 805337960}
+  _CurrentAnimation:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 0}
+    _Speed: 1
+    _NormalizedStartTime: NaN
 --- !u!1 &34053000403806858
 GameObject:
   m_ObjectHideFlags: 0
@@ -522,7 +545,7 @@ GameObject:
   - component: {fileID: 6235045418608096552}
   - component: {fileID: 636157690483919660}
   m_Layer: 0
-  m_Name: PT_Medieval_Male_Armor_01_A_gauntlets
+  m_Name: Gauntlets_A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -905,7 +928,7 @@ GameObject:
   - component: {fileID: 5824783768897276418}
   - component: {fileID: 3895736033502962483}
   m_Layer: 0
-  m_Name: PT_Medieval_Male_Armor_01_A_legs
+  m_Name: Legs_A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2272,7 +2295,7 @@ GameObject:
   - component: {fileID: 4850191273409005893}
   - component: {fileID: 3360436720281787075}
   m_Layer: 0
-  m_Name: PT_Medieval_Male_Armor_cloth_00_body
+  m_Name: Cloth_00_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2495,7 +2518,7 @@ GameObject:
   - component: {fileID: 356476397933117049}
   - component: {fileID: 365478144173203199}
   m_Layer: 0
-  m_Name: PT_Medieval_Male_Armor_01_A_cape
+  m_Name: Cape_A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3044,7 +3067,7 @@ GameObject:
   - component: {fileID: 8909565471411874945}
   - component: {fileID: 569174466321531567}
   m_Layer: 0
-  m_Name: PT_Medieval_Male_Armor_05_C_cape
+  m_Name: Cape_C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3521,7 +3544,7 @@ GameObject:
   - component: {fileID: 5561850727366991730}
   - component: {fileID: 3424664266798480701}
   m_Layer: 0
-  m_Name: PT_Medieval_Male_Armor_05_C_boots
+  m_Name: Boots_C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3964,7 +3987,7 @@ GameObject:
   - component: {fileID: 6011151166545332002}
   - component: {fileID: 2894560169331299146}
   m_Layer: 0
-  m_Name: PT_Medieval_Male_Armor_01_A_boots
+  m_Name: Boots_A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4399,7 +4422,7 @@ GameObject:
   - component: {fileID: 7003450559018165534}
   - component: {fileID: 5895604235225194209}
   m_Layer: 0
-  m_Name: PT_Medieval_Male_Armor_cloth_00_boots
+  m_Name: Cloth_00_Boots
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4784,7 +4807,7 @@ GameObject:
   - component: {fileID: 3882794519533432321}
   - component: {fileID: 5148601142035536540}
   m_Layer: 0
-  m_Name: PT_Medieval_Male_Armor_05_C_body
+  m_Name: Body_C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4976,7 +4999,7 @@ GameObject:
   - component: {fileID: 2634896252886986981}
   - component: {fileID: 3158444762543100752}
   m_Layer: 0
-  m_Name: PT_Medieval_Male_Armor_01_A_body
+  m_Name: Body_A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5398,6 +5421,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _MoveDirection: {x: 0, y: 0}
+  _Grounded: 0
   CanRoll: 0
   CanBackstep: 0
   Dodge: 0
@@ -5837,7 +5861,7 @@ MonoBehaviour:
   inFootSpace: 0
   searchTilemaps: 0
   searchRenderers: 1
-  fallbackMaterial: {fileID: 0}
+  fallbackMaterial: {fileID: 11400000, guid: 9b8d1ddc632f6c940806c6576789097b, type: 2}
   noRaycastFallback: 0
   onFootstep:
     m_PersistentCalls:
@@ -6019,7 +6043,7 @@ GameObject:
   - component: {fileID: 1816270873416532259}
   - component: {fileID: 2168083983868579619}
   m_Layer: 0
-  m_Name: PT_Medieval_Male_Armor_05_C_legs
+  m_Name: Legs_C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6306,7 +6330,7 @@ GameObject:
   - component: {fileID: 3166933443612032592}
   - component: {fileID: 3145717714308770197}
   m_Layer: 0
-  m_Name: PT_Medieval_Male_Armor_05_C_helmet
+  m_Name: Helmet_C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7321,7 +7345,7 @@ GameObject:
   - component: {fileID: 6961695710645236999}
   - component: {fileID: 1060877255607434749}
   m_Layer: 0
-  m_Name: PT_Medieval_Male_Armor_05_C_gauntlets
+  m_Name: Gauntlets_C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7545,7 +7569,7 @@ GameObject:
   - component: {fileID: 92049228523132176}
   - component: {fileID: 9073843130850675127}
   m_Layer: 0
-  m_Name: PT_Medieval_Male_Armor_cloth_00_gauntlets
+  m_Name: Cloth_00_Gauntlets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7801,7 +7825,7 @@ GameObject:
   - component: {fileID: 7121060309802128211}
   - component: {fileID: 1970671658963735995}
   m_Layer: 0
-  m_Name: PT_Medieval_Male_Armor_cloth_00_legs
+  m_Name: Cloth_00_Legs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

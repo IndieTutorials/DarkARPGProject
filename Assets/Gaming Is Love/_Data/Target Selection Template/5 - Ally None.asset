@@ -32,40 +32,44 @@ MonoBehaviour:
       targetTypeToggle="False" notSelf="False" onlyGroup="False" noneSelectGridCell="False"
       ownControlMapTargeting="False" />
 
+      <targetRaycast type="0" >
+
+      </targetRaycast>
+
       <useRange>
 
-      <_bool ownUseRange="False"
-      />
+      <_bool
+      ownUseRange="False" />
 
       </useRange>
 
       <affectRange type="0" >
 
-      <_bool fromUser="False"
-      />
+      <_bool
+      fromUser="False" />
 
       </affectRange>
 
       <targetConditions>
 
-      <_bool useConditions="False"
-      />
+      <_bool
+      useConditions="False" />
 
       </targetConditions>
 
       <orientation>
 
-      <_bool checkUserOrientation="False"
-      userFront="False" userBack="False" userLeft="False" userRight="False" checkTargetOrientation="False"
-      targetFront="False" targetBack="False" targetLeft="False" targetRight="False"
-      />
+      <_bool
+      checkUserOrientation="False" userFront="False" userBack="False" userLeft="False"
+      userRight="False" checkTargetOrientation="False" targetFront="False" targetBack="False"
+      targetLeft="False" targetRight="False" />
 
-      <userHorizontalPlane type="0" >
+      <userHorizontalPlane type="0"
+      >
 
       </userHorizontalPlane>
 
-      <targetHorizontalPlane
-      type="0" >
+      <targetHorizontalPlane type="0" >
 
       </targetHorizontalPlane>
 

@@ -86,15 +86,25 @@ MonoBehaviour:
 
       </_string>
 
-      <settings>
+      <settings
+      type="0" >
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.Schematics.ORKPlayerActorType]]></_type>
+
+      </_string>
+
+      <childObject
+      type="0" >
 
       <_string>
 
       <childName><![CDATA[]]></childName>
 
-      <_type><![CDATA[GamingIsLove.ORKFramework.Schematics.ORKPlayerActorType]]></_type>
-
       </_string>
+
+      </childObject>
 
       </settings>
 
@@ -149,9 +159,9 @@ MonoBehaviour:
       <node>
 
       <0
-      next="1" nodeLayer="0" nodeGroup="-1" >
+      childType="0" next="1" nodeLayer="0" nodeGroup="-1" >
 
-      <_bool useChildObjects="False"
+      <_bool allDefinedChildren="False"
       active="True" executeOnStop="False" isBreakpoint="False" overrideNodeName="False"
       />
 
@@ -206,13 +216,28 @@ MonoBehaviour:
       <_bool selectedOnlyGameObjects="False"
       useRoot="True" />
 
+      <childObject type="1" >
+
       <_string>
 
       <childName><![CDATA[Mesh/Model/Helmet_A]]></childName>
 
       </_string>
 
+      </childObject>
+
       </usedObject>
+
+      <childObject
+      type="3" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
 
       <filter
       needed="0" neededDistance="0" neededAngle="0" >
@@ -255,9 +280,9 @@ MonoBehaviour:
       </0>
 
       <1
-      next="2" nodeLayer="0" nodeGroup="-1" >
+      childType="0" next="2" nodeLayer="0" nodeGroup="-1" >
 
-      <_bool useChildObjects="False"
+      <_bool allDefinedChildren="False"
       active="True" executeOnStop="False" isBreakpoint="False" overrideNodeName="False"
       />
 
@@ -312,13 +337,28 @@ MonoBehaviour:
       <_bool selectedOnlyGameObjects="False"
       useRoot="True" />
 
+      <childObject type="1" >
+
       <_string>
 
       <childName><![CDATA[Mesh/Model/Beard_01]]></childName>
 
       </_string>
 
+      </childObject>
+
       </usedObject>
+
+      <childObject
+      type="3" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
 
       <filter
       needed="0" neededDistance="0" neededAngle="0" >
@@ -361,9 +401,9 @@ MonoBehaviour:
       </1>
 
       <2
-      next="3" nodeLayer="0" nodeGroup="-1" >
+      childType="0" next="3" nodeLayer="0" nodeGroup="-1" >
 
-      <_bool useChildObjects="False"
+      <_bool allDefinedChildren="False"
       active="True" executeOnStop="False" isBreakpoint="False" overrideNodeName="False"
       />
 
@@ -418,13 +458,28 @@ MonoBehaviour:
       <_bool selectedOnlyGameObjects="False"
       useRoot="True" />
 
+      <childObject type="1" >
+
       <_string>
 
       <childName><![CDATA[Mesh/Model/Beard_20]]></childName>
 
       </_string>
 
+      </childObject>
+
       </usedObject>
+
+      <childObject
+      type="3" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
 
       <filter
       needed="0" neededDistance="0" neededAngle="0" >
@@ -467,9 +522,9 @@ MonoBehaviour:
       </2>
 
       <3
-      next="4" nodeLayer="0" nodeGroup="-1" >
+      childType="0" next="4" nodeLayer="0" nodeGroup="-1" >
 
-      <_bool useChildObjects="False"
+      <_bool allDefinedChildren="False"
       active="True" executeOnStop="False" isBreakpoint="False" overrideNodeName="False"
       />
 
@@ -524,13 +579,28 @@ MonoBehaviour:
       <_bool selectedOnlyGameObjects="False"
       useRoot="True" />
 
+      <childObject type="1" >
+
       <_string>
 
       <childName><![CDATA[Mesh/Model/Hair_01]]></childName>
 
       </_string>
 
+      </childObject>
+
       </usedObject>
+
+      <childObject
+      type="3" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
 
       <filter
       needed="0" neededDistance="0" neededAngle="0" >
@@ -573,9 +643,9 @@ MonoBehaviour:
       </3>
 
       <4
-      next="5" nodeLayer="0" nodeGroup="-1" >
+      childType="0" next="5" nodeLayer="0" nodeGroup="-1" >
 
-      <_bool useChildObjects="False"
+      <_bool allDefinedChildren="False"
       active="True" executeOnStop="False" isBreakpoint="False" overrideNodeName="False"
       />
 
@@ -630,13 +700,28 @@ MonoBehaviour:
       <_bool selectedOnlyGameObjects="False"
       useRoot="True" />
 
+      <childObject type="1" >
+
       <_string>
 
       <childName><![CDATA[Mesh/Model/Hair_20]]></childName>
 
       </_string>
 
+      </childObject>
+
       </usedObject>
+
+      <childObject
+      type="3" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
 
       <filter
       needed="0" neededDistance="0" neededAngle="0" >
@@ -705,14 +790,7 @@ MonoBehaviour:
       <_bool selectedOnlyGameObjects="True"
       useRoot="False" />
 
-      <_string>
-
-      <childName><![CDATA[]]></childName>
-
-      </_string>
-
-      <selectedData
-      origin="0" objectScope="1" >
+      <selectedData origin="0" objectScope="1" >
 
       <key>
 
@@ -737,6 +815,17 @@ MonoBehaviour:
       </key>
 
       </selectedData>
+
+      <childObject
+      type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
 
       </usedObject>
 
@@ -812,14 +901,7 @@ MonoBehaviour:
       <_bool selectedOnlyGameObjects="True"
       useRoot="False" />
 
-      <_string>
-
-      <childName><![CDATA[]]></childName>
-
-      </_string>
-
-      <selectedData
-      origin="0" objectScope="1" >
+      <selectedData origin="0" objectScope="1" >
 
       <key>
 
@@ -844,6 +926,17 @@ MonoBehaviour:
       </key>
 
       </selectedData>
+
+      <childObject
+      type="0" >
+
+      <_string>
+
+      <childName><![CDATA[]]></childName>
+
+      </_string>
+
+      </childObject>
 
       </usedObject>
 

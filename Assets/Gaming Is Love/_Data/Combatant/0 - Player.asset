@@ -34,7 +34,7 @@ MonoBehaviour:
       ownReactionPortraits="False" canLevelUp="True" notScanable="False" noBestiaryEntry="False"
       canLevelUpClass="True" replaceDefaultInitialClassSlots="False" replaceDefaultAddClasses="False"
       hasStatusDevelopment="False" replaceDefaultBonuses="False" ownLevelUp="False"
-      replaceDefaultBodyParts="False" replaceDefaultActionCombos="False" ownBaseAttack="False"
+      replaceDefaultBodyParts="False" replaceDefaultActionCombos="False" ownBaseAttack="True"
       actionStopResetsAttackIndex="True" ownCounterAttack="False" ownAutoAttack="False"
       ownShortcuts="False" useClassShortcuts="True" replaceDefaultStartInventory="False"
       replaceDefaultLoot="False" replaceClassEquipment="False" ownStealSettings="False"
@@ -849,6 +849,34 @@ MonoBehaviour:
 
       </1>
 
+      <2 startValue="25"
+      setIn="1" rounding="0" >
+
+      <status>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="8" />
+
+      </settings>
+
+      </status>
+
+      </2>
+
       </startValue>
 
       <expReward>
@@ -879,6 +907,38 @@ MonoBehaviour:
 
       </actionCombo>
 
+      <baseAttack>
+
+      <0
+      level="1" >
+
+      <ability>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="9" />
+
+      </settings>
+
+      </ability>
+
+      </0>
+
+      </baseAttack>
+
       <startEquipment>
 
       <0
@@ -908,7 +968,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="8" />
+      asset="10" />
 
       </settings>
 
@@ -931,7 +991,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="9" />
+      asset="11" />
 
       </settings>
 
@@ -978,6 +1038,8 @@ MonoBehaviour:
       - {fileID: 11400000, guid: 7f637a4058c2ed74f82d52708bd2ab91, type: 2}
       - {fileID: 11400000, guid: 541d7b1113e9688409c74862cda150e2, type: 2}
       - {fileID: 11400000, guid: abfde9515c50fbd4b851d8fd2a3d6c46, type: 2}
+      - {fileID: 11400000, guid: 59e6ee99eec128e4f89ce009695012f0, type: 2}
+      - {fileID: 11400000, guid: 97609ca181fab9443b2ec3b7edd95f32, type: 2}
       - {fileID: 11400000, guid: 794e54e3dcbce884baa5a6e06182bf5a, type: 2}
       - {fileID: 11400000, guid: dd84bc42aaa14774a9c8e9a6f446fe71, type: 2}
     encrypted: 0

@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 686913358, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
-  m_Name: 0 - Default
+  m_Name: 1 - Attack
   m_EditorClassIdentifier: 
   data:
     name: settings
     byteData: 
-    xmlData: '<xmldata realID="0" >
+    xmlData: '<xmldata realID="1" >
 
       <_string>
 
-      <name><![CDATA[Default]]></name>
+      <name><![CDATA[Attack]]></name>
 
-      <guid><![CDATA[ec377ba0-a96b-4dec-8195-3aa2e237a215]]></guid>
+      <guid><![CDATA[c9bc1297-0139-4640-b9ba-3bf224f80cf9]]></guid>
 
       </_string>
 

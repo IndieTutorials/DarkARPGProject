@@ -14,7 +14,7 @@ namespace RustedGames.Tools
 				System.Type type = GamingIsLove.Makinom.Maki.ReflectionHandler.GetTypeOrInterface(stateName, typeof(CharacterState));
 				if (type!= null)
                 {
-					Debug.LogWarning("CharacterStateHelper: Found type "+ type.Name);
+					//Debug.LogWarning("CharacterStateHelper: Found type "+ type.Name);
 					return gameObject.GetComponent(type) as CharacterState;
                 }
             }

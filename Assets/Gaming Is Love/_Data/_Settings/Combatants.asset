@@ -1679,6 +1679,133 @@ MonoBehaviour:
 
       <battleSound>
 
+      <0>
+
+      <soundType>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="0" />
+
+      </settings>
+
+      </soundType>
+
+      <_subarrays>
+
+      <audioClip>
+
+      <0>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="1" />
+
+      </settings>
+
+      </0>
+
+      <1>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="2" />
+
+      </settings>
+
+      </1>
+
+      <2>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="3" />
+
+      </settings>
+
+      </2>
+
+      <3>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="4" />
+
+      </settings>
+
+      </3>
+
+      </audioClip>
+
+      </_subarrays>
+
+      </0>
+
       </battleSound>
 
       <assets>
@@ -1686,7 +1813,7 @@ MonoBehaviour:
       <0>
 
       <_asset
-      asset="0" />
+      asset="5" />
 
       </0>
 
@@ -1699,5 +1826,10 @@ MonoBehaviour:
 '
     lookUp:
       assets:
+      - {fileID: 11400000, guid: 1999285c8489abd40b1e37c81cd3cedd, type: 2}
+      - {fileID: 8300000, guid: 54327c9e31cfd5d43a2b83d16798002e, type: 3}
+      - {fileID: 8300000, guid: b3b94859ae15c7f448ffd965b09ccc36, type: 3}
+      - {fileID: 8300000, guid: b3b94859ae15c7f448ffd965b09ccc36, type: 3}
+      - {fileID: 8300000, guid: e8a64875f7ca61b47821959b663f10ca, type: 3}
       - {fileID: 11400000, guid: 7708b0e670abc3a41bc60ec1d3aa0c24, type: 2}
     encrypted: 0

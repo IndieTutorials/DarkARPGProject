@@ -17,6 +17,11 @@ namespace RustedGames
             }
         }
 
+        [Header("Player Grounded")]
+        [SerializeField]
+        private bool _Grounded;
+        public bool IsGrounded => _Grounded;
+
         public bool CanRoll = false;
         public bool CanBackstep = false;
         public bool Dodge = false;
@@ -59,8 +64,8 @@ namespace RustedGames
         }
         private void Update()
         {
-
-            _Footstepper.SetGrounded(_CharacterController.isGrounded);
+            _Grounded = _CharacterController.isGrounded;
+            _Footstepper.SetGrounded(_Grounded);
 
             HandleMovement();
 

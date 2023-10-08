@@ -41,6 +41,12 @@ MonoBehaviour:
 
       </2>
 
+      <3>
+
+      <_asset asset="3" />
+
+      </3>
+
       </assets>
 
       </_subarrays>
@@ -53,4 +59,5 @@ MonoBehaviour:
       - {fileID: 11400000, guid: 48641e4d216649d439bff667aade4925, type: 2}
       - {fileID: 11400000, guid: 3b2469ad5e7cc7e4995e58f33b4c4356, type: 2}
       - {fileID: 11400000, guid: 486aaa9352da4294f9f9dd12e93b3931, type: 2}
+      - {fileID: 11400000, guid: 97609ca181fab9443b2ec3b7edd95f32, type: 2}
     encrypted: 0

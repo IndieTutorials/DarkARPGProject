@@ -1179,7 +1179,7 @@ MonoBehaviour:
 '
     lookUp:
       assets:
-      - {fileID: 11400000, guid: 853d406ad0b445040968a21d50a4ed20, type: 2}
+      - {fileID: 11400000, guid: 87645dee66246534aa1ae7f25d698f51, type: 2}
       - {fileID: 11400000, guid: 87645dee66246534aa1ae7f25d698f51, type: 2}
       - {fileID: 11400000, guid: 0889ef6381f103446a93671887f346b6, type: 2}
     encrypted: 0

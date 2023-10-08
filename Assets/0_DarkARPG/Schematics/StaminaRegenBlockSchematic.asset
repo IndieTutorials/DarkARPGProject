@@ -142,11 +142,15 @@ MonoBehaviour:
       <_bool selectedOnlyGameObjects="False"
       useRoot="False" />
 
+      <childObject type="0" >
+
       <_string>
 
       <childName><![CDATA[]]></childName>
 
       </_string>
+
+      </childObject>
 
       </usedObject>
 

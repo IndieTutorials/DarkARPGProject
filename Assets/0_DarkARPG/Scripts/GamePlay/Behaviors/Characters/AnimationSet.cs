@@ -60,5 +60,10 @@ namespace RustedGames.Data
 		private DirectionalAnimationSet8 _DirectionalStrafeJog;
 		public DirectionalAnimationSet8 DirectionalStrafeJog => _DirectionalStrafeJog;
 
+		[Header("Combat Animation Set")]
+		[SerializeField]
+		private AttackTransition _QuickAttack;
+		public AttackTransition QuickAttack => _QuickAttack;
+
 	}
 }

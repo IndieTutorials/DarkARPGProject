@@ -305,3 +305,13 @@ MonoBehaviour:
       _Clip: {fileID: 7400000, guid: 258b52841ed53854fb50a7bb4456e766, type: 2}
       _Speed: 1
       _NormalizedStartTime: NaN
+  _QuickAttack:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes:
+      - 1
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 80298e9a0d108ff4f9bb77c4f4fa2235, type: 2}
+    _Speed: 1
+    _NormalizedStartTime: 0

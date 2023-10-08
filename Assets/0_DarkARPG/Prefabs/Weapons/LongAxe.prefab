@@ -66,6 +66,8 @@ MonoBehaviour:
 
       <activationTag>
 
+      <0><![CDATA[weapon]]></0>
+
       </activationTag>
 
       </_stringarrays>
